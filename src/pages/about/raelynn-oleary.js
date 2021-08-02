@@ -45,7 +45,7 @@ w-headshot-sm md:w-headshot-lg
       <SectionP>
         Raelynn is equally enthusiastic about projects with small nonprofit organizations, university-based research groups, start-ups, and Fortune 500 companies. She has long advocated for the idea that there’s no one-size-fits-all design process, and that designing the process itself is a critical first step in any engagement.
       </SectionP>
-      <SectionP>Raelynn earned her Master’s degree in Communication Planning and Information Design from the School of Design at Carnegie Mellon University, where she has been an adjunct faculty member since 2015. She brings a practitioner’s experience to teaching interaction design theory and principles, and uses teaching to continually examine and refine her design practice. She enjoys hover text colors.
+      <SectionP>Raelynn earned her Master’s degree in Communication Planning and Information Design from the School of Design at Carnegie Mellon University, where she has been an adjunct faculty member since 2015. She brings a practitioner’s experience to teaching interaction design theory and principles, and uses teaching to continually examine and refine her design practice.
       </SectionP>
     </Layout>
   );
