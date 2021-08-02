@@ -33,8 +33,7 @@ w-headshot-sm md:w-headshot-lg
 				objectPosition="center top"
 		    src="../../images/headshots/raelynn-oleary.jpg"
 			/>
-      <ProfileTitle>Raelynn O'Leary,
-        <ProfileTitleStrong>Partner</ProfileTitleStrong>
+      <ProfileTitle>Raelynn O'Leary, <ProfileTitleStrong>Partner</ProfileTitleStrong>
       </ProfileTitle>
       <SectionP>
         Raelynn co-founded Dezudio in 2011 with the belief that smart, independent designers and developers could find creative new ways to collaborate with greater autonomy and flexibility than in traditional design consulting models. From the start, the aim was to remain small at the core and agile—building a strong network of creative and technical contractors that she could draw from to bring the strongest, most motivated talent to every project.
