@@ -3,6 +3,7 @@ module.exports = {
     title: "Dezudio",
   },
   plugins: [
+    "gatsby-plugin-emotion",
     "gatsby-plugin-image",
     {
       resolve: "gatsby-plugin-manifest",
@@ -10,8 +11,25 @@ module.exports = {
         icon: "src/images/icon.png",
       },
     },
-    "gatsby-plugin-mdx",
     "gatsby-plugin-sharp",
+    {
+      resolve: 'gatsby-plugin-web-font-loader',
+      options: {
+        custom: {
+          families: ["Benton Mod Disp Bd",
+                     "Benton Mod Text Rom",
+                     "Benton Sans Cond Lt",
+                     "Benton Sans Cond Reg",
+                     "Benton Sans Cond Bd",
+                     "Benton Sans Bk",
+                     "Benton Sans Reg",
+                     "Benton Sans Bd",
+                     "Benton Sans Bla",
+                    ],
+          urls: ['//cloud.typenetwork.com/projects/5808/fontface.css']
+        },
+      },
+    },
     "gatsby-transformer-sharp",
     {
       resolve: "gatsby-source-filesystem",

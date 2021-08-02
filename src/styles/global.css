@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    address {
+        font-style: normal;
+    }
+    body {
+        @apply min-w-sm;
+    }
+    ::selection {
+      @apply bg-dezudiorange;
+    }
+    h1 div::selection {
+      @apply bg-white;
+    }
+    h3::selection {
+      @apply bg-white;
+    }
+    footer h2::selection {
+      @apply bg-white;
+    }
+    a::selection {
+      @apply bg-dezudiorange;
+      @apply text-white;
+    }
+}

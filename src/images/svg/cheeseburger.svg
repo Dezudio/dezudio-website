@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="22px" viewBox="0 0 28 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Icon 24px</title>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="MobileNav" transform="translate(-272.000000, -21.000000)" fill="#333333">
+            <g id="Icon-24px" transform="translate(272.000000, 21.333333)">
+                <polygon id="Path" points="0 17.3333333 0 21 28 21 28 17.3333333"></polygon>
+                <polygon id="Path" points="0 8.66666667 0 12.3333333 28 12.3333333 28 8.66666667"></polygon>
+                <polygon id="Path" points="0 0 0 3.66666667 28 3.66666667 28 0"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>
