@@ -23,6 +23,16 @@ const AboutPage = () => {
     <Layout pageTitle="Raelynn O'Leary"
             fromPerson="../hannah-koenig"
             toPerson="../ashley-deal">
+      <StaticImage
+				alt="Raelynn O'Leary Headshot"
+        css={tw`
+h-headshot-sm md:h-headshot-lg
+rounded-full
+w-headshot-sm md:w-headshot-lg
+`}
+				objectPosition="center top"
+		    src="../../images/headshots/raelynn-oleary.jpg"
+			/>
       <ProfileTitle>Raelynn O'Leary,
         <ProfileTitleStrong>Partner</ProfileTitleStrong>
       </ProfileTitle>

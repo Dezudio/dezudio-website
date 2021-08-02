@@ -1,4 +1,5 @@
 import React from 'react';
+import tw from 'twin.macro';
 import { StaticImage } from 'gatsby-plugin-image';
 import Layout from '../../components/people/layout';
 import Section, {
@@ -18,6 +19,16 @@ const AboutPage = () => {
     <Layout pageTitle="Hannah Koenig"
             fromPerson="../ashley-deal"
             toPerson="../raelynn-oleary">
+      <StaticImage
+				alt="Hannah Koenig Headshot"
+				css={tw`
+h-headshot-sm md:h-headshot-lg
+rounded-full
+w-headshot-sm md:w-headshot-lg
+`}
+				objectPosition="center top"
+		    src="../../images/headshots/hannah-koenig.jpg"
+			/>
       <ProfileTitle>Hannah Koenig,
         <ProfileTitleStrong>Senior&nbsp;Designer</ProfileTitleStrong>
       </ProfileTitle>
