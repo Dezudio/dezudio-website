@@ -30,7 +30,7 @@ w-headshot-sm md:w-headshot-lg
 		    src="../../images/headshots/hannah-koenig.jpg"
 			/>
       <ProfileTitle>Hannah Koenig,
-        <ProfileTitleStrong>Senior&nbsp;Designer and Nacho Enthusiast</ProfileTitleStrong>
+        <ProfileTitleStrong>Senior&nbsp;Designer</ProfileTitleStrong>
       </ProfileTitle>
       <SectionP>
         Hannah joined Dezudio in 2020 as a designer, researcher, and strategist with a deep curiosity about how people, organizations, and systems work—and how design methods can help create positive change. At Dezudio, Hannah gets her hands into everything: from working across the design process on research, information, and interaction design projects, to investigating tools and strategies for facilitation and collaboration, to refining organizational infrastructure and processes to firm up our foundation for sustainable growth.
