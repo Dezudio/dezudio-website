@@ -42,7 +42,7 @@ w-headshot-sm md:w-headshot-lg
         Ashley’s career as an information and interaction designer includes considerable experience in education, healthcare, and design research for new product development. The underlying thread through her body of work is helping people understand each other, and helping them access and internalize important information they need to make critical decisions.
       </SectionP>
       <SectionP>
-        Ashley holds a Bachelor of Arts from Vanderbilt University, and a Masters in Design from Carnegie Mellon University, where she has been an adjunct faculty member in the School of Design since 2015. As an educator, Ashley focuses on the fundamentals of working intentionally, establishing a strong narrative, and clean, precise execution of concepts. She is energized and heartened by her connections and interactions with the next generation of designers and design leaders. She also likes koalas.
+        Ashley holds a Bachelor of Arts from Vanderbilt University, and a Masters in Design from Carnegie Mellon University, where she has been an adjunct faculty member in the School of Design since 2015. As an educator, Ashley focuses on the fundamentals of working intentionally, establishing a strong narrative, and clean, precise execution of concepts. She is energized and heartened by her connections and interactions with the next generation of designers and design leaders.
       </SectionP>
 
       <SectionP>
