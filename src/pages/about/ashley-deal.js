@@ -29,9 +29,7 @@ w-headshot-sm md:w-headshot-lg
 				objectPosition="center top"
 		    src="../../images/headshots/ashley-deal.jpg"
 			/>
-      <ProfileTitle>Ashley Deal,
-        <ProfileTitleStrong>Partner</ProfileTitleStrong>
-      </ProfileTitle>
+      <ProfileTitle>Ashley Deal, <ProfileTitleStrong>Partner</ProfileTitleStrong></ProfileTitle>
       <SectionP>
         After a decade of professional practice and two years of independent contracting, Ashley joined Dezudio in 2013—eager for the new opportunities and challenges that would emerge from the partnership. She brought a focus on building strong client relationships, and a dedication to completing projects where the results speak for themselves.
       </SectionP>
