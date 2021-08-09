@@ -244,9 +244,6 @@ module.exports = {
       'tagline-5xl': ['152px', {
         lineHeight: '156px',
       }],
-      'tagline-6xl': ['180px', {
-        lineHeight: '184px',
-      }],
     },
     letterSpacing: {
       tight: '-2px',
