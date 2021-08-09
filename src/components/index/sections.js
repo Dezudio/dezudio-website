@@ -102,7 +102,7 @@ bg-gradient-to-b from-blue-light to-blue
 `]);
 
 export const UnderstandingSection = styled(Section)([tw`
-pt-20
+pt-20 lg:pt-40
 lg:pb-48
 `]);
 
