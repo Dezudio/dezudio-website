@@ -53,7 +53,7 @@ md:col-end-12
 mb-5 md:mb-16
 row-start-1
 text-black
-text-tagline-base md:text-tagline-4xl lg:text-tagline-5xl xl:text-tagline-6xl
+text-tagline-base md:text-tagline-4xl lg:text-tagline-5xl
 `]);
 
 export default Tagline;
