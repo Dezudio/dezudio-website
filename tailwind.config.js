@@ -248,7 +248,7 @@ module.exports = {
     letterSpacing: {
       tight: '-2px',
       normal: '0',
-      loose: '1.2px',
+      loose: '1px',
       looser: '0.5px',
     },
     screens: {

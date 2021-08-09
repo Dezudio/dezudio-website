@@ -16,6 +16,7 @@ lg:py-24 xl:py-48
 text-center
 text-tagline-sm md:text-tagline-lg lg:text-tagline-2xl xl:text-tagline-3xl
 text-white
+xl:tracking-loose
 `]);
 
 export const ClientsTagline = styled(Tagline)([tw`
