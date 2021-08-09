@@ -115,8 +115,8 @@ module.exports = {
       'sm': ['28px', {
         lineHeight: '38px',
       }],
-      'base-tight': ['31px', {
-        lineHeight: '41px',
+      'base-tight': ['30px', {
+        lineHeight: '42px',
       }],
       'base': ['31px', {
         lineHeight: '45px',

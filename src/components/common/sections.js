@@ -16,7 +16,7 @@ export const SectionBody = tw.div`
 md:col-end-5
 md:col-start-1 lg:col-start-2
 md:row-start-3
-text-3xs lg:text-xs
+text-3xs lg:text-xs xl:text-base-tight
 text-blue-dark
 `;
 
@@ -34,7 +34,7 @@ md:hidden
 
 export const SectionP = tw.p`
 pb-10
-md:pr-1 xl:pr-16
+md:pr-1 xl:pr-0
 `;
 export const InverseSectionP = styled(SectionP)([tw`
 text-white
