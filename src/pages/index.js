@@ -89,7 +89,7 @@ const IndexPage = () => {
 			      </UnderstandingTagline>
 			      <UnderstandingSectionBody>
 			        <SectionP>
-			          We're a small and mighty information design, interaction
+			          We&#8217;re a small and mighty information design, interaction
 								design and design research
 								consultancy. <InlineLink to="/about">
                                Learn more about us.
