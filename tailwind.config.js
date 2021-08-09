@@ -229,8 +229,9 @@ module.exports = {
       'tagline-lg': ['38px', {
         lineHeight: '44px',
       }],
-      'tagline-xl': ['49px', {
-        lineHeight: '53px',
+      'tagline-xl': ['48px', {
+        letterSpacing: '1px',
+        lineHeight: '52px',
       }],
       'tagline-2xl': ['54px', {
         lineHeight: '64px',
