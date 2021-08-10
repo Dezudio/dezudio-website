@@ -18,4 +18,5 @@ jobs:
           username: dezudio@raelynnmiles.com
           password: ${{ secrets.FTP_PASSWORD }}
           log-level: verbose
+          dangerous-clean-slate: true
           dry-run: true
