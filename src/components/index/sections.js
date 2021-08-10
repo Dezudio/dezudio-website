@@ -124,7 +124,7 @@ bg-right-bottom
 `,css`
 @media only screen and (min-width: 1024px) {
   background-image:
-    linear-gradient(to right, #ffff 30%, #fff0 60%),
+    linear-gradient(to right, #fffffff7 30%, #fff0 60%),
     url(${WorkshopsBG});
 }
 `]);
