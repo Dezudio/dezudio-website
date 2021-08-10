@@ -23,7 +23,6 @@ md:col-end-12
 `]);
 
 export const ApproachSection = styled(Section)([tw`
-md:pt-48
 `]);
 
 export const ApproachSectionBody = styled(SectionBody)([tw`
