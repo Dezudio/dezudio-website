@@ -151,7 +151,7 @@ const IndexPage = () => {
 						</SectionImage>
 						<DarkCallout>
 							<CalloutHeading>
-								Dezudio + University of Pittsburgh Center for Women's Health
+								Dezudio + University of Pittsburgh Center for Women&#8217;s Health
 								Research and Innovation
 							</CalloutHeading>
 							<CalloutP>
@@ -176,7 +176,7 @@ const IndexPage = () => {
 								As design researchers, we specialize in using or creating the
 								right methods and research frameworks to meet you where you
 								are. We are equally comfortable working at the front end of a
-								design process to understand people’s needs, patterns, and
+								design process to understand people&#8217;s needs, patterns, and
 								behaviors as we are evaluating existing platforms to inform
 								your decision-making about what to design next.
 							</SectionP>
@@ -390,7 +390,7 @@ const IndexPage = () => {
         <ClientsSectionWrapper>
           <Section>
             <ClientsTagline>
-              We've worked with large companies, small startups, and
+              We&#8217;ve worked with large companies, small startups, and
               everything in between.
             </ClientsTagline>
             <ClientsSectionBody>
