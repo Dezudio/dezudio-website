@@ -1,0 +1,21 @@
+name: Deploy Site to BlueHost
+
+on:
+  release:
+    types: [published]
+
+jobs:
+  web-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          ref: gh-pages
+    
+      - uses: SamKirkland/FTP-Deploy-Action@4.1.0
+        with:
+          server: ftp.raelynnmiles.com
+          username: dezudio@raelynnmiles.com
+          password: ${{ secrets.FTP_PASSWORD }}
+          log-level: verbose
+          dry-run: true
