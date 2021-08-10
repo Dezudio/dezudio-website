@@ -6,6 +6,10 @@ col-span-2
 w-sm
 `;
 
+export const AddressSection = tw.section`
+col-span-2 xl:col-span-3
+`;
+
 export const CopyrightSection = tw.section`
 col-span-3
 col-start-1    lg:col-start-2

@@ -7,6 +7,7 @@ import FooterContainer, {
 import FooterHeading from './headings';
 import Link from '../links';
 import Section, {
+  AddressSection,
   CopyrightSection,
   SocialImagesWrapper,
   SocialSection,
@@ -39,13 +40,13 @@ const Footer = ({ children }) => {
             </p>
           </address>
         </Section>
-        <Section>
+        <AddressSection>
           <FooterHeading>Our Address</FooterHeading>
           <address>
             805 Rebecca Avenue<br/>
             Pittsburgh, PA 15221
           </address>
-        </Section>
+        </AddressSection>
         <SocialSection>
           <FooterHeading>Follow Us</FooterHeading>
           <SocialImagesWrapper>
