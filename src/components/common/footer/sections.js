@@ -30,6 +30,7 @@ pb-4 lg:pb-0
 export const WordmarkSection = tw.section`
 col-span-2
 col-start-1 lg:col-start-2
+xl: pt-10
 `;
 
 export default Section;
