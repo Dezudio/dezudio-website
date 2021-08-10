@@ -69,7 +69,7 @@ bg-right-bottom
 `,css`
 @media only screen and (min-width: 1024px) {
   background-image:
-    linear-gradient(to right, #ffff 20%, #fff0 60%),
+    linear-gradient(to right, #ffffffed 20%, #fff0 60%),
     url(${ProcessBG});
 }
 `]);
