@@ -5,7 +5,6 @@ import FooterContainer, {
   FooterContainerWrapper,
 } from './containers';
 import FooterHeading from './headings';
-import Link from '../links';
 import Section, {
   AddressSection,
   CopyrightSection,
@@ -29,14 +28,14 @@ const Footer = ({ children }) => {
           <FooterHeading>Say Hello</FooterHeading>
           <address>
             <p>
-              <Link href="mailto:info@dezudio.com">
+              <a href="mailto:info@dezudio.com">
                 info@dezudio.com
-              </Link>
+              </a>
             </p>
             <p>
-              <Link href="tel:+14123423820">
+              <a href="tel:+14123423820">
                 (412) 342-3820
-              </Link>
+              </a>
             </p>
           </address>
         </Section>
@@ -50,27 +49,27 @@ const Footer = ({ children }) => {
         <SocialSection>
           <FooterHeading>Follow Us</FooterHeading>
           <SocialImagesWrapper>
-            <Link href="https://medium.com/dezudio">
+            <a href="https://medium.com/dezudio">
               <StaticImage
                 alt="Medium"
                 src="../../../images/social/medium.svg"
                 css={tw`w-10 lg:w-max`}
               />
-            </Link>
-            <Link href="https://www.linkedin.com/company/dezudio">
+            </a>
+            <a href="https://www.linkedin.com/company/dezudio">
               <StaticImage
                 alt="LinkedIn"
                 src="../../../images/social/linkedin.svg"
                 css={tw`w-10 lg:w-max`}
               />
-            </Link>
-            <Link href="https://www.instagram.com/dezudio/">
+            </a>
+            <a href="https://www.instagram.com/dezudio/">
               <StaticImage
                 alt="Medium"
                 src="../../../images/social/instagram.svg"
                 css={tw`w-10 lg:w-max`}
               />
-            </Link>
+            </a>
           </SocialImagesWrapper>
         </SocialSection>
         <CopyrightSection>
