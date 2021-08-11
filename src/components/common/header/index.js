@@ -1,7 +1,6 @@
 import * as React from 'react';
 import tw from 'twin.macro';
 import { StaticImage } from 'gatsby-plugin-image';
-import Link from '../links';
 import HeaderContainer from './containers';
 import Nav, {
   NavBurger,
@@ -29,7 +28,7 @@ const Header = ({ pageTitle, children }) => {
   return (
     <HeaderContainer>
       <Wordmark>
-        <HomeLink to="/">
+        <HomeLink to={"/"}>
           <HomeImageWrapper>
             <StaticImage
               alt="Dezudio Wordmark"

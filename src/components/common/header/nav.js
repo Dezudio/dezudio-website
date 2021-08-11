@@ -1,6 +1,6 @@
 import tw, { styled } from 'twin.macro';
 import Link from '../links';
-export { Link } from '../links';
+export { Link };
 
 const Nav = tw.nav`
 md:col-end-13
@@ -10,9 +10,9 @@ invisible md:visible
 text-right
 `;
 
-export const NavBurger = styled(Link)([tw`
+export const NavBurger = tw.a`
 visible md:invisible
-`]);
+`;
 
 export const NavLink = styled(Link)([tw`
 hover:font-sans-bold
