@@ -9,7 +9,7 @@ grid-cols-1 md:grid-cols-12
 grid-rows-none
 mx-auto
 pb-10 md:pb-16 xl:pb-24
-pt-10 md:pt-16 xl:pt-28
+pt-10 md:pt-20 xl:pt-28
 w-sm md:w-md lg:w-lg xl:w-xl
 `;
 
