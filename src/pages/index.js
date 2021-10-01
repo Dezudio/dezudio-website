@@ -4,18 +4,15 @@ import { StaticImage } from 'gatsby-plugin-image';
 import DezudiDot from '../components/common/dezudidots';
 import Layout from '../components/common/layout';
 import Callout, {
+  CalloutDark,
   CalloutHeading,
   CalloutP,
-  DarkCallout,
 } from '../components/index/callouts';
 import Heading, {
-  ApproachHeading,
-  PlatformsHeading,
-  SubHeading,
-  SystemsHeading,
+  HeadingSub,
 } from '../components/index/headings';
 import {
-  AboutUsBlockLink,
+  TaglineLink,
   BlockLink,
   InlineLink,
 } from '../components/index/links';
@@ -23,11 +20,7 @@ import Section, {
   ApproachSection,
   ApproachSectionBody,
   BelieveSection,
-  BelieveSectionWrapper,
   ClientsSectionBody,
-  ClientsSectionWrapper,
-  IntroduceSection,
-  InverseSectionP,
   PlatformsSectionWrapper,
   ProcessSectionWrapper,
   ResearchSectionWrapper,
@@ -35,10 +28,14 @@ import Section, {
   SectionImage,
   SectionImageBG,
   SectionP,
+  SectionPInverse,
   SectionWrapper,
+  SectionWrapperBlueDark,
+  SectionWrapperGrey,
   StrategySectionImage,
   StrategySectionWrapper,
   SystemsSectionWrapper,
+  TaglineLinkSection,
   UnderstandingSection,
   UnderstandingSectionBody,
   WorkshopsSectionWrapper,
@@ -47,13 +44,14 @@ import Tagline, {
   ApproachTagline,
   BelieveTagline,
   ClientsTagline,
-  IntroduceTagline,
   PlatformsTagline,
   SystemsTagline,
+  TaglineBeforeLink,
   UnderstandingTagline,
 } from '../components/index/taglines';
 
 const IndexPage = () => {
+
 	return(
 		<Layout pageTitle="Home">
 
@@ -77,55 +75,55 @@ const IndexPage = () => {
 			</SectionWrapper>
 
 
-			{/* Believe Section */}
-			<BelieveSectionWrapper>
-				<BelieveSection>
-					<BelieveTagline>
-						We believe that design can play an integral role
-						in creating positive change<DezudiDot>.</DezudiDot>
-					</BelieveTagline>
+		  {/* Believe Section */}
+			<SectionWrapperBlueDark>
+			  <BelieveSection>
+			    <BelieveTagline>
+			      We believe that design can play an integral role
+			      in creating positive change<DezudiDot>.</DezudiDot>
+			    </BelieveTagline>
 				</BelieveSection>
-			</BelieveSectionWrapper>
+			</SectionWrapperBlueDark>
 
 
 			{/* What We Do Section: Platforms */}
 			<PlatformsSectionWrapper>
 				<Section>
-					<PlatformsHeading>
+					<Heading>
 						What We Do
-					</PlatformsHeading>
+					</Heading>
 					<PlatformsTagline>
 						Platforms that inform decision-making, inspire action, and
-                drive positive behaviors.
+            drive positive behaviors.
 					</PlatformsTagline>
 					<SectionBody>
-						<InverseSectionP>
+						<SectionPInverse>
 							Our approach to designing digital products is grounded in
 							interaction design and user experience best practices.
 							Paired with our expertise in information design, we excel at
 							building complex and information-heavy web tools and apps.
-						</InverseSectionP>
-				  </SectionBody>
-				  <SectionImage>
-					  <StaticImage
-						  alt="A sample of MyDecision app screenshots"
-						  css={tw`-m-5`}
+						</SectionPInverse>
+					</SectionBody>
+					<SectionImage>
+						<StaticImage
+							alt="A sample of MyDecision app screenshots"
+							css={tw`-m-5`}
               loading="eager"
-						  src="../images/my-decision.png"
-					  />
-				  </SectionImage>
-				  <DarkCallout>
-					  <CalloutHeading>
-						  Dezudio + University of Pittsburgh Center for Women&#8217;s Health
-						  Research and Innovation
-					  </CalloutHeading>
-					  <CalloutP>
-						  MyDecision and MyVoice: Tools to support women in family
-						  planning and decision making for reproductive health
-					  </CalloutP>
-				  </DarkCallout>
-			  </Section>
-		  </PlatformsSectionWrapper>
+							src="../images/my-decision.png"
+						/>
+					</SectionImage>
+					<CalloutDark>
+						<CalloutHeading>
+							Dezudio + University of Pittsburgh Center for Women&#8217;s Health
+							Research and Innovation
+						</CalloutHeading>
+						<CalloutP>
+							MyDecision and MyVoice: Tools to support women in family
+							planning and decision making for reproductive health
+						</CalloutP>
+					</CalloutDark>
+				</Section>
+			</PlatformsSectionWrapper>
 
 
 		  {/* What We Do Section: Research */}
@@ -167,39 +165,39 @@ const IndexPage = () => {
       </ResearchSectionWrapper>
 
 
-		  {/* What We Do Section: Systems */}
-		  <SystemsSectionWrapper>
-			  <Section>
-				  <SystemsHeading>What We Do</SystemsHeading>
-				  <SystemsTagline>
-					  Smart, disciplined document systems that get the job done.
-				  </SystemsTagline>
-				  <SectionBody>
-					  <InverseSectionP>
-						  We take a rigorous, 360-degree approach to help organizations
-						  communicate with purpose, including design and content
-						  strategy. We bring clarity and focus to your key messages and
-						  reinforce them through consistent design decisions. The more
-						  data, the better: we delight in making your information
-						  understandable to your target audience.
-					  </InverseSectionP>
-				  </SectionBody>
-				  <SectionImage>
-					  <StaticImage
-						  alt="A sample document system"
-						  src="../images/access.png"
-					  />
-				  </SectionImage>
-				  <DarkCallout>
-					  <CalloutHeading>
-						  Dezudio + ACCESS
-					  </CalloutHeading>
-					  <CalloutP>
-						  Communication system for ADA and elderly transit service riders
-					  </CalloutP>
-				  </DarkCallout>
-			  </Section>
-		  </SystemsSectionWrapper>
+ 			{/* What We Do Section: Systems */}
+			<SystemsSectionWrapper>
+				<Section>
+					<Heading>What We Do</Heading>
+					<SystemsTagline>
+						Smart, disciplined document systems that get the job done.
+					</SystemsTagline>
+					<SectionBody>
+						<SectionPInverse>
+							We take a rigorous, 360-degree approach to help organizations
+							communicate with purpose, including design and content
+							strategy. We bring clarity and focus to your key messages and
+							reinforce them through consistent design decisions. The more
+							data, the better: we delight in making your information
+							understandable to your target audience.
+						</SectionPInverse>
+					</SectionBody>
+					<SectionImage>
+						<StaticImage
+							alt="A sample document system"
+							src="../images/access.png"
+						/>
+					</SectionImage>
+					<CalloutDark>
+						<CalloutHeading>
+							Dezudio + ACCESS
+						</CalloutHeading>
+						<CalloutP>
+							Communication system for ADA and elderly transit service riders
+						</CalloutP>
+					</CalloutDark>
+				</Section>
+			</SystemsSectionWrapper>
 
 
       {/* What We Do Section: Process */}
@@ -319,7 +317,7 @@ const IndexPage = () => {
       {/* Approach Section */}
       <SectionWrapper>
         <ApproachSection>
-          <ApproachHeading>Our Approach</ApproachHeading>
+          <Heading>Our Approach</Heading>
           <ApproachTagline>
             We believe that design differentiates powerful products and
             experiences from the rest. Great partnerships are powerful,
@@ -327,7 +325,7 @@ const IndexPage = () => {
             project.
           </ApproachTagline>
           <ApproachSectionBody>
-            <SubHeading>Understanding People</SubHeading>
+            <HeadingSub>Understanding People</HeadingSub>
             <SectionP>
               Research is what makes us great designers. Making sense of
               things by observing and interacting with people is a
@@ -336,7 +334,7 @@ const IndexPage = () => {
               wealth of research methods and frameworks to suit the context
               and questions we face.
             </SectionP>
-            <SubHeading>Helping People Understand</SubHeading>
+            <HeadingSub>Helping People Understand</HeadingSub>
             <SectionP>
               At its core, our work is about helping people to understand and
               engage with information for themselves, so that they can make
@@ -353,7 +351,7 @@ const IndexPage = () => {
 
 
       {/* Clients Section */}
-      <ClientsSectionWrapper>
+      <SectionWrapperGrey>
         <Section>
           <ClientsTagline>
             We&#8217;ve worked with large companies, small startups, and
@@ -386,21 +384,22 @@ const IndexPage = () => {
                          src="../images/companies/WCDC-logo.png" />
           </ClientsSectionBody>
         </Section>
-      </ClientsSectionWrapper>
-
+      </SectionWrapperGrey>
 
       {/* Introduce Section */}
       <SectionWrapper>
-        <IntroduceSection>
-          <IntroduceTagline>
+        <TaglineLinkSection>
+          <TaglineBeforeLink>
             Let us introduce ourselves.
-          </IntroduceTagline>
-          <AboutUsBlockLink to="/about">
+          </TaglineBeforeLink>
+          <TaglineLink to="/about">
             About us &rarr;
-          </AboutUsBlockLink>
-        </IntroduceSection>
+          </TaglineLink>
+        </TaglineLinkSection>
       </SectionWrapper>
+
     </Layout>
   );
 };
+
 export default IndexPage;

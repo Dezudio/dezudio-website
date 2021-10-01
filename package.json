@@ -8,6 +8,7 @@
     "gatsby"
   ],
   "scripts": {
+    "preinstall": "npm i -g gatsby-cli",
     "develop": "gatsby develop",
     "start": "gatsby develop",
     "build": "gatsby build",
@@ -15,23 +16,20 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
-    "gatsby": "^3.6.2",
-    "gatsby-plugin-image": "^1.7.1",
-    "gatsby-plugin-manifest": "^3.7.1",
-    "gatsby-plugin-sharp": "^3.7.1",
-    "gatsby-plugin-web-font-loader": "^1.0.4",
-    "gatsby-source-filesystem": "^3.7.1",
-    "gatsby-source-instagram-all": "^4.2.0",
-    "gatsby-transformer-sharp": "^3.7.1",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1",
-    "react-scrollmagic": "^2.3.0",
-    "scrollmagic": "^2.0.8"
-  },
-  "devDependencies": {
-    "@emotion/react": "^11.4.0",
-    "@emotion/styled": "^11.3.0",
-    "gatsby-plugin-emotion": "^6.8.0",
-    "twin.macro": "^2.5.0"
+    "gatsby": "^3",
+    "gatsby-plugin-image": "*",
+    "gatsby-plugin-manifest": "*",
+    "gatsby-plugin-sharp": "*",
+    "gatsby-plugin-web-font-loader": "*",
+    "gatsby-source-filesystem": "*",
+    "gatsby-transformer-sharp": "*",
+    "react": "*",
+    "react-dom": "*",
+    "react-scrollmagic": "*",
+    "scrollmagic": "*",
+    "@emotion/react": "*",
+    "@emotion/styled": "*",
+    "gatsby-plugin-emotion": "*",
+    "twin.macro": "^2.7.0"
   }
 }

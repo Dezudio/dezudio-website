@@ -11,11 +11,4 @@ text-heading-sm md:text-heading-md lg:text-heading-2xl xl:text-heading-4xl
 uppercase
 `;
 
-export const SubHeading = tw.h3`
-font-condensed-bold
-pb-2.5
-text-black
-text-heading-lg md:text-heading-2xl lg:text-heading-5xl xl:text-heading-6xl
-`;
-
 export default Heading;
