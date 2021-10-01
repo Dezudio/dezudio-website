@@ -1,4 +1,4 @@
-import tw from 'twin.macro';
+import tw, { styled } from 'twin.macro';
 
 const Heading = tw.h1`
 md:col-end-5
