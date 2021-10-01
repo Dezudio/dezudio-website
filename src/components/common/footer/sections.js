@@ -1,6 +1,5 @@
 import tw from 'twin.macro';
 
-
 const Section = tw.section`
 col-span-2
 w-sm
@@ -12,8 +11,8 @@ col-span-2 xl:col-span-3
 
 export const CopyrightSection = tw.section`
 col-span-3
-col-start-1    lg:col-start-2
-pb-0           lg:pb-36
+col-start-1 lg:col-start-2
+pb-0 lg:pb-36
 text-footer-sm lg:text-footer-base
 `;
 
@@ -28,9 +27,10 @@ pb-4 lg:pb-0
 `;
 
 export const WordmarkSection = tw.section`
-col-span-2
+col-span-2 xl:col-span-3
 col-start-1 lg:col-start-2
-xl: pt-10
+xl:pt-10
+xl:w-md
 `;
 
 export default Section;

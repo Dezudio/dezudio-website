@@ -1,8 +1,11 @@
 import tw, { styled } from 'twin.macro';
-import Link, { BlockLink } from '../common/links';
+import Link, {
+  BlockLink,
+} from '../common/links';
 export {
   BlockLink,
-  InlineLink
+  InlineLink,
+  TaglineLink,
 } from '../common/links';
 
 export const AboutUsBlockLink = styled(BlockLink)([tw`

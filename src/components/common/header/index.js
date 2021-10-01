@@ -11,7 +11,6 @@ import Wordmark, {
   HomeLink,
 } from './wordmark';
 
-
 const Header = ({ pageTitle, children }) => {
   const [menuOpen, toggleMenuOpen] = useState(false);
 

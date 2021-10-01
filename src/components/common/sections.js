@@ -1,6 +1,5 @@
 import tw, { styled } from 'twin.macro';
 
-
 const Section = tw.section`
 auto-rows-min
 gap-x-16
@@ -37,12 +36,34 @@ export const SectionP = tw.p`
 pb-10
 md:pr-1 xl:pr-0
 `;
-export const InverseSectionP = styled(SectionP)([tw`
+
+export const SectionPInverse = styled(SectionP)([tw`
 text-white
 `]);
 
 export const SectionWrapper = tw.div`
 clear-both
 `;
+
+export const SectionWrapperBlueDark = styled(SectionWrapper)([tw`
+bg-blue-dark
+`]);
+
+export const SectionWrapperGrey = styled(SectionWrapper)([tw`
+bg-grey
+`]);
+
+export const SectionWrapperGreyDark = styled(SectionWrapper)([tw`
+bg-grey-dark
+`]);
+
+export const SectionWrapperSeafoam = styled(SectionWrapper)([tw`
+bg-seafoam
+`]);
+
+export const TaglineLinkSection = styled(Section)([tw`
+pb-24 md:pb-44
+pt-22 md:pt-48
+`]);
 
 export default Section;

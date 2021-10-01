@@ -1,7 +1,9 @@
 import tw from 'twin.macro';
 
 const Profile = tw.div`
+overflow-hidden
 text-center
+rounded-full
 `;
 
 export const ProfilesWrapper = tw.div`
@@ -15,15 +17,15 @@ row-start-3
 `;
 
 export const ProfileName = tw.h2`
+font-condensed-bold
 mt-2
 -mx-5
-font-condensed-bold
 text-5xs
 `;
 
 export const ProfileTitle = tw.h3`
--mx-5
 font-condensed
+-mx-5
 text-5xs
 `;
 

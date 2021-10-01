@@ -2,17 +2,20 @@ import * as React from 'react';
 import tw from "twin.macro";
 import { StaticImage } from 'gatsby-plugin-image';
 import Layout from '../components/common/layout';
-import {
-  AboutHeading,
-} from '../components/about/headings';
-import {
-  AboutUsTagline,
-} from '../components/about/taglines';
+import SubHeading from '../components/about/headings';
 import Section, {
   AboutUsSectionBody,
   SectionP,
   SectionWrapper,
+  TaglineLinkSection,
 } from '../components/about/sections';
+import {
+  AboutUsTagline,
+  TaglineBeforeLink,
+} from '../components/about/taglines';
+import {
+  ExternalTaglineLink,
+} from '../components/common/links';
 
 const LatestPage = () => {
   return (
@@ -21,7 +24,7 @@ const LatestPage = () => {
       {/* Latest Section */}
       <SectionWrapper>
         <Section>
-          <AboutHeading>Latest</AboutHeading>
+          <SubHeading>Latest</SubHeading>
           <AboutUsTagline>
             Dezudio is always up to something.
           </AboutUsTagline>
@@ -43,7 +46,19 @@ const LatestPage = () => {
         </Section>
       </SectionWrapper>
 
-     </Layout>
+
+      {/* Follow Us Section */}
+      <SectionWrapper>
+        <TaglineLinkSection>
+          <TaglineBeforeLink>
+            Follow Us.
+          </TaglineBeforeLink>
+          <ExternalTaglineLink href="https://www.instagram.com/dezudio">
+            Go to Instagram &rarr;
+          </ExternalTaglineLink>
+        </TaglineLinkSection>
+      </SectionWrapper>
+    </Layout>
   );
 };
 export default LatestPage;

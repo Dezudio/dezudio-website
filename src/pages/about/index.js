@@ -1,32 +1,29 @@
 import * as React from 'react';
-import tw from "twin.macro";
+import tw from 'twin.macro';
 import { StaticImage } from 'gatsby-plugin-image';
 import Layout from '../../components/common/layout';
-import {
-  AboutHeading,
-} from '../../components/about/headings';
-import {
-  AboutUsTagline,
-  IntroduceYourselfTagline,
-} from '../../components/about/taglines';
-import Section, {
-  IntroduceYourselfSection,
-  IntroduceYourselfSectionWrapper,
-  AboutUsSectionBody,
-  MeetOurTeamSectionBody,
-  SectionP,
-  SectionWrapper,
-} from '../../components/about/sections';
+import SubHeading from '../../components/about/headings';
 import {
   BioBlockLink,
-  ContactUsBlockLink,
-  Link,
+  TaglineLink,
 } from '../../components/about/links';
 import Profile, {
   ProfilesWrapper,
   ProfileName,
   ProfileTitle,
 } from '../../components/about/profiles';
+import Section, {
+  AboutUsSectionBody,
+  MeetOurTeamSectionBody,
+  SectionP,
+  SectionWrapper,
+  SectionWrapperGrey,
+  TaglineLinkSection,
+} from '../../components/about/sections';
+import {
+  AboutUsTagline,
+  TaglineBeforeLink,
+} from '../../components/about/taglines';
 
 const AboutPage = () => {
   return (
@@ -35,7 +32,7 @@ const AboutPage = () => {
       {/* About Us Section */}
       <SectionWrapper>
         <Section>
-          <AboutHeading>About Us</AboutHeading>
+          <SubHeading>About Us</SubHeading>
           <AboutUsTagline>
             Dezudio is an information design, interaction design, and design
             research consultancy with offices in Pittsburgh and Washington, D.C.
@@ -65,7 +62,7 @@ const AboutPage = () => {
       {/* Meet Our Team Section */}
       <SectionWrapper>
         <Section>
-          <AboutHeading>Meet Our Team</AboutHeading>
+          <SubHeading>Meet Our Team</SubHeading>
           <MeetOurTeamSectionBody>
           </MeetOurTeamSectionBody>
           <ProfilesWrapper>
@@ -115,6 +112,7 @@ w-headshot-sm md:w-headshot-lg
               <StaticImage
 						    alt="Hannah Koenig Headshot"
 						    css={tw`
+overflow-hidden
 h-headshot-sm md:h-headshot-lg
 rounded-full
 w-headshot-sm md:w-headshot-lg
@@ -139,7 +137,7 @@ w-headshot-sm md:w-headshot-lg
       {/* Meet Our Collaborators Section */}
       <SectionWrapper>
         <Section>
-          <AboutHeading>Meet Our Collaborators</AboutHeading>
+          <SubHeading>Meet Our Collaborators</SubHeading>
           <MeetOurTeamSectionBody>
             <SectionP>
               We are proud of our close-knit community of trusted collaborators
@@ -203,16 +201,16 @@ w-headshot-sm md:w-headshot-lg
       </SectionWrapper>
 
       {/* Introduce Yourself Section */}
-      <IntroduceYourselfSectionWrapper>
-        <IntroduceYourselfSection>
-          <IntroduceYourselfTagline>
+      <SectionWrapperGrey>
+        <TaglineLinkSection>
+          <TaglineBeforeLink>
             Tell us about yourself.
-          </IntroduceYourselfTagline>
-          <ContactUsBlockLink href="mailto:info@dezudio.com">
+          </TaglineBeforeLink>
+          <TaglineLink href="mailto:info@dezudio.com">
             Contact us &rarr;
-          </ContactUsBlockLink>
-        </IntroduceYourselfSection>
-      </IntroduceYourselfSectionWrapper>
+          </TaglineLink>
+        </TaglineLinkSection>
+      </SectionWrapperGrey>
     </Layout>
   );
 };

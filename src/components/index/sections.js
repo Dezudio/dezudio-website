@@ -3,17 +3,24 @@ import Section, {
   SectionBody,
   SectionImage,
   SectionWrapper,
+  SectionWrapperGrey,
+  SectionWrapperGreyDark,
 } from '../common/sections';
 import ProcessBG from "../../images/brooklyn.jpg";
 import ResearchBG from "../../images/reading.jpg";
 import WorkshopsBG from "../../images/ashley.jpg";
 export {
-  InverseSectionP,
+  SectionPInverse,
   SectionBody,
   SectionImage,
   SectionImageBG,
   SectionP,
   SectionWrapper,
+  SectionWrapperBlueDark,
+  SectionWrapperGrey,
+  SectionWrapperGreyDark,
+  SectionWrapperSeafoam,
+  TaglineLinkSection,
 } from '../common/sections';
 
 export const AboutUsSectionBody = styled(SectionBody)([tw`
@@ -36,10 +43,6 @@ pb-16
 pt-22
 `]);
 
-export const BelieveSectionWrapper = styled(SectionWrapper)([tw`
-bg-blue-dark
-`]);
-
 export const ClientsSectionBody = styled(SectionBody)([tw`
 col-start-1 md:col-start-2 xl:col-start-3
 md:col-end-12 xl:col-end-11
@@ -47,22 +50,12 @@ row-start-2
 text-center
 `]);
 
-export const ClientsSectionWrapper = styled(SectionWrapper)([tw`
-bg-grey
-`]);
-
-export const IntroduceSection = styled(Section)([tw`
-pb-24 md:pb-44
-pt-22 md:pt-48
-`]);
-
 export const PlatformsSectionWrapper = styled(SectionWrapper)([tw`
 bg-gradient-to-b from-blue-light to-blue
 `]);
 
-export const ProcessSectionWrapper = styled(SectionWrapper)([tw`
+export const ProcessSectionWrapper = styled(SectionWrapperGrey)([tw`
 bg-cover
-bg-grey
 bg-no-repeat
 bg-right-bottom
 `,css`
@@ -73,9 +66,8 @@ bg-right-bottom
 }
 `]);
 
-export const ResearchSectionWrapper = styled(SectionWrapper)([tw`
+export const ResearchSectionWrapper = styled(SectionWrapperGrey)([tw`
 bg-cover
-bg-grey
 bg-no-repeat
 bg-right-top
 `,css`
@@ -115,9 +107,8 @@ text-2xs md:text-sm-tight lg:text-lg xl:text-xl
 text-black
 `]);
 
-export const WorkshopsSectionWrapper = styled(SectionWrapper)([tw`
+export const WorkshopsSectionWrapper = styled(SectionWrapperGreyDark)([tw`
 bg-cover
-bg-grey-dark
 bg-no-repeat
 bg-right-bottom
 `,css`
