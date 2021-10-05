@@ -7,8 +7,8 @@ grid
 grid-cols-1 md:grid-cols-12
 grid-rows-none
 mx-auto
-pb-10 md:pb-16 xl:pb-24
-pt-10 md:pt-20 xl:pt-28
+pb-10 sm:pb-9 md:pb-16 xl:pb-24
+pt-10 sm:pt-12 md:pt-20 xl:pt-28
 w-sm md:w-md lg:w-lg xl:w-xl
 `;
 
@@ -23,6 +23,7 @@ text-blue-dark
 export const SectionImage = tw.div`
 md:col-end-12
 md:col-start-5 xl:col-start-6
+my-0 sm:my-12 md:my-0
 md:pt-2
 md:row-end-7
 md:row-start-1
@@ -33,12 +34,14 @@ md:hidden
 `;
 
 export const SectionP = tw.p`
-pb-10
+pb-10 sm:pb-0
 md:pr-1 xl:pr-0
+min-h-0 sm:min-h-0 md:min-h-md lg:min-h-lg
 `;
 
 export const SectionPInverse = styled(SectionP)([tw`
 text-white
+min-h-0 sm:min-h-0 md:min-h-md lg:min-h-lg
 `]);
 
 export const SectionWrapper = tw.div`
