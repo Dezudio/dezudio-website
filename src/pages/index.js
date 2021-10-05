@@ -10,6 +10,7 @@ import Callout, {
 } from '../components/index/callouts';
 import Heading, {
   HeadingSub,
+  ApproachHeading,
 } from '../components/index/headings';
 import {
   TaglineLink,
@@ -316,7 +317,7 @@ const IndexPage = () => {
       {/* Approach Section */}
       <SectionWrapper>
         <ApproachSection>
-          <Heading>Our Approach</Heading>
+          <ApproachHeading>Our Approach</ApproachHeading>
           <ApproachTagline>
             We believe that design differentiates powerful products and
             experiences from the rest. Great partnerships are powerful,
