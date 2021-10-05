@@ -4,7 +4,7 @@ import { Link } from 'gatsby';
 export const BlockLink = styled(Link)([tw`
 block
 font-sans-reg
-my-4
+my-0
 text-dezudiorange
 text-link-sm
 w-sm md:w-auto

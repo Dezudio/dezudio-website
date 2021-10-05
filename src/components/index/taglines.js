@@ -8,6 +8,7 @@ export const ApproachTagline = styled(Tagline)([tw`
 md:col-end-6 lg:col-end-7
 lg:pr-10
 md:row-start-2
+sm:pb-5.5
 text-black
 lg:text-tagline-2xl
 `]);

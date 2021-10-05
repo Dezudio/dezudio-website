@@ -19,6 +19,7 @@ import {
 import Section, {
   ApproachSection,
   ApproachSectionBody,
+  ApproachSectionP,
   BelieveSection,
   ClientsSectionBody,
   PlatformsSectionWrapper,
@@ -324,16 +325,16 @@ const IndexPage = () => {
           </ApproachTagline>
           <ApproachSectionBody>
             <HeadingSub>Understanding People</HeadingSub>
-            <SectionP>
+            <ApproachSectionP>
               Research is what makes us great designers. Making sense of
               things by observing and interacting with people is a
               foundational aspect of our design practice. We don’t have a
               standard formula or secret recipe. Instead, we draw from a
               wealth of research methods and frameworks to suit the context
               and questions we face.
-            </SectionP>
+            </ApproachSectionP>
             <HeadingSub>Helping People Understand</HeadingSub>
-            <SectionP>
+            <ApproachSectionP>
               At its core, our work is about helping people to understand and
               engage with information for themselves, so that they can make
               decisions and take action. We make meaning from data and
@@ -341,7 +342,7 @@ const IndexPage = () => {
               information and interaction design. We move from the high-level
               down into the details and back until every element is doing its
               job to help people understand what they need to succeed.
-            </SectionP>
+            </ApproachSectionP>
             <BlockLink to="/about">Meet the team &rarr;</BlockLink>
           </ApproachSectionBody>
         </ApproachSection>
