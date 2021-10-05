@@ -93,8 +93,7 @@ const IndexPage = () => {
 						What We Do
 					</Heading>
 					<PlatformsTagline>
-						Platforms that inform decision-making, inspire action, and
-            drive positive behaviors.
+						Platforms that inform decision-making, inspire action, and drive positive behaviors.
 					</PlatformsTagline>
 					<SectionBody>
 						<SectionPInverse>
@@ -131,8 +130,7 @@ const IndexPage = () => {
 			  <Section>
 				  <Heading>What We Do</Heading>
 				  <Tagline>
-					  Research that delivers actionable insights at every stage of
-					  the design process.
+					  Research that delivers actionable insights at every stage of the design process.
 				  </Tagline>
 				  <SectionBody>
 					  <SectionP>

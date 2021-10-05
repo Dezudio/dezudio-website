@@ -49,7 +49,13 @@ module.exports = {
         'lg': '1920px',
         'xl': '2280px',
       },
+      minHeight: {
+        'sm': '450px',
+        'md': '500px',
+        'lg': '650px',
+      },
       spacing: {
+        '6.5': '26px',
         '15': '60px',
         '22': '92px',
         '26': '98px',

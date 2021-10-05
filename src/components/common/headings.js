@@ -11,4 +11,8 @@ text-heading-sm md:text-heading-md lg:text-heading-2xl xl:text-heading-4xl
 uppercase
 `;
 
+// export const HeadingApproach = styled(Heading)([tw`
+// pb-11
+// `]);
+
 export default Heading;
