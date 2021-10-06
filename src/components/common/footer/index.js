@@ -8,6 +8,7 @@ import FooterHeading from './headings';
 import Section, {
   AddressSection,
   CopyrightSection,
+  HelloSection,
   SocialImagesWrapper,
   SocialSection,
   WordmarkSection,
@@ -24,7 +25,7 @@ const Footer = ({ children }) => {
             src="../../../images/svg/dezudio-reversed.svg"
           />
         </WordmarkSection>
-        <Section>
+        <HelloSection>
           <FooterHeading>Say Hello</FooterHeading>
           <address>
             <p>
@@ -38,7 +39,7 @@ const Footer = ({ children }) => {
               </a>
             </p>
           </address>
-        </Section>
+        </HelloSection>
         <AddressSection>
           <FooterHeading>Our Address</FooterHeading>
           <address>

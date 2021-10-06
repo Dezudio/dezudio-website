@@ -64,6 +64,7 @@ module.exports = {
         '26': '98px',
 
         'sm': '280px',
+        'tb': '600px',
         'md': '960px',
         'lg': '1840px',
         'xl': '2200px',
@@ -263,6 +264,7 @@ module.exports = {
     },
     screens: {
       'sm': '320px',
+      'tb': '640px',
       'md': '1024px',
       'lg': '1920px',
       'xl': '2280px',
