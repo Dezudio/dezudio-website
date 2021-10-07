@@ -22,6 +22,7 @@ export {
   SectionWrapperGreyDark,
   SectionWrapperSeafoam,
   TaglineLinkSection,
+  UnderstandingSectionP,
 } from '../common/sections';
 
 export const AboutUsSectionBody = styled(SectionBody)([tw`

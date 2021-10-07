@@ -40,6 +40,7 @@ import Section, {
   TaglineLinkSection,
   UnderstandingSection,
   UnderstandingSectionBody,
+  UnderstandingSectionP,
   WorkshopsSectionWrapper,
 } from '../components/index/sections';
 import Tagline, {
@@ -65,13 +66,13 @@ const IndexPage = () => {
 		        helping people understand<DezudiDot>.</DezudiDot>
 			    </UnderstandingTagline>
 			    <UnderstandingSectionBody>
-			      <SectionP>
+			      <UnderstandingSectionP>
 			        We&#8217;re a small and mighty information design, interaction
 		          design and design research
 		          consultancy. <InlineLink to="/about">
                              Learn more about us.
                            </InlineLink>
-			      </SectionP>
+			      </UnderstandingSectionP>
 			    </UnderstandingSectionBody>
 				</UnderstandingSection>
 			</SectionWrapper>
