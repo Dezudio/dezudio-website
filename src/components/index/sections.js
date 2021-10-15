@@ -10,6 +10,7 @@ import ProcessBG from "../../images/brooklyn.jpg";
 import ResearchBG from "../../images/reading.jpg";
 import WorkshopsBG from "../../images/ashley.jpg";
 export {
+  ApproachSectionP,
   SectionPInverse,
   SectionBody,
   SectionImage,
@@ -21,6 +22,7 @@ export {
   SectionWrapperGreyDark,
   SectionWrapperSeafoam,
   TaglineLinkSection,
+  UnderstandingSectionP,
 } from '../common/sections';
 
 export const AboutUsSectionBody = styled(SectionBody)([tw`
@@ -30,6 +32,7 @@ md:col-end-12
 `]);
 
 export const ApproachSection = styled(Section)([tw`
+sm:py-12 md:py-20 lg:py-40
 `]);
 
 export const ApproachSectionBody = styled(SectionBody)([tw`
