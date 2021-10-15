@@ -64,7 +64,7 @@ module.exports = {
         '26': '98px',
 
         'sm': '280px',
-        'tb': '600px',
+        'tb': '563px',
         'md': '960px',
         'lg': '1840px',
         'xl': '2200px',

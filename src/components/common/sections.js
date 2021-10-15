@@ -9,7 +9,7 @@ grid-rows-none
 mx-auto
 pb-10 sm:pb-9 md:pb-16 xl:pb-24
 pt-10 sm:pt-12 md:pt-20 xl:pt-28
-w-sm md:w-md lg:w-lg xl:w-xl
+w-sm tb:w-tb md:w-md lg:w-lg xl:w-xl
 `;
 
 export const SectionBody = tw.div`
