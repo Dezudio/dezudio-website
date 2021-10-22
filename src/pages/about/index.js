@@ -2,7 +2,9 @@ import * as React from 'react';
 import tw from 'twin.macro';
 import { StaticImage } from 'gatsby-plugin-image';
 import Layout from '../../components/common/layout';
-import SubHeading from '../../components/about/headings';
+import SubHeading, {
+  CollaboratorsHeading,
+} from '../../components/about/headings';
 import {
   BioBlockLink,
   TaglineLink,
@@ -13,8 +15,10 @@ import Profile, {
   ProfileTitle,
 } from '../../components/about/profiles';
 import Section, {
+  AboutSection,
   AboutUsSectionBody,
   MeetOurTeamSectionBody,
+  MeetOurTeamSectionP,
   SectionP,
   SectionWrapper,
   SectionWrapperGrey,
@@ -31,7 +35,7 @@ const AboutPage = () => {
 
       {/* About Us Section */}
       <SectionWrapper>
-        <Section>
+        <AboutSection>
           <SubHeading>About Us</SubHeading>
           <AboutUsTagline>
             Dezudio is an information design, interaction design, and design research consultancy with offices in Pittsburgh and Washington, D.C.
@@ -47,12 +51,12 @@ const AboutPage = () => {
               We are fully committed to a collaborative design process. As an intentionally small team, we work in close partnership with our clients to involve stakeholders and gather input throughout the design process, always with a focus on quality project outcomes.
             </SectionP>
           </AboutUsSectionBody>
-        </Section>
+        </AboutSection>
       </SectionWrapper>
 
       {/* Meet Our Team Section */}
       <SectionWrapper>
-        <Section>
+        <AboutSection>
           <SubHeading>Meet Our Team</SubHeading>
           <MeetOurTeamSectionBody>
           </MeetOurTeamSectionBody>
@@ -122,18 +126,18 @@ w-headshot-sm md:w-headshot-lg
               </BioBlockLink>
             </Profile>
           </ProfilesWrapper>
-        </Section>
+        </AboutSection>
       </SectionWrapper>
 
       {/* Meet Our Collaborators Section */}
       <SectionWrapper>
-        <Section>
-          <SubHeading>Meet Our Collaborators</SubHeading>
+        <AboutSection>
+          <CollaboratorsHeading>Meet Our Collaborators</CollaboratorsHeading>
           <MeetOurTeamSectionBody>
-            <SectionP>
+            <MeetOurTeamSectionP>
               We are proud of our close-knit community of trusted collaborators
               who partner with us on a project-to-project basis.
-            </SectionP>
+            </MeetOurTeamSectionP>
           </MeetOurTeamSectionBody>
           <ProfilesWrapper>
             <Profile>
@@ -188,7 +192,7 @@ w-headshot-sm md:w-headshot-lg
               </BioBlockLink>
             </Profile>
           </ProfilesWrapper>
-        </Section>
+        </AboutSection>
       </SectionWrapper>
 
       {/* Introduce Yourself Section */}
