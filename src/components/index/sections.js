@@ -22,6 +22,7 @@ export {
   SectionWrapperGreyDark,
   SectionWrapperSeafoam,
   TaglineLinkSection,
+  WhatWeDoSectionP,
   UnderstandingSectionP,
 } from '../common/sections';
 

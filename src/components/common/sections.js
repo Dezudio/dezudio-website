@@ -34,6 +34,12 @@ md:hidden
 `;
 
 export const SectionP = tw.p`
+mb-10
+pb-10 sm:pb-0
+md:pr-1 xl:pr-0
+`;
+
+export const WhatWeDoSectionP = tw.p`
 pb-10 sm:pb-0
 md:pr-1 xl:pr-0
 min-h-0 sm:min-h-0 md:min-h-md lg:min-h-lg

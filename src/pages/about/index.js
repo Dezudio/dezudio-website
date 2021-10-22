@@ -34,26 +34,17 @@ const AboutPage = () => {
         <Section>
           <SubHeading>About Us</SubHeading>
           <AboutUsTagline>
-            Dezudio is an information design, interaction design, and design
-            research consultancy with offices in Pittsburgh and Washington, D.C.
+            Dezudio is an information design, interaction design, and design research consultancy with offices in Pittsburgh and Washington, D.C.
           </AboutUsTagline>
           <AboutUsSectionBody>
             <SectionP>
-              Design is powerful. It can inform decision-making, inspire action,
-              and drive positive behaviors. At Dezudio, we value research,
-              communication, and education as critical tools in bridging the
-              gap between where we are and where we need to be.
+              Design is powerful. It can inform decision-making, inspire action, and drive positive behaviors. At Dezudio, we value research, communication, and education as critical tools in bridging the gap between where we are and where we need to be.
             </SectionP>
             <SectionP>
-              Founded in 2011, we are seasoned designers and entrepreneurs with
-              expertise in design research, user experience, interaction design,
-              data-driven reporting, and visual and information design.
+              Founded in 2011, we are seasoned designers and entrepreneurs with expertise in design research, user experience, interaction design, data-driven reporting, and visual and information design.
             </SectionP>
             <SectionP>
-              We are fully committed to a collaborative design process. As an
-              intentionally small team, we work in close partnership with our
-              clients to involve stakeholders and gather input throughout the
-              design process, always with a focus on quality project outcomes.
+              We are fully committed to a collaborative design process. As an intentionally small team, we work in close partnership with our clients to involve stakeholders and gather input throughout the design process, always with a focus on quality project outcomes.
             </SectionP>
           </AboutUsSectionBody>
         </Section>
