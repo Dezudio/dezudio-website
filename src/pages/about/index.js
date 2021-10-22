@@ -13,6 +13,7 @@ import Profile, {
   ProfileTitle,
 } from '../../components/about/profiles';
 import Section, {
+  AboutSection,
   AboutUsSectionBody,
   MeetOurTeamSectionBody,
   SectionP,
@@ -31,7 +32,7 @@ const AboutPage = () => {
 
       {/* About Us Section */}
       <SectionWrapper>
-        <Section>
+        <AboutSection>
           <SubHeading>About Us</SubHeading>
           <AboutUsTagline>
             Dezudio is an information design, interaction design, and design research consultancy with offices in Pittsburgh and Washington, D.C.
@@ -47,7 +48,7 @@ const AboutPage = () => {
               We are fully committed to a collaborative design process. As an intentionally small team, we work in close partnership with our clients to involve stakeholders and gather input throughout the design process, always with a focus on quality project outcomes.
             </SectionP>
           </AboutUsSectionBody>
-        </Section>
+        </AboutSection>
       </SectionWrapper>
 
       {/* Meet Our Team Section */}

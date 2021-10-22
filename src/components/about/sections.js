@@ -4,6 +4,7 @@ import Section, {
 } from '../common/sections';
 
 export {
+  AboutSection,
   SectionBody,
   SectionP,
   SectionWrapper,

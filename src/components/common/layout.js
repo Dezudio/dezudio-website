@@ -9,6 +9,7 @@ const h1Style = {
   overflow: "hidden",
   padding: "0",
   position: "absolute",
+  left: "-9999px",
   width: "1px"
 }
 
