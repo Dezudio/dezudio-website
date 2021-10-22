@@ -41,6 +41,7 @@ import Section, {
   UnderstandingSection,
   UnderstandingSectionBody,
   UnderstandingSectionP,
+  WhatWeDoSectionP,
   WorkshopsSectionWrapper,
 } from '../components/index/sections';
 import Tagline, {
@@ -136,14 +137,14 @@ const IndexPage = () => {
 					  Research that delivers actionable insights at every stage of the design process.
 				  </Tagline>
 				  <SectionBody>
-					  <SectionP>
+					  <WhatWeDoSectionP>
 						  As design researchers, we specialize in using or creating the
 						  right methods and research frameworks to meet you where you
 						  are. We are equally comfortable working at the front end of a
 						  design process to understand people&#8217;s needs, patterns, and
 						  behaviors as we are evaluating existing platforms to inform
 						  your decision-making about what to design next.
-						</SectionP>
+						</WhatWeDoSectionP>
 		      </SectionBody>
 				  <SectionImageBG>
 					  <StaticImage
@@ -210,14 +211,14 @@ const IndexPage = () => {
 					  challenge.
 				  </Tagline>
 				  <SectionBody>
-					  <SectionP>
+					  <WhatWeDoSectionP>
 						  As experienced facilitators, we design and implement
 						  targeted processes to make progress on pressing challenges.
 						  We work with our clients collaboratively to articulate
 						  objectives and key questions, design the experience, and
 						  capture information throughout—always with an eye toward
 						  the end goal of sharing the outcomes and what we learned.
-					  </SectionP>
+					  </WhatWeDoSectionP>
 				  </SectionBody>
 				  <SectionImageBG>
 					  <StaticImage
@@ -248,13 +249,13 @@ const IndexPage = () => {
 					  and inspire.
 				  </Tagline>
 				  <SectionBody>
-					  <SectionP>
+					  <WhatWeDoSectionP>
 						  We investigate, strategize, design, and develop for your
 						  digital ecosystem, whether your web presence is a single
 						  site or spans across multiple domains. We are laser-focused
 						  on maintaining your brand identity across a consistent user
 						  experience.
-					  </SectionP>
+					  </WhatWeDoSectionP>
           </SectionBody>
           <StrategySectionImage>
             <StaticImage
@@ -286,13 +287,13 @@ const IndexPage = () => {
             something new.
           </Tagline>
           <SectionBody>
-            <SectionP>
+            <WhatWeDoSectionP>
               As educators, we believe that our teaching practice and our
               design practice are symbiotic. We bring the best of both worlds
               to organizations and communities through interactive workshops
               and engaging curricula on topics including interaction and
               information design, design research, collaboration, and more.
-            </SectionP>
+            </WhatWeDoSectionP>
           </SectionBody>
           <SectionImageBG>
             <StaticImage

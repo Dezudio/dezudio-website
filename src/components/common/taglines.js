@@ -1,6 +1,6 @@
 import tw, { styled } from 'twin.macro';
 
-const Tagline = tw.h2`
+const Tagline = tw.h3`
 md:col-end-5
 col-start-1 lg:col-start-2
 font-serif-bold
