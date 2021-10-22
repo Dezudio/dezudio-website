@@ -2,7 +2,9 @@ import * as React from 'react';
 import tw from 'twin.macro';
 import { StaticImage } from 'gatsby-plugin-image';
 import Layout from '../../components/common/layout';
-import SubHeading from '../../components/about/headings';
+import SubHeading, {
+  CollaboratorsHeading,
+} from '../../components/about/headings';
 import {
   BioBlockLink,
   TaglineLink,
@@ -16,6 +18,7 @@ import Section, {
   AboutSection,
   AboutUsSectionBody,
   MeetOurTeamSectionBody,
+  MeetOurTeamSectionP,
   SectionP,
   SectionWrapper,
   SectionWrapperGrey,
@@ -53,7 +56,7 @@ const AboutPage = () => {
 
       {/* Meet Our Team Section */}
       <SectionWrapper>
-        <Section>
+        <AboutSection>
           <SubHeading>Meet Our Team</SubHeading>
           <MeetOurTeamSectionBody>
           </MeetOurTeamSectionBody>
@@ -123,18 +126,18 @@ w-headshot-sm md:w-headshot-lg
               </BioBlockLink>
             </Profile>
           </ProfilesWrapper>
-        </Section>
+        </AboutSection>
       </SectionWrapper>
 
       {/* Meet Our Collaborators Section */}
       <SectionWrapper>
-        <Section>
-          <SubHeading>Meet Our Collaborators</SubHeading>
+        <AboutSection>
+          <CollaboratorsHeading>Meet Our Collaborators</CollaboratorsHeading>
           <MeetOurTeamSectionBody>
-            <SectionP>
+            <MeetOurTeamSectionP>
               We are proud of our close-knit community of trusted collaborators
               who partner with us on a project-to-project basis.
-            </SectionP>
+            </MeetOurTeamSectionP>
           </MeetOurTeamSectionBody>
           <ProfilesWrapper>
             <Profile>
@@ -189,7 +192,7 @@ w-headshot-sm md:w-headshot-lg
               </BioBlockLink>
             </Profile>
           </ProfilesWrapper>
-        </Section>
+        </AboutSection>
       </SectionWrapper>
 
       {/* Introduce Yourself Section */}
