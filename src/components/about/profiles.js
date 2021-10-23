@@ -3,7 +3,6 @@ import tw from 'twin.macro';
 const Profile = tw.div`
 overflow-hidden
 text-center
-//rounded-full
 `;
 
 export const ProfilesWrapper = tw.div`

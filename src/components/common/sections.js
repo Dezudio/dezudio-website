@@ -39,21 +39,8 @@ pb-10 sm:pb-0
 md:pr-1 xl:pr-0
 `;
 
-export const WhatWeDoSectionP = tw.p`
-pb-10 sm:pb-0
-md:pr-1 xl:pr-0
-min-h-0 sm:min-h-0 md:min-h-md lg:min-h-lg
-`;
-
-export const ApproachSectionP = tw.p`
-mb-7.5
-sm:pb-8.5 lg:pb-10
-md:pr-1 xl:pr-0
-`;
-
 export const SectionPInverse = styled(SectionP)([tw`
 text-white
-min-h-0 sm:min-h-0 md:min-h-md lg:min-h-lg
 `]);
 
 export const SectionWrapper = tw.div`

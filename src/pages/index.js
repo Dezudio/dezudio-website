@@ -42,6 +42,7 @@ import Section, {
   UnderstandingSectionBody,
   UnderstandingSectionP,
   WhatWeDoSectionP,
+  WhatWeDoSectionPInverse,
   WorkshopsSectionWrapper,
 } from '../components/index/sections';
 import Tagline, {
@@ -100,12 +101,12 @@ const IndexPage = () => {
 						Platforms that inform decision-making, inspire action, and drive positive behaviors.
 					</PlatformsTagline>
 					<SectionBody>
-						<SectionPInverse>
+						<WhatWeDoSectionPInverse>
 							Our approach to designing digital products is grounded in
 							interaction design and user experience best practices.
 							Paired with our expertise in information design, we excel at
 							building complex and information-heavy web tools and apps.
-						</SectionPInverse>
+						</WhatWeDoSectionPInverse>
 					</SectionBody>
 					<SectionImage>
 						<StaticImage
@@ -175,14 +176,14 @@ const IndexPage = () => {
 						Smart, disciplined document systems that get the job done.
 					</SystemsTagline>
 					<SectionBody>
-						<SectionPInverse>
+						<WhatWeDoSectionPInverse>
 							We take a rigorous, 360-degree approach to help organizations
 							communicate with purpose, including design and content
 							strategy. We bring clarity and focus to your key messages and
 							reinforce them through consistent design decisions. The more
 							data, the better: we delight in making your information
 							understandable to your target audience.
-						</SectionPInverse>
+						</WhatWeDoSectionPInverse>
 					</SectionBody>
 					<SectionImage>
 						<StaticImage
