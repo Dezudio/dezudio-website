@@ -2,6 +2,8 @@ import tw, { css, styled } from 'twin.macro';
 import Section, {
   SectionBody,
   SectionImage,
+  SectionP,
+  SectionPInverse,
   SectionWrapper,
   SectionWrapperGrey,
   SectionWrapperGreyDark,
@@ -10,7 +12,6 @@ import ProcessBG from "../../images/brooklyn.jpg";
 import ResearchBG from "../../images/reading.jpg";
 import WorkshopsBG from "../../images/ashley.jpg";
 export {
-  ApproachSectionP,
   SectionPInverse,
   SectionBody,
   SectionImage,
@@ -22,7 +23,6 @@ export {
   SectionWrapperGreyDark,
   SectionWrapperSeafoam,
   TaglineLinkSection,
-  WhatWeDoSectionP,
   UnderstandingSectionP,
 } from '../common/sections';
 
@@ -40,6 +40,12 @@ export const ApproachSectionBody = styled(SectionBody)([tw`
 md:row-start-2
 md:col-start-6 lg:col-start-8
 md:col-end-12
+`]);
+
+export const ApproachSectionP = styled(SectionP)([tw`
+mb-7.5
+sm:pb-8.5 lg:pb-10
+md:pr-1 xl:pr-0
 `]);
 
 export const BelieveSection = styled(Section)([tw`
@@ -109,6 +115,16 @@ font-condensed-lt
 row-start-2
 text-2xs md:text-sm-tight lg:text-lg xl:text-xl
 text-black
+`]);
+
+export const WhatWeDoSectionP = styled(SectionP)([tw`
+pb-10 sm:pb-0
+md:pr-1 xl:pr-0
+min-h-0 sm:min-h-0 md:min-h-md lg:min-h-lg
+`]);
+
+export const WhatWeDoSectionPInverse = styled(SectionPInverse)([tw`
+min-h-0 sm:min-h-0 md:min-h-md lg:min-h-lg
 `]);
 
 export const WorkshopsSectionWrapper = styled(SectionWrapperGreyDark)([tw`
