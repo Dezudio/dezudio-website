@@ -7,7 +7,7 @@ font-sans-black
 pb-2
 row-start-1
 text-dezudiorange
-text-heading-sm md:text-heading-md lg:text-heading-2xl xl:text-heading-4xl
+text-heading-sm md:text-heading-md lg:text-heading-2xl xl:text-heading-3bxl
 uppercase
 `;
 

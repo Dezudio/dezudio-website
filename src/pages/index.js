@@ -29,8 +29,6 @@ import Section, {
   SectionBody,
   SectionImage,
   SectionImageBG,
-  SectionP,
-  SectionPInverse,
   SectionWrapper,
   SectionWrapperBlueDark,
   SectionWrapperGrey,
@@ -64,8 +62,7 @@ const IndexPage = () => {
 			<SectionWrapper>
 			  <UnderstandingSection>
 			    <UnderstandingTagline>
-			      Understanding people,
-		        helping people understand<DezudiDot>.</DezudiDot>
+			      Understanding people, <span className="xl:before:content-'\A' xl:before:whitespace-pre">helping people understand</span><DezudiDot>.</DezudiDot>
 			    </UnderstandingTagline>
 			    <UnderstandingSectionBody>
 			      <UnderstandingSectionP>

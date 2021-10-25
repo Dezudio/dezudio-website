@@ -6,7 +6,7 @@ block
 font-sans-reg
 my-0
 text-dezudiorange
-text-link-sm
+text-link-sm xl:text-link-xl
 w-sm md:w-auto
 `]);
 
