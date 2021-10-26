@@ -5,19 +5,20 @@ bg-white bg-opacity-50
 md:col-start-1 lg:col-start-2
 md:col-end-5
 font-condensed
-p-2 md:p-2.5 lg:p-4
+p-2 md:p-2.5 lg:p-4 xl:p-6
 md:row-start-4
 w-sm md:w-auto
 `;
 
 export const CalloutHeading = tw.h3`
 font-condensed-bold
-pb-1.5
+pb-1.5 lg:pb-2 xl:pb-3
 text-dezudiorange
 text-heading-sm-tight md:text-heading-sm-tighter lg:text-heading-xl xl:text-heading-2xl-tighter
 `;
 
 export const CalloutP = tw.p`
+font-condensed
 text-4xs-tight md:text-5xs-tight lg:text-xs-tight xl:text-sm
 `;
 

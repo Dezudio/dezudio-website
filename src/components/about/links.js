@@ -1,6 +1,7 @@
 import tw, { styled } from 'twin.macro';
 import Link, {
   BlockLink,
+  ExternalTaglineLink,
 } from '../common/links';
 
 export {
@@ -10,6 +11,12 @@ export {
 
 export const BioBlockLink = styled(BlockLink)([tw`
 w-auto
+xl:text-biolink-xl
+pt-5
+`]);
+
+export const LatestExternalTaglineLink = styled(ExternalTaglineLink)([tw`
+xl:col-start-9
 `]);
 
 export default Link;

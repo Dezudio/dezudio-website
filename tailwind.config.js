@@ -53,15 +53,21 @@ module.exports = {
         'sm': '450px',
         'md': '500px',
         'lg': '650px',
+        'xl': '700px',
       },
       spacing: {
         '5.5': '22px',
         '6.5': '26px',
         '7.5': '30px',
         '8.5': '35px',
+        '10.5': '42px',
+        '11': '50px',
         '15': '60px',
         '22': '92px',
         '26': '98px',
+        '37': '150px',
+        '40.5': '170px',
+        '49': '200px',
 
         'sm': '280px',
         'tb': '600px',
@@ -75,6 +81,7 @@ module.exports = {
 
         'headshot-sm': '130px',
         'headshot-lg': '240px',
+        'headshot-xl': '460px',
 
         'logo-sm': '140px',
         'logo-md': '180px',
@@ -138,6 +145,15 @@ module.exports = {
         lineHeight: '72px',
       }],
 
+      /* Profile Text Sizes */
+      'profile-xl': ['40px', {
+        lineHeight: '55px',
+      }],
+      'biolink-xl': ['24px', {
+        lineHeight: '28px',
+      }],
+
+
       /* Footer Text Sizes */
       'footer-sm': ['14px', {
         lineHeight: '18px',
@@ -170,7 +186,7 @@ module.exports = {
         lineHeight: '28px',
       }],
       'heading-2xl-tighter': ['24px', {
-        lineHeight: '22px',
+        lineHeight: '28px',
       }],
       'heading-2xl': ['24px', {
         lineHeight: '25px',
@@ -179,6 +195,9 @@ module.exports = {
         letterSpacing: '1.2px',
         lineHeight: '29px',
       }],
+      'heading-3bxl': ['28px', {
+        lineHeight: '32px',
+      }],
       'heading-4xl': ['31px', {
         lineHeight: '62px',
       }],
@@ -186,7 +205,7 @@ module.exports = {
         lineHeight: '32px',
       }],
       'heading-6xl': ['45px', {
-        lineHeight: '74px',
+        lineHeight: '50px',
       }],
 
       /* Normal Link Text Sizes */
@@ -201,6 +220,9 @@ module.exports = {
       }],
       'link-lg': ['28px', {
         lineHeight: '62px',
+      }],
+      'link-xl': ['24px', {
+        lineHeight: '28px',
       }],
 
       /* Navigation Link Text Sizes */
@@ -217,6 +239,9 @@ module.exports = {
       /* Profile Sizes */
       'profile-title-sm': ['23px', {
         lineHeight: '32px',
+      }],
+      'profile-title-xl': ['45px', {
+        lineHeight: '55px',
       }],
 
       /* Tagline Text Sizes */

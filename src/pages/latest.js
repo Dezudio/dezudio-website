@@ -12,10 +12,11 @@ import Section, {
 import {
   AboutUsTagline,
   TaglineBeforeLink,
+  LatestTaglineBeforeLink,
 } from '../components/about/taglines';
-import {
-  ExternalTaglineLink,
-} from '../components/common/links';
+import Link, {
+  LatestExternalTaglineLink,
+} from '../components/about/links';
 
 const LatestPage = () => {
   return (
@@ -50,12 +51,12 @@ const LatestPage = () => {
       {/* Follow Us Section */}
       <SectionWrapper>
         <TaglineLinkSection>
-          <TaglineBeforeLink>
-            Follow Us.
-          </TaglineBeforeLink>
-          <ExternalTaglineLink href="https://www.instagram.com/dezudio">
+          <LatestTaglineBeforeLink>
+            Follow us.
+          </LatestTaglineBeforeLink>
+          <LatestExternalTaglineLink href="https://www.instagram.com/dezudio">
             Go to Instagram &rarr;
-          </ExternalTaglineLink>
+          </LatestExternalTaglineLink>
         </TaglineLinkSection>
       </SectionWrapper>
     </Layout>

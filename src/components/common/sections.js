@@ -64,6 +64,7 @@ bg-seafoam
 `]);
 
 export const TaglineLinkSection = styled(Section)([tw`
+items-center
 pb-24 md:pb-44
 pt-22 md:pt-48
 `]);

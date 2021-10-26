@@ -43,7 +43,7 @@ md:col-end-12
 `]);
 
 export const ApproachSectionP = styled(SectionP)([tw`
-mb-7.5
+mb-7.5 xl:mb-0
 sm:pb-8.5 lg:pb-10
 md:pr-1 xl:pr-0
 `]);
@@ -120,11 +120,11 @@ text-black
 export const WhatWeDoSectionP = styled(SectionP)([tw`
 pb-10 sm:pb-0
 md:pr-1 xl:pr-0
-min-h-0 sm:min-h-0 md:min-h-md lg:min-h-lg
+min-h-0 sm:min-h-0 md:min-h-md lg:min-h-lg xl:min-h-xl
 `]);
 
 export const WhatWeDoSectionPInverse = styled(SectionPInverse)([tw`
-min-h-0 sm:min-h-0 md:min-h-md lg:min-h-lg
+min-h-0 sm:min-h-0 md:min-h-md lg:min-h-lg xl:min-h-xl
 `]);
 
 export const WorkshopsSectionWrapper = styled(SectionWrapperGreyDark)([tw`
