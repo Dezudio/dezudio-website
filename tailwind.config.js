@@ -61,10 +61,13 @@ module.exports = {
         '7.5': '30px',
         '8.5': '35px',
         '10.5': '42px',
+        '11': '50px',
         '15': '60px',
         '22': '92px',
         '26': '98px',
+        '37': '150px',
         '40.5': '170px',
+        '49': '200px',
 
         'sm': '280px',
         'tb': '600px',
@@ -78,6 +81,7 @@ module.exports = {
 
         'headshot-sm': '130px',
         'headshot-lg': '240px',
+        'headshot-xl': '460px',
 
         'logo-sm': '140px',
         'logo-md': '180px',
@@ -140,6 +144,15 @@ module.exports = {
       'xl': ['58px', {
         lineHeight: '72px',
       }],
+
+      /* Profile Text Sizes */
+      'profile-xl': ['40px', {
+        lineHeight: '55px',
+      }],
+      'biolink-xl': ['24px', {
+        lineHeight: '28px',
+      }],
+
 
       /* Footer Text Sizes */
       'footer-sm': ['14px', {
@@ -226,6 +239,9 @@ module.exports = {
       /* Profile Sizes */
       'profile-title-sm': ['23px', {
         lineHeight: '32px',
+      }],
+      'profile-title-xl': ['45px', {
+        lineHeight: '55px',
       }],
 
       /* Tagline Text Sizes */

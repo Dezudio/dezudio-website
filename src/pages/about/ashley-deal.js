@@ -11,7 +11,8 @@ import {
   ContactUsBlockLink,
 } from '../../components/about/links';
 import ProfileTitle, {
-  ProfileTitleStrong
+  ProfileTitleStrong,
+  OnYourProject,
 } from '../../components/about/titles';
 
 const AboutPage = () => {
@@ -42,9 +43,8 @@ w-headshot-sm md:w-headshot-lg
       <SectionP>
         Ashley holds a Bachelor of Arts from Vanderbilt University, and a Masters in Design from Carnegie Mellon University, where she has been an adjunct faculty member in the School of Design since 2015. As an educator, Ashley focuses on the fundamentals of working intentionally, establishing a strong narrative, and clean, precise execution of concepts. She is energized and heartened by her connections and interactions with the next generation of designers and design leaders.
       </SectionP>
-
       <SectionP>
-        Here’s why you want Ashley on your project:
+        <OnYourProject>Here’s why you want Ashley on your project:</OnYourProject>
         <ul>
           <li>
             Ashley toggles seamlessly between the big picture and the details—she defines the strategy for an initiative, and contemplates subtle distinctions in line weight and typographic choices. She respects precision and craft. You’re just as likely to find her asking “Why does it matter?” as “How should it be?”

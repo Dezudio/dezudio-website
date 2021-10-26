@@ -19,13 +19,13 @@ export const ProfileName = tw.h2`
 font-condensed-bold
 mt-2
 -mx-5
-text-5xs
+text-5xs xl:text-profile-xl
 `;
 
 export const ProfileTitle = tw.h3`
 font-condensed
 -mx-5
-text-5xs
+text-5xs xl:text-profile-xl
 `;
 
 export default Profile;

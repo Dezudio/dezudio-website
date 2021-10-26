@@ -6,8 +6,8 @@ gap-2 md:gap-16
 grid
 grid-cols-2 md:grid-cols-12
 mx-auto
-pb-5 md:pb-14
 pt-5 md:pt-14 lg:pt-6
+pb-15 tb:pb-20 md:pb-28 lg:pb-37 xl:pb-49
 w-sm md:w-md lg:w-lg xl:w-xl
 `;
 

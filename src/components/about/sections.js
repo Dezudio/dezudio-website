@@ -33,4 +33,13 @@ text-5xs
 export const MeetOurTeamSectionP = styled(SectionP)([tw`
 mb-6 tb:mb-8 md:mb-11 lg:mb-15 xl:mb-20
 `]);
+
+// const ProfileMainSection = tw.section`
+// bg-red-50
+// `;
+
+// const ProfileSideSection = tw.section`
+// bg-blue-50
+// `;
+
 export default Section;

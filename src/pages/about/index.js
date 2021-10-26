@@ -65,9 +65,9 @@ const AboutPage = () => {
               <StaticImage
 						    alt="Raelynn O'Leary Headshot"
                 css={tw`
-h-headshot-sm md:h-headshot-lg
+h-headshot-sm md:h-headshot-lg xl:h-headshot-xl
 rounded-full
-w-headshot-sm md:w-headshot-lg
+w-headshot-sm md:w-headshot-lg xl:w-headshot-xl
 `}
 						    objectPosition="center top"
 		            src="../../images/headshots/raelynn-oleary.jpg"
@@ -86,9 +86,9 @@ w-headshot-sm md:w-headshot-lg
               <StaticImage
 						    alt="Ashley Deal Headshot"
 						    css={tw`
-h-headshot-sm md:h-headshot-lg
+h-headshot-sm md:h-headshot-lg xl:h-headshot-xl
 rounded-full
-w-headshot-sm md:w-headshot-lg
+w-headshot-sm md:w-headshot-lg xl:w-headshot-xl
 `}
 						    objectPosition="center top"
 		            src="../../images/headshots/ashley-deal.jpg"
@@ -108,9 +108,9 @@ w-headshot-sm md:w-headshot-lg
 						    alt="Hannah Koenig Headshot"
 						    css={tw`
 overflow-hidden
-h-headshot-sm md:h-headshot-lg
+h-headshot-sm md:h-headshot-lg xl:h-headshot-xl
 rounded-full
-w-headshot-sm md:w-headshot-lg
+w-headshot-sm md:w-headshot-lg xl:w-headshot-xl
 `}
 						    objectPosition="center top"
 		            src="../../images/headshots/hannah-koenig.jpg"
@@ -144,9 +144,9 @@ w-headshot-sm md:w-headshot-lg
               <StaticImage
 						    alt="Anna Abovyan Headshot"
                 css={tw`
-h-headshot-sm md:h-headshot-lg
+h-headshot-sm md:h-headshot-lg xl:h-headshot-xl
 rounded-full
-w-headshot-sm md:w-headshot-lg
+w-headshot-sm md:w-headshot-lg xl:w-headshot-xl
 `}
 						    objectPosition="center top"
 		            src="../../images/headshots/anna-abovyan.jpg"
@@ -161,9 +161,9 @@ w-headshot-sm md:w-headshot-lg
               <StaticImage
 						    alt="Norm Huelsman Headshot"
 						    css={tw`
-h-headshot-sm md:h-headshot-lg
+h-headshot-sm md:h-headshot-lg xl:h-headshot-xl
 rounded-full
-w-headshot-sm md:w-headshot-lg
+w-headshot-sm md:w-headshot-lg xl:w-headshot-xl
 `}
 						    objectPosition="center top"
 		            src="../../images/headshots/norm-huelsman.jpg"
@@ -178,9 +178,9 @@ w-headshot-sm md:w-headshot-lg
               <StaticImage
 						    alt="Meg Richards Headshot"
 						    css={tw`
-h-headshot-sm md:h-headshot-lg
+h-headshot-sm md:h-headshot-lg xl:h-headshot-xl
 rounded-full
-w-headshot-sm md:w-headshot-lg
+w-headshot-sm md:w-headshot-lg xl:w-headshot-xl
 `}
 						    objectPosition="center top"
 		            src="../../images/headshots/meg-richards.jpg"
