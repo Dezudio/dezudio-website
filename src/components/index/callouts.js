@@ -14,12 +14,12 @@ export const CalloutHeading = tw.h3`
 font-condensed-bold
 pb-1.5 lg:pb-2 xl:pb-3
 text-dezudiorange
-text-heading-sm-tight md:text-heading-sm-tighter lg:text-heading-xl xl:text-heading-2xl-tighter
+text-heading-sm-tight md:text-heading-sm-tighter lg:text-heading-caption-lg xl:text-heading-2xl-tighter
 `;
 
 export const CalloutP = tw.p`
 font-condensed
-text-4xs-tight md:text-5xs-tight lg:text-xs-tight xl:text-sm
+text-4xs-tight md:text-5xs-tight lg:text-xs-callout xl:text-sm
 `;
 
 export const CalloutDark = styled(Callout)([tw`

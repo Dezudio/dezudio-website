@@ -33,7 +33,7 @@ md:col-end-12
 `]);
 
 export const ApproachSection = styled(Section)([tw`
-sm:py-12 md:py-20 lg:py-40
+sm:py-12 md:py-20 lg:py-32 xl:py-40
 `]);
 
 export const ApproachSectionBody = styled(SectionBody)([tw`
@@ -43,7 +43,7 @@ md:col-end-12
 `]);
 
 export const ApproachSectionP = styled(SectionP)([tw`
-mb-7.5 xl:mb-0
+mb-7.5 lg:mb-0
 sm:pb-8.5 lg:pb-10
 md:pr-1 xl:pr-0
 `]);

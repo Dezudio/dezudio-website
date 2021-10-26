@@ -59,10 +59,12 @@ module.exports = {
         '5.5': '22px',
         '6.5': '26px',
         '7.5': '30px',
+        '8.4': '34px',
         '8.5': '35px',
         '10.5': '42px',
         '11': '50px',
         '15': '60px',
+        '21': '86px',
         '22': '92px',
         '26': '98px',
         '37': '150px',
@@ -120,6 +122,9 @@ module.exports = {
       '2xs': ['20px', {
         lineHeight: '26px',
       }],
+      'xs-callout': ['24px', {
+        lineHeight: '32px',
+      }],
       'xs-tight': ['26px', {
         lineHeight: '32px',
       }],
@@ -162,6 +167,9 @@ module.exports = {
       'footer-lg': ['18px', {
         lineHeight: '28px',
       }],
+      'footer-lg2': ['28px', {
+        lineHeight: '38px',
+      }],
       'footer-xl': ['31px', {
         lineHeight: '45px',
       }],
@@ -182,6 +190,9 @@ module.exports = {
       'heading-lg': ['20px', {
         lineHeight: '24px',
       }],
+      'heading-caption-lg': ['20px', {
+        lineHeight: '26px',
+      }],
       'heading-xl': ['22px', {
         lineHeight: '28px',
       }],
@@ -189,7 +200,7 @@ module.exports = {
         lineHeight: '28px',
       }],
       'heading-2xl': ['24px', {
-        lineHeight: '25px',
+        lineHeight: '28px',
       }],
       'heading-3xl': ['28px', {
         letterSpacing: '1.2px',
@@ -263,6 +274,9 @@ module.exports = {
       }],
       'tagline-lg': ['38px', {
         lineHeight: '44px',
+      }],
+      'tagline-lg2': ['42px', {
+        lineHeight: '48px',
       }],
       'tagline-xl': ['48px', {
         letterSpacing: '1px',

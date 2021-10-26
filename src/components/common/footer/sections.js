@@ -10,7 +10,7 @@ col-start-1 lg:col-start-2
 row-start-1
 tb:col-span-4 md:col-span-3
 mb-16 md:mb-0
-xl:pt-10
+lg:pt-10 xl:pt-10
 xl:w-md
 `;
 
@@ -46,7 +46,7 @@ export const CopyrightSection = tw.section`
 col-span-12
 col-start-1 lg:col-start-2
 tb:row-start-3
-pb-0 lg:pb-36
+pb-0 
 text-footer-sm lg:text-footer-base
 `;
 
