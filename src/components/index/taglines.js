@@ -36,7 +36,8 @@ text-tagline-2xs md:text-tagline-lg lg:text-tagline-2xl xl:text-tagline-3xl
 
 export const PlatformsTagline = styled(Tagline)([tw`
 text-white
-mb-5.5 md:mb-6.5 lg:mb-8 xl:mb-10.5
+lg:text-tagline-lg2
+mb-5.5 md:mb-6.5 lg:mb-8.4 xl:mb-10.5
 `]);
 
 export const SystemsTagline = styled(Tagline)([tw`
@@ -47,7 +48,7 @@ text-white
 export const UnderstandingTagline = styled(Tagline)([tw`
 col-start-1 lg:col-start-1
 md:col-end-12
-mb-5 md:mb-16
+mb-5 md:mb-16 lg:mb-21
 row-start-1
 text-black
 text-tagline-base md:text-tagline-4xl lg:text-tagline-5xl

@@ -50,7 +50,6 @@ w-headshot-sm md:w-headshot-lg
       <ProfileSideSection>
       <SectionP>
         <OnYourProject>Here’s why you want Hannah on your project:</OnYourProject>
-        <b></b>
         <ul>
           <li>
             Hannah is a clear, systematic thinker who is able to analyze quickly, choose a workflow or process, and move into execution. She evaluates processes as they are unfolding, is willing to make adjustments, and consistently does what she says she’s going to do. Hannah is equally at home articulating high-level goals as she is proactively and reliably attending to the details and routine required for implementing strategies.

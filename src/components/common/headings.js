@@ -9,6 +9,7 @@ row-start-1
 text-dezudiorange
 text-heading-sm md:text-heading-md lg:text-heading-2xl xl:text-heading-3bxl
 uppercase
+lg:tracking-loose xl:tracking-normal
 `;
 
 export default Heading;

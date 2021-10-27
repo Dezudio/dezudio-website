@@ -2,7 +2,8 @@ import * as React from 'react';
 import tw from 'twin.macro';
 import { StaticImage } from 'gatsby-plugin-image';
 import Layout from '../../components/common/layout';
-import SubHeading, {
+import {
+  SubHeading,
   CollaboratorsHeading,
 } from '../../components/about/headings';
 import {
@@ -26,7 +27,7 @@ import Section, {
 } from '../../components/about/sections';
 import {
   AboutUsTagline,
-  TaglineBeforeLink,
+  LatestTaglineBeforeLink,
 } from '../../components/about/taglines';
 
 const AboutPage = () => {
@@ -198,9 +199,9 @@ w-headshot-sm md:w-headshot-lg xl:w-headshot-xl
       {/* Introduce Yourself Section */}
       <SectionWrapperGrey>
         <TaglineLinkSection>
-          <TaglineBeforeLink>
+          <LatestTaglineBeforeLink>
             Tell us about yourself.
-          </TaglineBeforeLink>
+          </LatestTaglineBeforeLink>
           <TaglineLink href="mailto:info@dezudio.com">
             Contact us &rarr;
           </TaglineLink>
