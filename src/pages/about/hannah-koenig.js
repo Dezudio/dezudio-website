@@ -5,8 +5,8 @@ import Layout from '../../components/people/layout';
 import Section, {
   SectionP,
   SectionWrapper,
-  // ProfileMainSection,
-  // ProfileSideSection,
+  ProfileMainSection,
+  ProfileSideSection,
 } from '../../components/about/sections';
 import {
   BioBlockLink,
@@ -32,7 +32,7 @@ w-headshot-sm md:w-headshot-lg
 				objectPosition="center top"
 		    src="../../images/headshots/hannah-koenig.jpg"
 			/>
-      {/* <ProfileMainSection> */}
+      <ProfileMainSection>
       <ProfileTitle>Hannah Koenig, <ProfileTitleSpan>Senior&nbsp;Designer</ProfileTitleSpan></ProfileTitle>
       <SectionP>
         Hannah joined Dezudio in 2020 as a designer, researcher, and strategist with a deep curiosity about how people, organizations, and systems work—and how design methods can help create positive change. At Dezudio, Hannah gets her hands into everything: from working across the design process on research, information, and interaction design projects, to investigating tools and strategies for facilitation and collaboration, to refining organizational infrastructure and processes to firm up our foundation for sustainable growth.
@@ -46,11 +46,10 @@ w-headshot-sm md:w-headshot-lg
       <SectionP>
         Hannah holds a Master of Professional Studies degree in Design for Interactions from Carnegie Mellon University. She is an alumna of the Brown|RISD Dual Degree Program, with degrees in International Relations from Brown University and Printmaking from the Rhode Island School of Design.
       </SectionP>
-      {/* </ProfileMainSection>
-      <ProfileSideSection> */}
+      </ProfileMainSection>
+      <ProfileSideSection>
       <SectionP>
         <OnYourProject>Here’s why you want Hannah on your project:</OnYourProject>
-        <b></b>
         <ul>
           <li>
             Hannah is a clear, systematic thinker who is able to analyze quickly, choose a workflow or process, and move into execution. She evaluates processes as they are unfolding, is willing to make adjustments, and consistently does what she says she’s going to do. Hannah is equally at home articulating high-level goals as she is proactively and reliably attending to the details and routine required for implementing strategies.
@@ -63,7 +62,7 @@ w-headshot-sm md:w-headshot-lg
           </li>
         </ul>
       </SectionP>
-      {/* </ProfileSideSection> */}
+      </ProfileSideSection>
     </Layout>
   );
 };

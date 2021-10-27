@@ -3,10 +3,6 @@ import Tagline, {
   TaglineBeforeLink,
 } from '../common/taglines';
 
-// export {
-  
-// } from '../common/taglines';
-
 export const AboutUsTagline = styled(Tagline)([tw`
 md:col-end-6 lg:col-end-7
 mb-12

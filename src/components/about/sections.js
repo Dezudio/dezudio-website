@@ -34,12 +34,12 @@ export const MeetOurTeamSectionP = styled(SectionP)([tw`
 mb-6 tb:mb-8 md:mb-11 lg:mb-15 xl:mb-20
 `]);
 
-// const ProfileMainSection = tw.section`
-// bg-red-50
-// `;
+export const ProfileMainSection = styled(Section)([tw`
+bg-red-50
+`]);
 
-// const ProfileSideSection = tw.section`
-// bg-blue-50
-// `;
+export const ProfileSideSection = styled(Section)([tw`
+bg-blue-50
+`]);
 
 export default Section;
