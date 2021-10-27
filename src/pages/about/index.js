@@ -64,6 +64,7 @@ const AboutPage = () => {
           <ProfilesWrapper>
             <Profile>
               <StaticImage
+                className="profileImage"
 						    alt="Raelynn O'Leary Headshot"
                 css={tw`
 h-headshot-sm md:h-headshot-lg xl:h-headshot-xl
@@ -85,6 +86,7 @@ w-headshot-sm md:w-headshot-lg xl:w-headshot-xl
             </Profile>
             <Profile>
               <StaticImage
+                className="profileImage"
 						    alt="Ashley Deal Headshot"
 						    css={tw`
 h-headshot-sm md:h-headshot-lg xl:h-headshot-xl
@@ -106,6 +108,7 @@ w-headshot-sm md:w-headshot-lg xl:w-headshot-xl
             </Profile>
             <Profile>
               <StaticImage
+                className="profileImage"
 						    alt="Hannah Koenig Headshot"
 						    css={tw`
 overflow-hidden
@@ -143,6 +146,7 @@ w-headshot-sm md:w-headshot-lg xl:w-headshot-xl
           <ProfilesWrapper>
             <Profile>
               <StaticImage
+                className="profileImage"
 						    alt="Anna Abovyan Headshot"
                 css={tw`
 h-headshot-sm md:h-headshot-lg xl:h-headshot-xl
@@ -160,7 +164,8 @@ w-headshot-sm md:w-headshot-lg xl:w-headshot-xl
             </Profile>
             <Profile>
               <StaticImage
-						    alt="Norm Huelsman Headshot"
+                className="profileImage"
+						    alt="Norman Huelsman Headshot"
 						    css={tw`
 h-headshot-sm md:h-headshot-lg xl:h-headshot-xl
 rounded-full
@@ -169,7 +174,7 @@ w-headshot-sm md:w-headshot-lg xl:w-headshot-xl
 						    objectPosition="center top"
 		            src="../../images/headshots/norm-huelsman.jpg"
 			        />
-              <ProfileName>Norm Huelsman</ProfileName>
+              <ProfileName>Norman Huelsman</ProfileName>
               <ProfileTitle>Developer</ProfileTitle>
               <BioBlockLink href="https://www.linkedin.com/in/normhuelsman/">
                 LinkedIn &rarr;
@@ -177,6 +182,7 @@ w-headshot-sm md:w-headshot-lg xl:w-headshot-xl
             </Profile>
             <Profile>
               <StaticImage
+                className="profileImage"
 						    alt="Meg Richards Headshot"
 						    css={tw`
 h-headshot-sm md:h-headshot-lg xl:h-headshot-xl

@@ -22,6 +22,7 @@ const Footer = ({ children }) => {
         <WordmarkSection>
           <StaticImage
             alt="Dezudio Wordmark"
+            css={tw`w-24 md:w-20 lg:w-32`}
             src="../../../images/svg/dezudio-reversed.svg"
           />
         </WordmarkSection>
