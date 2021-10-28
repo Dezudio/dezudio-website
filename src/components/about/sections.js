@@ -14,7 +14,12 @@ export {
 
 export const AboutSection = styled(Section)([tw`
 sm:py-0
-sm:my-15
+sm:my-15 
+lg:mb-37
+`]);
+
+export const AboutSectionP = styled(SectionP)([tw`
+lg:mb-6 xl:mb-10
 `]);
 
 export const AboutUsSectionBody = styled(SectionBody)([tw`

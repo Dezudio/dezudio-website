@@ -2,21 +2,21 @@ import * as React from 'react';
 import tw from "twin.macro";
 import { StaticImage } from 'gatsby-plugin-image';
 import Layout from '../components/common/layout';
-import SubHeading from '../components/about/headings';
+import SubHeading from '../components/latest/headings';
 import Section, {
-  AboutUsSectionBody,
+  LatestSection,
+  LatestSectionBody,
   SectionP,
   SectionWrapper,
   TaglineLinkSection,
-} from '../components/about/sections';
+} from '../components/latest/sections';
 import {
   AboutUsTagline,
-  TaglineBeforeLink,
   LatestTaglineBeforeLink,
-} from '../components/about/taglines';
+} from '../components/latest/taglines';
 import Link, {
   LatestExternalTaglineLink,
-} from '../components/about/links';
+} from '../components/latest/links';
 
 const LatestPage = () => {
   return (
@@ -24,12 +24,12 @@ const LatestPage = () => {
 
       {/* Latest Section */}
       <SectionWrapper>
-        <Section>
+        <LatestSection>
           <SubHeading>Latest</SubHeading>
           <AboutUsTagline>
             Dezudio is always up to something.
           </AboutUsTagline>
-          <AboutUsSectionBody>
+          <LatestSectionBody>
             <SectionP>
               As a proud, woman-owned small business, we love independent
               working, and helping others take on entrepreneurial design
@@ -43,10 +43,9 @@ const LatestPage = () => {
               and sometimes speak at conferences. We write occasionally on
               Medium.
             </SectionP>
-          </AboutUsSectionBody>
-        </Section>
+          </LatestSectionBody>
+        </LatestSection>
       </SectionWrapper>
-
 
       {/* Follow Us Section */}
       <SectionWrapper>

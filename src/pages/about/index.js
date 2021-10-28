@@ -18,9 +18,9 @@ import Profile, {
 import Section, {
   AboutSection,
   AboutUsSectionBody,
+  AboutSectionP,
   MeetOurTeamSectionBody,
   MeetOurTeamSectionP,
-  SectionP,
   SectionWrapper,
   SectionWrapperGrey,
   TaglineLinkSection,
@@ -42,15 +42,15 @@ const AboutPage = () => {
             Dezudio is an information design, interaction design, and design research consultancy with offices in Pittsburgh and Washington, D.C.
           </AboutUsTagline>
           <AboutUsSectionBody>
-            <SectionP>
+            <AboutSectionP>
               Design is powerful. It can inform decision-making, inspire action, and drive positive behaviors. At Dezudio, we value research, communication, and education as critical tools in bridging the gap between where we are and where we need to be.
-            </SectionP>
-            <SectionP>
+            </AboutSectionP>
+            <AboutSectionP>
               Founded in 2011, we are seasoned designers and entrepreneurs with expertise in design research, user experience, interaction design, data-driven reporting, and visual and information design.
-            </SectionP>
-            <SectionP>
+            </AboutSectionP>
+            <AboutSectionP>
               We are fully committed to a collaborative design process. As an intentionally small team, we work in close partnership with our clients to involve stakeholders and gather input throughout the design process, always with a focus on quality project outcomes.
-            </SectionP>
+            </AboutSectionP>
           </AboutUsSectionBody>
         </AboutSection>
       </SectionWrapper>
@@ -67,10 +67,10 @@ const AboutPage = () => {
                 className="profileImage"
 						    alt="Raelynn O'Leary Headshot"
                 css={tw`
-h-headshot-sm md:h-headshot-lg xl:h-headshot-xl
-rounded-full
-w-headshot-sm md:w-headshot-lg xl:w-headshot-xl
-`}
+                h-headshot-sm md:h-headshot-md lg:h-headshot-lg xl:h-headshot-xl
+                rounded-full
+                w-headshot-sm md:w-headshot-md lg:w-headshot-lg xl:w-headshot-xl
+                `}
 						    objectPosition="center top"
 		            src="../../images/headshots/raelynn-oleary.jpg"
 			        />
@@ -89,10 +89,10 @@ w-headshot-sm md:w-headshot-lg xl:w-headshot-xl
                 className="profileImage"
 						    alt="Ashley Deal Headshot"
 						    css={tw`
-h-headshot-sm md:h-headshot-lg xl:h-headshot-xl
-rounded-full
-w-headshot-sm md:w-headshot-lg xl:w-headshot-xl
-`}
+                h-headshot-sm md:h-headshot-md lg:h-headshot-lg xl:h-headshot-xl
+                rounded-full
+                w-headshot-sm md:w-headshot-md lg:w-headshot-lg xl:w-headshot-xl
+                `}
 						    objectPosition="center top"
 		            src="../../images/headshots/ashley-deal.jpg"
 			        />
@@ -111,11 +111,10 @@ w-headshot-sm md:w-headshot-lg xl:w-headshot-xl
                 className="profileImage"
 						    alt="Hannah Koenig Headshot"
 						    css={tw`
-overflow-hidden
-h-headshot-sm md:h-headshot-lg xl:h-headshot-xl
-rounded-full
-w-headshot-sm md:w-headshot-lg xl:w-headshot-xl
-`}
+                h-headshot-sm md:h-headshot-md lg:h-headshot-lg xl:h-headshot-xl
+                rounded-full
+                w-headshot-sm md:w-headshot-md lg:w-headshot-lg xl:w-headshot-xl
+                `}
 						    objectPosition="center top"
 		            src="../../images/headshots/hannah-koenig.jpg"
 			        />
@@ -149,10 +148,10 @@ w-headshot-sm md:w-headshot-lg xl:w-headshot-xl
                 className="profileImage"
 						    alt="Anna Abovyan Headshot"
                 css={tw`
-h-headshot-sm md:h-headshot-lg xl:h-headshot-xl
-rounded-full
-w-headshot-sm md:w-headshot-lg xl:w-headshot-xl
-`}
+                h-headshot-sm md:h-headshot-md lg:h-headshot-lg xl:h-headshot-xl
+                rounded-full
+                w-headshot-sm md:w-headshot-md lg:w-headshot-lg xl:w-headshot-xl
+                `}
 						    objectPosition="center top"
 		            src="../../images/headshots/anna-abovyan.jpg"
 			        />
@@ -167,10 +166,10 @@ w-headshot-sm md:w-headshot-lg xl:w-headshot-xl
                 className="profileImage"
 						    alt="Norman Huelsman Headshot"
 						    css={tw`
-h-headshot-sm md:h-headshot-lg xl:h-headshot-xl
-rounded-full
-w-headshot-sm md:w-headshot-lg xl:w-headshot-xl
-`}
+                h-headshot-sm md:h-headshot-md lg:h-headshot-lg xl:h-headshot-xl
+                rounded-full
+                w-headshot-sm md:w-headshot-md lg:w-headshot-lg xl:w-headshot-xl
+                `}
 						    objectPosition="center top"
 		            src="../../images/headshots/norm-huelsman.jpg"
 			        />
@@ -185,10 +184,10 @@ w-headshot-sm md:w-headshot-lg xl:w-headshot-xl
                 className="profileImage"
 						    alt="Meg Richards Headshot"
 						    css={tw`
-h-headshot-sm md:h-headshot-lg xl:h-headshot-xl
-rounded-full
-w-headshot-sm md:w-headshot-lg xl:w-headshot-xl
-`}
+                h-headshot-sm md:h-headshot-md lg:h-headshot-lg xl:h-headshot-xl
+                rounded-full
+                w-headshot-sm md:w-headshot-md lg:w-headshot-lg xl:w-headshot-xl
+                `}
 						    objectPosition="center top"
 		            src="../../images/headshots/meg-richards.jpg"
 			        />
