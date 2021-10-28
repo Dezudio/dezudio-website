@@ -6,7 +6,7 @@ import SubHeading from '../components/latest/headings';
 import Section, {
   LatestSection,
   LatestSectionBody,
-  SectionP,
+  LatestSectionP,
   SectionWrapper,
   TaglineLinkSection,
 } from '../components/latest/sections';
@@ -30,19 +30,19 @@ const LatestPage = () => {
             Dezudio is always up to something.
           </AboutUsTagline>
           <LatestSectionBody>
-            <SectionP>
+            <LatestSectionP>
               As a proud, woman-owned small business, we love independent
               working, and helping others take on entrepreneurial design
               roles as freelancers, independent consultants, and business
               owners.
-            </SectionP>
-            <SectionP>
+            </LatestSectionP>
+            <LatestSectionP>
               In addition to our design practice, we teach graduate courses in
               design. We are involved with the design communities in our
               respective cities through design organizations and volunteer roles,
               and sometimes speak at conferences. We write occasionally on
               Medium.
-            </SectionP>
+            </LatestSectionP>
           </LatestSectionBody>
         </LatestSection>
       </SectionWrapper>

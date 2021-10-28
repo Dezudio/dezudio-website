@@ -68,9 +68,7 @@ const IndexPage = () => {
 			      <UnderstandingSectionP>
 			        We&#8217;re a small and mighty information design, interaction
 		          design and design research
-		          consultancy. <InlineLink to="/about">
-                             Learn more about us.
-                           </InlineLink>
+		          consultancy. <InlineLink to="/about">Learn more about us.</InlineLink>
 			      </UnderstandingSectionP>
 			    </UnderstandingSectionBody>
 				</UnderstandingSection>

@@ -1,7 +1,6 @@
 import tw from 'twin.macro';
 
 const Profile = tw.div`
-overflow-hidden
 text-center
 `;
 
@@ -19,13 +18,13 @@ export const ProfileName = tw.h2`
 font-condensed-bold
 mt-2
 -mx-5
-text-5xs lg:text-profile-lg xl:text-profile-xl
+text-5xs md:text-profile-md lg:text-profile-lg xl:text-profile-xl
 `;
 
 export const ProfileTitle = tw.h3`
 font-condensed
 -mx-5
-text-5xs lg:text-profile-lg xl:text-profile-xl
+text-5xs md:text-profile-md lg:text-profile-lg xl:text-profile-xl
 `;
 
 export default Profile;
