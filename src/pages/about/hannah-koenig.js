@@ -4,7 +4,6 @@ import { StaticImage } from 'gatsby-plugin-image';
 import Layout from '../../components/people/layout';
 import Section, {
   SectionP,
-  SectionWrapper,
   ProfileMainSection,
   ProfileSideSection,
 } from '../../components/about/sections';

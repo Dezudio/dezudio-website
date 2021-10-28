@@ -4,7 +4,8 @@ import { StaticImage } from 'gatsby-plugin-image';
 import Layout from '../../components/people/layout';
 import Section, {
   SectionP,
-  SectionWrapper,
+  ProfileMainSection,
+  ProfileSideSection,
 } from '../../components/about/sections';
 import {
   BioBlockLink,
@@ -30,6 +31,7 @@ w-headshot-sm md:w-headshot-lg
 				objectPosition="center top"
 		    src="../../images/headshots/ashley-deal.jpg"
 			/>
+      <ProfileMainSection>
       <ProfileTitle>Ashley Deal, <ProfileTitleSpan>Partner</ProfileTitleSpan></ProfileTitle>
       <SectionP>
         After a decade of professional practice and two years of independent contracting, Ashley joined Dezudio in 2013—eager for the new opportunities and challenges that would emerge from the partnership. She brought a focus on building strong client relationships, and a dedication to completing projects where the results speak for themselves.
@@ -43,6 +45,8 @@ w-headshot-sm md:w-headshot-lg
       <SectionP>
         Ashley holds a Bachelor of Arts from Vanderbilt University, and a Masters in Design from Carnegie Mellon University, where she has been an adjunct faculty member in the School of Design since 2015. As an educator, Ashley focuses on the fundamentals of working intentionally, establishing a strong narrative, and clean, precise execution of concepts. She is energized and heartened by her connections and interactions with the next generation of designers and design leaders.
       </SectionP>
+      </ProfileMainSection>
+      <ProfileSideSection>
       <SectionP>
         <OnYourProject>Here’s why you want Ashley on your project:</OnYourProject>
         <ul>
@@ -57,6 +61,7 @@ w-headshot-sm md:w-headshot-lg
           </li>
         </ul>
       </SectionP>
+      </ProfileSideSection>
     </Layout>
   );
 };

@@ -82,12 +82,25 @@ module.exports = {
         'bg-sm': '305px',
 
         'headshot-sm': '130px',
-        'headshot-lg': '240px',
+        'headshot-md': '240px',
+        'headshot-lg': '372px',
         'headshot-xl': '460px',
 
         'logo-sm': '140px',
         'logo-md': '180px',
         'logo-lg': '340px',
+        
+        /* footer logo */
+        //height
+        'logo-ft-mdh': '38px',
+        'logo-ft-lgh': '63px',
+        'logo-ft-xlh': '74px',
+
+        //width
+        'logo-ft-mdw': '182px',
+        'logo-ft-lgw': '301px',
+        'logo-ft-xlw': '348px',
+
       },
     },
     fontFamily: {
@@ -151,8 +164,14 @@ module.exports = {
       }],
 
       /* Profile Text Sizes */
+      'profile-lg': ['38px', {
+        lineHeight: '46px',
+      }],
       'profile-xl': ['40px', {
         lineHeight: '55px',
+      }],
+      'biolink-lg': ['20px', {
+        lineHeight: '24px',
       }],
       'biolink-xl': ['24px', {
         lineHeight: '28px',
