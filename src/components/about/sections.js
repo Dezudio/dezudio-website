@@ -15,11 +15,11 @@ export {
 export const AboutSection = styled(Section)([tw`
 sm:py-0
 sm:my-15 
-lg:mb-37
+md:mb-28 lg:mb-37
 `]);
 
 export const AboutSectionP = styled(SectionP)([tw`
-lg:mb-6 xl:mb-10
+md:mb-5 lg:mb-6 xl:mb-10
 `]);
 
 export const AboutUsSectionBody = styled(SectionBody)([tw`
@@ -36,6 +36,7 @@ text-5xs
 `]);
 
 export const MeetOurTeamSectionP = styled(SectionP)([tw`
+md:text-3xs lg:text-xs xl:text-base2
 mb-6 tb:mb-8 md:mb-11 lg:mb-15 xl:mb-20
 `]);
 

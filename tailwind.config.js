@@ -62,11 +62,12 @@ module.exports = {
         '8.4': '34px',
         '8.5': '35px',
         '10.5': '42px',
-        '11': '50px',
+        '11.5': '50px',
         '15': '60px',
         '21': '86px',
         '22': '92px',
         '26': '98px',
+        '27': '100px',
         '37': '150px',
         '40.5': '170px',
         '49': '200px',
@@ -82,7 +83,7 @@ module.exports = {
         'bg-sm': '305px',
 
         'headshot-sm': '130px',
-        'headshot-md': '240px',
+        'headshot-md': '215px',
         'headshot-lg': '372px',
         'headshot-xl': '460px',
 
@@ -156,6 +157,9 @@ module.exports = {
       'base': ['31px', {
         lineHeight: '45px',
       }],
+      'base2': ['31px', {
+        lineHeight: '41px',
+      }],
       'lg': ['42px', {
         lineHeight: '52px',
       }],
@@ -164,11 +168,17 @@ module.exports = {
       }],
 
       /* Profile Text Sizes */
+      'profile-md': ['24px', {
+        lineHeight: '30px',
+      }],
       'profile-lg': ['38px', {
         lineHeight: '46px',
       }],
       'profile-xl': ['40px', {
         lineHeight: '55px',
+      }],
+      'biolink-md': ['18px', {
+        lineHeight: '22px',
       }],
       'biolink-lg': ['20px', {
         lineHeight: '24px',
@@ -195,7 +205,7 @@ module.exports = {
 
       /* Heading Text Sizes */
       'heading-sm-tighter': ['14px', {
-        lineHeight: '16px',
+        lineHeight: '18px',
       }],
       'heading-sm-tight': ['14px', {
         lineHeight: '22px',
@@ -204,7 +214,8 @@ module.exports = {
         lineHeight: '24px',
       }],
       'heading-md': ['16px', {
-        lineHeight: '24px',
+        letterSpacing: '0.5px',
+        lineHeight: '20px',
       }],
       'heading-lg': ['20px', {
         lineHeight: '24px',
@@ -247,6 +258,9 @@ module.exports = {
       }],
       'link-base': ['24px', {
         lineHeight: '82px',
+      }],
+      'link-md': ['18px', {
+        lineHeight: '22px',
       }],
       'link-lg': ['28px', {
         lineHeight: '62px',

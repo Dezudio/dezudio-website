@@ -38,14 +38,14 @@ sm:py-12 md:py-20 lg:py-32 xl:py-40
 
 export const ApproachSectionBody = styled(SectionBody)([tw`
 md:row-start-2
-md:col-start-6 lg:col-start-8
-md:col-end-12
+md:col-start-8 lg:col-start-8
+md:col-end-13
 `]);
 
 export const ApproachSectionP = styled(SectionP)([tw`
-mb-7.5 lg:mb-0
-sm:pb-8.5 lg:pb-10
-md:pr-1 xl:pr-0
+mb-7.5 md:mb-0
+sm:pb-8.5 md:pb-7.5 lg:pb-10
+pr-0
 `]);
 
 export const BelieveSection = styled(Section)([tw`
@@ -104,7 +104,7 @@ bg-gradient-to-b from-blue-light to-blue
 
 export const UnderstandingSection = styled(Section)([tw`
 pt-20 lg:pt-40
-lg:pb-48
+md:pb-37 lg:pb-48
 `]);
 
 export const UnderstandingSectionBody = styled(SectionBody)([tw`

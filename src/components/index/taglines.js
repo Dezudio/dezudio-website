@@ -5,12 +5,12 @@ export {
 } from '../common/taglines';
 
 export const ApproachTagline = styled(Tagline)([tw`
-md:col-end-6 lg:col-end-7
+md:col-end-8 lg:col-end-7
 lg:pr-10
 md:row-start-2
 sm:pb-12 md:pb-0
 text-black
-lg:text-tagline-2xl
+md:text-tagline-lg lg:text-tagline-2xl
 `]);
 
 export const BelieveTagline = styled(Tagline)([tw`

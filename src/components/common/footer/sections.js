@@ -10,7 +10,7 @@ col-start-1 lg:col-start-2
 row-start-1
 tb:col-span-4 md:col-span-3
 mb-16 md:mb-0
-lg:pt-10 xl:pt-10
+md:pt-10
 xl:w-md
 `;
 
