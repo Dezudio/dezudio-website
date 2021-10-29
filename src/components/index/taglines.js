@@ -1,6 +1,5 @@
 import tw, { styled } from 'twin.macro';
-import Tagline from '../common/taglines';
-export {
+import Tagline, {
   TaglineBeforeLink,
 } from '../common/taglines';
 
@@ -33,6 +32,13 @@ row-start-1
 text-black
 text-center
 text-tagline-2xs md:text-tagline-lg lg:text-tagline-2xl xl:text-tagline-3xl
+`]);
+
+export const LatestTaglineBeforeLink = styled(TaglineBeforeLink)([tw`
+tb:col-start-2 md:col-start-1
+tb:col-end-7 md:col-end-7 
+tb:text-right
+tb:mb-0
 `]);
 
 export const PlatformsTagline = styled(Tagline)([tw`

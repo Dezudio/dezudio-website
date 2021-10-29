@@ -4,7 +4,11 @@ import Link, {
 } from '../common/links';
 
 export const LatestExternalTaglineLink = styled(ExternalTaglineLink)([tw`
-xl:col-start-9
+tb:col-start-6
+justify-self-start
+tb:row-start-1
+tb:ml-8
+tb:text-left
 `]);
 
 export default Link;

@@ -17,6 +17,7 @@ row-start-1
 text-black
 text-center
 text-tagline-sm md:text-tagline-lg lg:text-tagline-2xl xl:text-tagline-3xl
+tb:mb-0
 `]);
 
 export default Tagline;

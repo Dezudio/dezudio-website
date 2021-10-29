@@ -13,9 +13,10 @@ lg:text-tagline-2xl
 `]);
 
 export const LatestTaglineBeforeLink = styled(TaglineBeforeLink)([tw`
-xl:col-start-1
-xl:col-end-7
-text-right
+col-start-1
+tb:col-end-6 
+tb:text-right
+tb:mb-0
 `]);
 
 export default Tagline;

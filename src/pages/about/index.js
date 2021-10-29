@@ -8,7 +8,7 @@ import {
 } from '../../components/about/headings';
 import {
   BioBlockLink,
-  TaglineLink,
+  LatestExternalTaglineLink,
 } from '../../components/about/links';
 import Profile, {
   ProfilesWrapper,
@@ -19,11 +19,11 @@ import Section, {
   AboutSection,
   AboutUsSectionBody,
   AboutSectionP,
+  LatestTaglineLinkSection,
   MeetOurTeamSectionBody,
   MeetOurTeamSectionP,
   SectionWrapper,
   SectionWrapperGrey,
-  TaglineLinkSection,
 } from '../../components/about/sections';
 import {
   AboutUsTagline,
@@ -203,16 +203,17 @@ const AboutPage = () => {
 
       {/* Introduce Yourself Section */}
       <SectionWrapperGrey>
-        <TaglineLinkSection>
+        <LatestTaglineLinkSection>
           <LatestTaglineBeforeLink>
             Tell us about yourself.
           </LatestTaglineBeforeLink>
-          <TaglineLink href="mailto:info@dezudio.com">
+          <LatestExternalTaglineLink href="mailto:info@dezudio.com">
             Contact us &rarr;
-          </TaglineLink>
-        </TaglineLinkSection>
+          </LatestExternalTaglineLink>
+        </LatestTaglineLinkSection>
       </SectionWrapperGrey>
     </Layout>
   );
 };
+
 export default AboutPage;

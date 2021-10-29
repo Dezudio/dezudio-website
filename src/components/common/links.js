@@ -35,8 +35,8 @@ border-dezudiorange
 `]);
 
 export const TaglineLink = styled(BlockLink)([tw`
-md:col-end-13
 md:col-start-10
+md:col-end-13
 md:-ml-36 lg:-ml-72
 my-0
 row-start-2 md:row-start-1

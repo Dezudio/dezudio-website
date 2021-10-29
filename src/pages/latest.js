@@ -7,8 +7,8 @@ import Section, {
   LatestSection,
   LatestSectionBody,
   LatestSectionP,
+  LatestTaglineLinkSection,
   SectionWrapper,
-  TaglineLinkSection,
 } from '../components/latest/sections';
 import {
   AboutUsTagline,
@@ -49,14 +49,14 @@ const LatestPage = () => {
 
       {/* Follow Us Section */}
       <SectionWrapper>
-        <TaglineLinkSection>
+        <LatestTaglineLinkSection>
           <LatestTaglineBeforeLink>
             Follow us.
           </LatestTaglineBeforeLink>
           <LatestExternalTaglineLink href="https://www.instagram.com/dezudio">
             Go to Instagram &rarr;
           </LatestExternalTaglineLink>
-        </TaglineLinkSection>
+        </LatestTaglineLinkSection>
       </SectionWrapper>
     </Layout>
   );
