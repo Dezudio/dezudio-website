@@ -1,6 +1,7 @@
 import tw, { styled } from 'twin.macro';
 import Link, {
   BlockLink,
+  ExternalTaglineLink,
 } from '../common/links';
 export {
   BlockLink,
@@ -16,6 +17,13 @@ my-0
 row-start-2 md:row-start-1
 text-center md:text-left
 md:text-link-sm-loose lg:text-link-base
+`]);
+
+export const LatestExternalTaglineLink = styled(ExternalTaglineLink)([tw`
+tb:col-start-7 lg:col-start-7 
+tb:row-start-1
+tb:ml-8 
+tb:text-left
 `]);
 
 export default Link;

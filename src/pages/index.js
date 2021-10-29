@@ -13,7 +13,7 @@ import Heading, {
   ApproachHeading,
 } from '../components/index/headings';
 import {
-  TaglineLink,
+  LatestExternalTaglineLink,
   BlockLink,
   InlineLink,
 } from '../components/index/links';
@@ -23,6 +23,7 @@ import Section, {
   ApproachSectionP,
   BelieveSection,
   ClientsSectionBody,
+  LatestTaglineLinkSection,
   PlatformsSectionWrapper,
   ProcessSectionWrapper,
   ResearchSectionWrapper,
@@ -35,7 +36,6 @@ import Section, {
   StrategySectionImage,
   StrategySectionWrapper,
   SystemsSectionWrapper,
-  TaglineLinkSection,
   UnderstandingSection,
   UnderstandingSectionBody,
   UnderstandingSectionP,
@@ -49,7 +49,7 @@ import Tagline, {
   ClientsTagline,
   PlatformsTagline,
   SystemsTagline,
-  TaglineBeforeLink,
+  LatestTaglineBeforeLink,
   UnderstandingTagline,
 } from '../components/index/taglines';
 
@@ -386,14 +386,14 @@ const IndexPage = () => {
 
       {/* Introduce Section */}
       <SectionWrapper>
-        <TaglineLinkSection>
-          <TaglineBeforeLink>
+        <LatestTaglineLinkSection>
+          <LatestTaglineBeforeLink>
             Let us introduce ourselves.
-          </TaglineBeforeLink>
-          <TaglineLink to="/about">
+          </LatestTaglineBeforeLink>
+          <LatestExternalTaglineLink to="/about">
             About us &rarr;
-          </TaglineLink>
-        </TaglineLinkSection>
+          </LatestExternalTaglineLink>
+        </LatestTaglineLinkSection>
       </SectionWrapper>
 
     </Layout>

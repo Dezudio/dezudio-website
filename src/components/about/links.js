@@ -6,7 +6,6 @@ import Link, {
 
 export {
   BlockLink,
-  TaglineLink,
 } from '../common/links';
 
 export const BioBlockLink = styled(BlockLink)([tw`
@@ -16,7 +15,10 @@ pt-5
 `]);
 
 export const LatestExternalTaglineLink = styled(ExternalTaglineLink)([tw`
-xl:col-start-9
+tb:col-start-7 lg:col-start-7 
+tb:row-start-1
+tb:ml-8 
+tb:text-left
 `]);
 
 export default Link;

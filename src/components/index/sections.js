@@ -7,6 +7,7 @@ import Section, {
   SectionWrapper,
   SectionWrapperGrey,
   SectionWrapperGreyDark,
+  TaglineLinkSection,
 } from '../common/sections';
 import ProcessBG from "../../images/brooklyn.jpg";
 import ResearchBG from "../../images/reading.jpg";
@@ -22,7 +23,6 @@ export {
   SectionWrapperGrey,
   SectionWrapperGreyDark,
   SectionWrapperSeafoam,
-  TaglineLinkSection,
   UnderstandingSectionP,
 } from '../common/sections';
 
@@ -58,6 +58,13 @@ col-start-1 md:col-start-2 xl:col-start-3
 md:col-end-12 xl:col-end-11
 row-start-2
 text-center
+`]);
+
+export const LatestTaglineLinkSection = styled(TaglineLinkSection)([tw`
+tb:grid-cols-9
+gap-0
+tb:grid-rows-1
+items-center
 `]);
 
 export const PlatformsSectionWrapper = styled(SectionWrapper)([tw`
