@@ -43,14 +43,14 @@ md:col-end-13
 `]);
 
 export const ApproachSectionP = styled(SectionP)([tw`
-mb-7.5 md:mb-0
+mb-0
 sm:pb-8.5 md:pb-7.5 lg:pb-10
 pr-0
 `]);
 
 export const BelieveSection = styled(Section)([tw`
-pb-16
-pt-22
+sm:pb-21.5 tb:pb-16
+sm:pt-21.5 tb:pt-22
 `]);
 
 export const ClientsSectionBody = styled(SectionBody)([tw`
@@ -104,7 +104,7 @@ bg-gradient-to-b from-blue-light to-blue
 
 export const UnderstandingSection = styled(Section)([tw`
 pt-20 lg:pt-40
-md:pb-37 lg:pb-48
+sm:pb-21.5 md:pb-37 lg:pb-48
 `]);
 
 export const UnderstandingSectionBody = styled(SectionBody)([tw`

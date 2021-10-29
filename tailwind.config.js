@@ -65,6 +65,7 @@ module.exports = {
         '11.5': '50px',
         '15': '60px',
         '21': '86px',
+        '21.5': '90px',
         '22': '92px',
         '26': '98px',
         '27': '100px',
@@ -73,7 +74,7 @@ module.exports = {
         '49': '200px',
 
         'sm': '280px',
-        'tb': '600px',
+        'tb': '90%',
         'md': '960px',
         'lg': '1840px',
         'xl': '2200px',
@@ -124,8 +125,8 @@ module.exports = {
       '5xs': ['16px', {
         lineHeight: '22px',
       }],
-      '4xs-tight': ['17px', {
-        lineHeight: '22px',
+      '4xs-tight': ['14px', {
+        lineHeight: '18px',
       }],
       '4xs': ['17px', {
         lineHeight: '24px',
@@ -177,6 +178,9 @@ module.exports = {
       'profile-xl': ['40px', {
         lineHeight: '55px',
       }],
+      'biolink-sm': ['14px', {
+        lineHeight: '18px',
+      }],
       'biolink-md': ['18px', {
         lineHeight: '22px',
       }],
@@ -207,11 +211,12 @@ module.exports = {
       'heading-sm-tighter': ['14px', {
         lineHeight: '18px',
       }],
-      'heading-sm-tight': ['14px', {
-        lineHeight: '22px',
+      'heading-sm-tight': ['12px', {
+        lineHeight: '16px',
       }],
       'heading-sm': ['14px', {
-        lineHeight: '24px',
+        letterSpacing: '0.5px',
+        lineHeight: '18px',
       }],
       'heading-md': ['16px', {
         letterSpacing: '0.5px',
@@ -250,8 +255,8 @@ module.exports = {
       }],
 
       /* Normal Link Text Sizes */
-      'link-sm': ['17px', {
-        lineHeight: '24px',
+      'link-sm': ['16px', {
+        lineHeight: '20px',
       }],
       'link-sm-loose': ['17px', {
         lineHeight: '58px',

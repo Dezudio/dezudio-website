@@ -11,7 +11,7 @@ export {
 
 export const BioBlockLink = styled(BlockLink)([tw`
 w-auto
-md:text-biolink-md lg:text-biolink-lg xl:text-biolink-xl
+sm:text-biolink-sm md:text-biolink-md lg:text-biolink-lg xl:text-biolink-xl
 pt-5
 `]);
 

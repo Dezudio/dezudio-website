@@ -145,7 +145,7 @@ const IndexPage = () => {
 				  <SectionImageBG>
 					  <StaticImage
 						  alt="A woman reading"
-						  css={tw`h-bg-xs -mx-5`}
+						  css={tw`h-bg-xs -mx-5 my-11.5 tb:my-0`}
 						  objectPosition="right center"
 		          src="../images/reading.jpg"
 					  />
@@ -219,7 +219,7 @@ const IndexPage = () => {
 				  <SectionImageBG>
 					  <StaticImage
 						  alt="Edifice of Brooklyn LAB Charter School"
-						  css={tw`h-bg-2xs -mx-5`}
+						  css={tw`h-bg-2xs -mx-5 my-11.5 tb:my-0`}
 						  src="../images/brooklyn.jpg"
 					  />
 				  </SectionImageBG>
@@ -294,7 +294,7 @@ const IndexPage = () => {
           <SectionImageBG>
             <StaticImage
               alt="Ashley from Dezudio presenting at a workshop"
-              css={tw`h-bg-sm -mx-5`}
+              css={tw`h-bg-sm -mx-5 my-11.5 tb:my-0`}
               objectFit="cover"
               objectPosition="right center"
               src="../images/ashley.jpg"

@@ -8,7 +8,7 @@ export const ApproachTagline = styled(Tagline)([tw`
 md:col-end-8 lg:col-end-7
 lg:pr-10
 md:row-start-2
-sm:pb-12 md:pb-0
+mb-12
 text-black
 md:text-tagline-lg lg:text-tagline-2xl
 `]);
@@ -16,6 +16,7 @@ md:text-tagline-lg lg:text-tagline-2xl
 export const BelieveTagline = styled(Tagline)([tw`
 md:col-start-2 lg:col-start-3
 md:col-end-11 lg:col-end-10
+sm:mb-0
 lg:py-24 xl:py-48
 text-center
 text-tagline-sm md:text-tagline-lg lg:text-tagline-2xl xl:text-tagline-3xl
