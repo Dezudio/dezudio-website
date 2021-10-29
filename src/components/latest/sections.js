@@ -22,7 +22,7 @@ md:row-start-2
 `]);
 
 export const LatestSectionP = styled(SectionP)([tw`
-md:mb-5 lg:mb-6 xl:mb-10
+sm:mb-5 lg:mb-6 xl:mb-10
 `]);
 
 export default Section;

@@ -9,7 +9,7 @@ grid-rows-none
 mx-auto
 pb-10 sm:pb-9 md:pb-16 xl:pb-24
 pt-10 sm:pt-12 md:pt-20 lg:pt-28
-w-sm md:w-md lg:w-lg xl:w-xl
+w-sm tb:w-tb md:w-md lg:w-lg xl:w-xl
 `;
 
 export const SectionBody = tw.div`
@@ -65,8 +65,8 @@ bg-seafoam
 
 export const TaglineLinkSection = styled(Section)([tw`
 items-center
-pb-24 md:pb-44
-pt-22 md:pt-48
+sm:pb-21.5 md:pb-44
+sm:pt-21.5 md:pt-48
 `]);
 
 export const UnderstandingSectionP = tw.p`
