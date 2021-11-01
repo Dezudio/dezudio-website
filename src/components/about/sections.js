@@ -40,12 +40,24 @@ sm:text-3xs lg:text-xs xl:text-base2
 mb-6 tb:mb-8 md:mb-11 lg:mb-15 xl:mb-20
 `]);
 
+export const ProfileContent = tw.div`
+block lg:flex
+justify-between
+md:col-start-3
+md:col-span-full
+`;
+
 export const ProfileMainSection = tw.div`
-bg-red-50
+font-sans-reg
+lg:w-60p
 `;
 
 export const ProfileSideSection = tw.div`
-bg-blue-50
+bg-grey-light
+font-sans-reg
+text-bio-side-sm tb:text-bio-side-tb md:text-bio-side-md lg:text-bio-side-lg xl:text-bio-side-xl
+p-5
+lg:w-37p
 `;
 
 export const LatestTaglineLinkSection = styled(TaglineLinkSection)([tw`
@@ -54,5 +66,15 @@ gap-0
 tb:grid-rows-1
 items-center
 `]);
+
+export const UnorderedList = tw.ul`
+list-disc
+pl-6
+`;
+
+export const UlItem = tw.li`
+pb-5
+last:pb-2.5
+`;
 
 export default Section;

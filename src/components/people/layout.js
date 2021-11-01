@@ -5,43 +5,55 @@ import {BlockLink} from '../common/links';
 import tw, { styled } from 'twin.macro';
 
 const Layout = ({ pageTitle, fromPerson, toPerson, children }) => {
+  
   const fullTitle = pageTitle + " - Dezudio";
+  
   const SectionBody = tw.div`
+    grid
+    grid-cols-10
+    gap-0
     row-start-1
-    col-start-1 md:col-start-4
-    col-end-3 md:col-end-11
+    col-start-1 md:col-start-2
+    col-end-3 md:col-end-12
     text-3xs lg:text-xs xl:text-base-tight
     text-blue-dark
     font-serif-reg
     `;
+
   const PrevBlockLink=styled(BlockLink)([tw`
-row-start-2 md:row-start-1
-col-start-1
-pt-0 md:pt-48
-`]);
+    row-start-2 md:row-start-1
+    col-start-1
+    pt-0 md:pt-48
+    xl:justify-self-center
+    `]);
+
   const NextBlockLink=styled(BlockLink)([tw`
-row-start-2 md:row-start-1
-col-start-1 md:col-start-12
-pt-0 md:pt-48
-text-right
-`]);
+    row-start-2 md:row-start-1
+    col-start-1 md:col-start-12
+    pt-0 md:pt-48
+    text-right
+    xl:justify-self-center
+    `]);
+
   const CloseLink=styled(BlockLink)([tw`
-float-right
-relative
-mt-15
-mr-10
-clear-both
-`]);
+    float-right
+    relative
+    mt-15
+    mr-10
+    clear-both
+    `]);
 
   const ShowWhenSmall = tw.span`
-visible md:invisible
-`
-    const PeopleSection = styled(Section)([tw`
-grid-rows-2
-grid-cols-2
-gap-x-0
--mr-10
-`])
+    visible md:invisible
+    `
+  const PeopleSection = styled(Section)([tw`
+    grid-cols-2
+    gap-x-0
+    md:pt-37 lg:pt-49
+    md:pb-49 lg:pb-60.6 xl:pb-bg-sm
+    xl:w-96p
+    `])
+
   return (
     <main>
       <title>{fullTitle}</title>
