@@ -22,6 +22,7 @@ module.exports = {
         },
         dezudiorange: '#f45d48',
         grey: {
+          light: '#f7f7f7',
           DEFAULT: '#f1f1f1',
           dark: '#e7e7e7',
         },
@@ -56,22 +57,34 @@ module.exports = {
         'xl': '700px',
       },
       spacing: {
+        '4.5': '18px',
         '5.5': '22px',
+        '6.4': '25px',
         '6.5': '26px',
         '7.5': '30px',
         '8.4': '34px',
         '8.5': '35px',
         '10.5': '42px',
         '11.5': '50px',
+        '13': '55px',
         '15': '60px',
+        '18': '72px',
         '21': '86px',
         '21.5': '90px',
         '22': '92px',
         '26': '98px',
         '27': '100px',
+        '28.1': '7.1875rem',
+
+        '30': '125px',
         '37': '150px',
         '40.5': '170px',
         '49': '200px',
+        '60.6': '250px',
+
+        '37p': '37%',
+        '60p': '60%',
+        '96p': '96%',
 
         'sm': '280px',
         'tb': '90%',
@@ -87,6 +100,12 @@ module.exports = {
         'headshot-md': '215px',
         'headshot-lg': '372px',
         'headshot-xl': '460px',
+
+        'bio-headshot-sm': '130px',
+        'bio-headshot-tb': '86px',
+        'bio-headshot-md': '138px',
+        'bio-headshot-lg': '268px',
+        'bio-headshot-xl': '320px',
 
         'logo-sm': '140px',
         'logo-md': '180px',
@@ -286,11 +305,45 @@ module.exports = {
       }],
 
       /* Profile Sizes */
-      'profile-title-sm': ['23px', {
+      'profile-title-sm': ['22px', {
+        lineHeight: '28px',
+      }],
+      'profile-title-md': ['28px', {
         lineHeight: '32px',
+      }],
+      'profile-title-lg': ['40px', {
+        lineHeight: '46px',
       }],
       'profile-title-xl': ['45px', {
         lineHeight: '55px',
+      }],
+
+      'profile-body-tb': ['18px', {
+        lineHeight: '26px',
+      }],
+
+      'bio-head-sm':['16px', {
+        lineHeight: '20px',
+      }],
+      'bio-head-tb':['16px', {
+        lineHeight: '24px',
+      }],
+      'bio-head-lg':['20px', {
+        lineHeight: '28px',
+      }],
+      'bio-head-xl':['24px', {
+        lineHeight: '35px',
+      }],
+
+      
+      'bio-side-sm':['15px', {
+        lineHeight: '21px',
+      }],
+      'bio-side-lg':['18px', {
+        lineHeight: '24px',
+      }],
+      'bio-side-xl':['22px', {
+        lineHeight: '32px',
       }],
 
       /* Tagline Text Sizes */

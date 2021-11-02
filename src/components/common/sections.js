@@ -34,7 +34,7 @@ md:hidden
 `;
 
 export const SectionP = tw.p`
-mb-10
+mb-7.5 md:mb-10
 pb-10 sm:pb-0
 md:pr-1 xl:pr-0
 `;
