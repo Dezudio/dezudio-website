@@ -27,7 +27,7 @@ const AboutPage = () => {
       <StaticImage
 				alt="Ashley Deal Headshot"
 				css={tw`
-        row-span-2
+        tb:row-span-2
         h-bio-headshot-sm md:h-bio-headshot-lg tb:h-bio-headshot-tb md:h-bio-headshot-md lg:h-bio-headshot-lg xl:h-bio-headshot-xl
         rounded-full
         w-bio-headshot-sm md:w-bio-headshot-lg tb:w-bio-headshot-tb md:w-bio-headshot-md lg:w-bio-headshot-lg xl:w-bio-headshot-xl

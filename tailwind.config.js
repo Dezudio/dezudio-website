@@ -59,13 +59,16 @@ module.exports = {
       spacing: {
         '4.5': '18px',
         '5.5': '22px',
+        '6.4': '25px',
         '6.5': '26px',
         '7.5': '30px',
         '8.4': '34px',
         '8.5': '35px',
         '10.5': '42px',
         '11.5': '50px',
+        '13': '55px',
         '15': '60px',
+        '18': '72px',
         '21': '86px',
         '21.5': '90px',
         '22': '92px',
@@ -315,33 +318,29 @@ module.exports = {
         lineHeight: '55px',
       }],
 
-      'bio-head-sm':['22px', {
-        lineHeight: '32px',
+      'profile-body-tb': ['18px', {
+        lineHeight: '26px',
       }],
-      'bio-head-tb':['22px', {
-        lineHeight: '32px',
+
+      'bio-head-sm':['16px', {
+        lineHeight: '20px',
       }],
-      'bio-head-md':['22px', {
-        lineHeight: '32px',
+      'bio-head-tb':['16px', {
+        lineHeight: '24px',
       }],
-      'bio-head-lg':['22px', {
-        lineHeight: '32px',
+      'bio-head-lg':['20px', {
+        lineHeight: '28px',
       }],
       'bio-head-xl':['24px', {
         lineHeight: '35px',
       }],
 
-      'bio-side-sm':['22px', {
-        lineHeight: '32px',
+      
+      'bio-side-sm':['15px', {
+        lineHeight: '21px',
       }],
-      'bio-side-tb':['22px', {
-        lineHeight: '32px',
-      }],
-      'bio-side-md':['22px', {
-        lineHeight: '32px',
-      }],
-      'bio-side-lg':['22px', {
-        lineHeight: '32px',
+      'bio-side-lg':['18px', {
+        lineHeight: '24px',
       }],
       'bio-side-xl':['22px', {
         lineHeight: '32px',

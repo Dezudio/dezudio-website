@@ -43,8 +43,9 @@ mb-6 tb:mb-8 md:mb-11 lg:mb-15 xl:mb-20
 export const ProfileContent = tw.div`
 block lg:flex
 justify-between
-md:col-start-3
-md:col-span-full
+col-start-3 md:col-start-3
+col-span-full
+ml-0 md:ml-0
 `;
 
 export const ProfileMainSection = tw.div`
@@ -55,7 +56,8 @@ lg:w-60p
 export const ProfileSideSection = tw.div`
 bg-grey-light
 font-sans-reg
-text-bio-side-sm tb:text-bio-side-tb md:text-bio-side-md lg:text-bio-side-lg xl:text-bio-side-xl
+text-bio-side-sm lg:text-bio-side-lg xl:text-bio-side-xl
+tb:mt-11.5 md:mt-0
 p-5
 lg:w-37p
 `;
