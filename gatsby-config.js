@@ -19,6 +19,7 @@ module.exports = {
           families: ["Benton Mod Disp Bd",
                      "Benton Mod Text Rom",
                      "Benton Sans Cond Lt",
+                     "Benton Sans Cond Bk",
                      "Benton Sans Cond Reg",
                      "Benton Sans Cond Bd",
                      "Benton Sans Bk",

@@ -4,33 +4,33 @@ const Section = tw.section`
 auto-rows-min
 gap-x-16
 grid
-grid-cols-1 md:grid-cols-12
+grid-cols-1 tb:grid-cols-12
 grid-rows-none
 mx-auto
-pb-10 sm:pb-9 md:pb-16 xl:pb-24
-pt-10 sm:pt-12 md:pt-20 lg:pt-28
+sm:pt-12 tb:pt-15 md:pt-20 lg:pt-28
+sm:pb-9 md:pb-16 xl:pb-24
 w-sm tb:w-tb md:w-md lg:w-lg xl:w-xl
 `;
 
 export const SectionBody = tw.div`
-md:col-end-5
-md:col-start-1 lg:col-start-2
-md:row-start-3
+tb:col-end-5
+tb:col-start-1 lg:col-start-2
+tb:row-start-3
 text-3xs lg:text-xs xl:text-base-tight
 text-blue-dark
 `;
 
 export const SectionImage = tw.div`
-md:col-end-12
-md:col-start-5 xl:col-start-6
+tb:col-end-12
+tb:col-start-5 xl:col-start-6
 my-0 sm:my-12 md:my-0
 md:pt-2
-md:row-end-7
-md:row-start-1
+tb:row-end-7
+tb:row-start-1
 `;
 
 export const SectionImageBG = tw.div`
-md:hidden
+tb:hidden
 `;
 
 export const SectionP = tw.p`

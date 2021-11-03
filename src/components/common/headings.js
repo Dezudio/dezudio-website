@@ -1,7 +1,7 @@
 import tw, { styled } from 'twin.macro';
 
 const Heading = tw.h2`
-md:col-end-5
+tb:col-end-5
 col-start-1 lg:col-start-2
 font-sans-black
 pb-2

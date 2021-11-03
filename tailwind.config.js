@@ -51,7 +51,7 @@ module.exports = {
         'xl': '2280px',
       },
       minHeight: {
-        'sm': '450px',
+        'tb': '450px',
         'md': '500px',
         'lg': '650px',
         'xl': '700px',
@@ -132,6 +132,7 @@ module.exports = {
       'serif-reg': ['Benton Mod Text Rom','Georgia','serif'],
       'serif-bold': ['Benton Mod Disp Bd','Georgia','serif'],
       'condensed-lt': ['Benton Sans Cond Lt','Helvetica','Arial','sans-serif'],
+      'condensed-bk': ['Benton Sans Cond Bk','Helvetica','Arial','sans-serif'],
       'condensed': ['Benton Sans Cond Reg','Helvetica','Arial','sans-serif'],
       'condensed-bold': ['Benton Sans Cond Bd','Helvetica','Arial','sans-serif'],
     },
@@ -362,6 +363,12 @@ module.exports = {
       'tagline-base': ['36px', {
         letterSpacing: '-.45px',
         lineHeight: '38px',
+      }],
+      'tagline-tb2': ['34px', {
+        lineHeight: '38px',
+      }],
+      'tagline-tb': ['53px', {
+        lineHeight: '58px',
       }],
       'tagline-lg': ['38px', {
         lineHeight: '44px',
