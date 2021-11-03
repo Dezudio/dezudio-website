@@ -51,7 +51,7 @@ module.exports = {
         'xl': '2280px',
       },
       minHeight: {
-        'sm': '450px',
+        'tb': '450px',
         'md': '500px',
         'lg': '650px',
         'xl': '700px',
@@ -362,6 +362,12 @@ module.exports = {
       'tagline-base': ['36px', {
         letterSpacing: '-.45px',
         lineHeight: '38px',
+      }],
+      'tagline-tb2': ['34px', {
+        lineHeight: '38px',
+      }],
+      'tagline-tb': ['53px', {
+        lineHeight: '58px',
       }],
       'tagline-lg': ['38px', {
         lineHeight: '44px',

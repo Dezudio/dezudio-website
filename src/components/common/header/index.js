@@ -40,19 +40,17 @@ const Header = ({ pageTitle, children }) => {
         </HomeLink>
       </Wordmark>
       <Nav>
-
-      <NavWrapper menuOpen={menuOpen}>
-          <NavBun>
-            <NavBurger href="#" menuOpen={menuOpen} onClick={() => toggleMenuOpen(!menuOpen)}>
-              <div/>
-              <div/>
-              <div/>
-            </NavBurger>
-          </NavBun>
-          <NavLinkGenerator to={"/about"} label={"About"} active={pageTitle}/>
-          <NavLinkGenerator to={"/latest"} label={"Latest"} active={pageTitle}/>
-
-    </NavWrapper>
+        <NavWrapper menuOpen={menuOpen}>
+            <NavBun>
+              <NavBurger href="#" menuOpen={menuOpen} onClick={() => toggleMenuOpen(!menuOpen)}>
+                <div/>
+                <div/>
+                <div/>
+              </NavBurger>
+            </NavBun>
+            <NavLinkGenerator to={"/about"} label={"About"} active={pageTitle}/>
+            <NavLinkGenerator to={"/latest"} label={"Latest"} active={pageTitle}/>
+        </NavWrapper>
       </Nav>
       <FullNav>
         <NavLinkGenerator to={"/about"} label={"About"} active={pageTitle}/>
@@ -73,10 +71,11 @@ hidden md:block
 text-right`;
 
 const Nav = tw.div`
-float-right
 visible md:invisible
 block md:hidden
-text-right`
+text-right
+relative
+`
 
 const NavWrapper = styled.nav`
 visibility: ${({ menuOpen }) =>
@@ -85,7 +84,9 @@ visibility: ${({ menuOpen }) =>
 
 const NavBun = tw.div`
 visible md:invisible
-ml-28
+absolute
+top-0
+right-0
 `
 
 const NavBurger = styled.button`
@@ -122,6 +123,7 @@ const NavBurger = styled.button`
 
 const NavLink = styled(Link)([tw`
 hover:font-sans-bold
+even:mt-12
 ml-6
 mt-6 md:mt-0
 self-end
