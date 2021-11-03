@@ -132,6 +132,7 @@ module.exports = {
       'serif-reg': ['Benton Mod Text Rom','Georgia','serif'],
       'serif-bold': ['Benton Mod Disp Bd','Georgia','serif'],
       'condensed-lt': ['Benton Sans Cond Lt','Helvetica','Arial','sans-serif'],
+      'condensed-bk': ['Benton Sans Cond Bk','Helvetica','Arial','sans-serif'],
       'condensed': ['Benton Sans Cond Reg','Helvetica','Arial','sans-serif'],
       'condensed-bold': ['Benton Sans Cond Bd','Helvetica','Arial','sans-serif'],
     },

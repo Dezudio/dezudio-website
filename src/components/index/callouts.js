@@ -18,7 +18,7 @@ text-heading-sm-tight md:text-heading-sm-tighter lg:text-heading-caption-lg xl:t
 `;
 
 export const CalloutP = tw.p`
-font-condensed
+font-condensed-bk
 text-4xs-tight md:text-5xs-tight lg:text-xs-callout xl:text-sm
 `;
 
