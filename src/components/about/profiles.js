@@ -5,12 +5,16 @@ text-center
 `;
 
 export const ProfilesWrapper = tw.div`
-md:col-start-2
-md:col-end-13
+
 flex
-flex-wrap
-gap-x-5 md:gap-x-24 lg:gap-x-52
-gap-y-6
+flex-wrap tb:flex-nowrap
+sm:flex-col tb:flex-row
+justify-around
+w-full
+//md:col-start-2
+//md:col-end-13
+//gap-x-5 md:gap-x-24 lg:gap-x-52
+//gap-y-6
 row-start-3
 `;
 

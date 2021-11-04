@@ -13,9 +13,17 @@ export {
 } from '../common/sections';
 
 export const AboutSection = styled(Section)([tw`
+tb:grid-cols-10 md:grid-cols-12
 sm:py-0
 sm:my-15 
-md:mb-28 lg:mb-37
+tb:mb-20 md:mb-28 lg:mb-37
+`]);
+
+export const TeamsSection = styled(Section)([tw`
+block
+sm:py-0
+sm:my-15 
+tb:mb-20 md:mb-28 lg:mb-37
 `]);
 
 export const AboutSectionP = styled(SectionP)([tw`
@@ -23,15 +31,13 @@ sm:mb-5 lg:mb-6 xl:mb-10
 `]);
 
 export const AboutUsSectionBody = styled(SectionBody)([tw`
-md:col-start-7
-md:col-end-12
-md:row-start-2
+tb:col-start-6 md:col-start-7
+tb:col-end-11 md:col-end-12
+tb:row-start-2
 `]);
 
 export const MeetOurTeamSectionBody = styled(SectionBody)([tw`
-md:col-start-1 lg:col-start-2
-md:col-end-8
-md:row-start-2
+w-3/4 md:w-1/2
 text-5xs
 `]);
 

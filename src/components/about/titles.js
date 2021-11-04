@@ -2,7 +2,7 @@ import tw from 'twin.macro';
 
 const ProfileTitle = tw.h1`
 col-start-3
-col-span-full md:col-span-7
+col-span-full //md:col-span-7
 font-condensed-bold
 text-profile-title-sm tb:text-profile-title-md lg:text-profile-title-lg xl:text-profile-title-xl
 pt-5 tb:pt-6.4 md:pt-15 lg:pt-28.1 xl:pt-30
