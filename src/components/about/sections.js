@@ -15,8 +15,8 @@ export {
 export const AboutSection = styled(Section)([tw`
 tb:grid-cols-10 md:grid-cols-12
 sm:py-0
-sm:my-15 
-tb:mb-20 md:mb-28 lg:mb-37
+sm:my-15 tb:my-20
+md:mb-28 lg:mb-37
 `]);
 
 export const TeamsSection = styled(Section)([tw`

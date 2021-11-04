@@ -7,8 +7,8 @@ grid
 grid-cols-1 tb:grid-cols-12
 grid-rows-none
 mx-auto
-sm:pt-12 tb:pt-15 md:pt-20 lg:pt-28
-sm:pb-9 md:pb-16 xl:pb-24
+pt-12 tb:pt-15 md:pt-20 lg:pt-28
+pb-9 md:pb-16 xl:pb-24
 w-sm tb:w-tb md:w-md lg:w-lg xl:w-xl
 `;
 

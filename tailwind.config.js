@@ -57,6 +57,7 @@ module.exports = {
         'xl': '700px',
       },
       spacing: {
+        'ex': '-32px',
         '4.5': '18px',
         '5.5': '22px',
         '6.4': '25px',
