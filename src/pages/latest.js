@@ -11,7 +11,7 @@ import Section, {
   SectionWrapper,
 } from '../components/latest/sections';
 import {
-  AboutUsTagline,
+  LatestTagline,
   LatestTaglineBeforeLink,
 } from '../components/latest/taglines';
 import Link, {
@@ -26,9 +26,9 @@ const LatestPage = () => {
       <SectionWrapper>
         <LatestSection>
           <SubHeading>Latest</SubHeading>
-          <AboutUsTagline>
+          <LatestTagline>
             Dezudio is always up to something.
-          </AboutUsTagline>
+          </LatestTagline>
           <LatestSectionBody>
             <LatestSectionP>
               As a proud, woman-owned small business, we love independent

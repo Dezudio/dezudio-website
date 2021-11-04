@@ -24,6 +24,7 @@ import Section, {
   MeetOurTeamSectionP,
   SectionWrapper,
   SectionWrapperGrey,
+  TeamsSection,
 } from '../../components/about/sections';
 import {
   AboutUsTagline,
@@ -57,10 +58,10 @@ const AboutPage = () => {
 
       {/* Meet Our Team Section */}
       <SectionWrapper>
-        <AboutSection>
+        <TeamsSection>
           <SubHeading>Meet Our Team</SubHeading>
-          <MeetOurTeamSectionBody>
-          </MeetOurTeamSectionBody>
+          {/* <MeetOurTeamSectionBody>
+          </MeetOurTeamSectionBody> */}
           <ProfilesWrapper>
             <Profile>
               <StaticImage
@@ -129,12 +130,12 @@ const AboutPage = () => {
               </BioBlockLink>
             </Profile>
           </ProfilesWrapper>
-        </AboutSection>
+        </TeamsSection>
       </SectionWrapper>
 
       {/* Meet Our Collaborators Section */}
       <SectionWrapper>
-        <AboutSection>
+        <TeamsSection>
           <CollaboratorsHeading>Meet Our Collaborators</CollaboratorsHeading>
           <MeetOurTeamSectionBody>
             <MeetOurTeamSectionP>
@@ -198,7 +199,7 @@ const AboutPage = () => {
               </BioBlockLink>
             </Profile>
           </ProfilesWrapper>
-        </AboutSection>
+        </TeamsSection>
       </SectionWrapper>
 
       {/* Introduce Yourself Section */}

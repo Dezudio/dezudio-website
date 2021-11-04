@@ -14,7 +14,7 @@ const Layout = ({ pageTitle, fromPerson, toPerson, children }) => {
     gap-0
     row-start-1
     col-start-1 md:col-start-2
-    col-end-3 md:col-end-12
+    col-end-3 tb:col-end-12
     text-profile-body-tb lg:text-xs xl:text-base-tight
     text-blue-dark
     font-serif-reg
@@ -23,6 +23,7 @@ const Layout = ({ pageTitle, fromPerson, toPerson, children }) => {
   const PrevBlockLink=styled(BlockLink)([tw`
     row-start-2 md:row-start-1
     col-start-1
+    tb:col-span-3 md:col-auto
     mt-18 md:mt-0
     pt-0 md:pt-48
     xl:justify-self-center
@@ -31,7 +32,8 @@ const Layout = ({ pageTitle, fromPerson, toPerson, children }) => {
 
   const NextBlockLink=styled(BlockLink)([tw`
     row-start-2 md:row-start-1
-    md:col-start-12
+    tb:col-end-12
+    tb:col-span-3 md:col-auto
     mt-18 md:mt-0
     pt-0 md:pt-48
     text-right

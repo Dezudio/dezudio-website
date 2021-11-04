@@ -112,8 +112,7 @@ bg-gradient-to-b from-blue-light to-blue
 
 export const UnderstandingSection = styled(Section)([tw`
 block md:grid
-pt-20 lg:pt-40
-sm:pb-21.5 md:pb-37 lg:pb-48
+py-21.5 md:py-37 lg:py-40 xl:py-49
 `]);
 
 export const UnderstandingSectionBody = styled(SectionBody)([tw`

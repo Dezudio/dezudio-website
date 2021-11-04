@@ -78,6 +78,9 @@ relative
 `
 
 const NavWrapper = styled.nav`
+position: absolute;
+top: 2.5rem;
+right: 0;
 visibility: ${({ menuOpen }) =>
     menuOpen ? "visible" : "hidden"};
 `;
@@ -85,7 +88,7 @@ visibility: ${({ menuOpen }) =>
 const NavBun = tw.div`
 visible md:invisible
 absolute
-top-0
+top-ex
 right-0
 `
 
@@ -123,7 +126,6 @@ const NavBurger = styled.button`
 
 const NavLink = styled(Link)([tw`
 hover:font-sans-bold
-even:mt-12
 ml-6
 mt-6 md:mt-0
 self-end

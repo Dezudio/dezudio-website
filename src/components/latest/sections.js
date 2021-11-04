@@ -12,13 +12,16 @@ export {
 } from '../common/sections';
 
 export const LatestSection = styled(Section)([tw`
-lg:py-0
+tb:grid-cols-10 md:grid-cols-12
+sm:py-0
+sm:my-15 tb:my-20
+md:mb-28 lg:mb-37
 `]);
 
 export const LatestSectionBody = styled(SectionBody)([tw`
-md:col-start-7
-md:col-end-12
-md:row-start-2
+tb:col-start-6 md:col-start-7
+tb:col-end-11 md:col-end-12
+tb:row-start-2
 `]);
 
 export const LatestSectionP = styled(SectionP)([tw`
