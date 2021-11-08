@@ -38,7 +38,7 @@
 }
 
 @media screen and (min-width: 640px) {
-  h3.force-break span::before {
+  h3.force-break .break::before {
     content: "\A";
     white-space: pre;
   }

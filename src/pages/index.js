@@ -62,7 +62,7 @@ const IndexPage = () => {
 			<SectionWrapper>
 			  <UnderstandingSection>
 			    <UnderstandingTagline className={`force-break`}>
-			      Understanding people, <span>helping people understand<DezudiDot>.</DezudiDot></span>
+			      Understanding people, <span className={`break`}>helping people understand<DezudiDot>.</DezudiDot></span>
 			    </UnderstandingTagline>
 			    <UnderstandingSectionBody>
 			      <UnderstandingSectionP>
