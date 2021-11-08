@@ -27,7 +27,10 @@ const AboutPage = () => {
       <StaticImage
 				alt="Raelynn O'Leary Headshot"
 				css={tw`
+        tb:col-span-2
+        tb:justify-self-end md:justify-self-start
         row-span-2
+        tb:mr-5 md:mr-0
         h-bio-headshot-sm md:h-bio-headshot-lg tb:h-bio-headshot-tb md:h-bio-headshot-md lg:h-bio-headshot-lg xl:h-bio-headshot-xl
         rounded-full
         w-bio-headshot-sm md:w-bio-headshot-lg tb:w-bio-headshot-tb md:w-bio-headshot-md lg:w-bio-headshot-lg xl:w-bio-headshot-xl

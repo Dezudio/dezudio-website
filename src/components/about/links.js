@@ -11,7 +11,8 @@ export {
 export const BioBlockLink = styled(BlockLink)([tw`
 w-auto
 sm:text-biolink-sm md:text-biolink-md lg:text-biolink-lg xl:text-biolink-xl
-pt-5
+tb:pt-2.5
+sm:pb-6 tb:pb-0
 `]);
 
 export const LatestExternalTaglineLink = styled(ExternalTaglineLink)([tw`
