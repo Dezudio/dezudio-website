@@ -61,8 +61,8 @@ const IndexPage = () => {
 		  {/* Understanding Section */}
 			<SectionWrapper>
 			  <UnderstandingSection>
-			    <UnderstandingTagline>
-			      Understanding people,<br />helping people understand<DezudiDot>.</DezudiDot>
+			    <UnderstandingTagline className={`force-break`}>
+			      Understanding people, <span>helping people understand<DezudiDot>.</DezudiDot></span>
 			    </UnderstandingTagline>
 			    <UnderstandingSectionBody>
 			      <UnderstandingSectionP>
