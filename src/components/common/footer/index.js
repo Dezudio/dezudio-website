@@ -26,7 +26,7 @@ const Footer = ({ children }) => {
             md:h-logo-ft-mdh lg:h-logo-ft-lgh xl:h-logo-ft-xlh
             w-24 md:w-logo-ft-mdw lg:w-logo-ft-lgw xl:w-logo-ft-xlw
             `}
-            src="../../../images/svg/dezudio-reversed.svg"
+            src="../../../images/svg/dezudio-white.svg"
           />
         </WordmarkSection>
         <HelloSection>
