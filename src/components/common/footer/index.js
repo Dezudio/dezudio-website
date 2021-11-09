@@ -23,8 +23,8 @@ const Footer = ({ children }) => {
           <StaticImage
             alt="Dezudio Wordmark"
             css={tw`
-            md:h-logo-ft-mdh lg:h-logo-ft-lgh xl:h-logo-ft-xlh
-            w-24 md:w-logo-ft-mdw lg:w-logo-ft-lgw xl:w-logo-ft-xlw
+            tb:h-logo-ft-tbh md:h-logo-ft-mdh lg:h-logo-ft-lgh xl:h-logo-ft-xlh
+            w-24 tb:w-logo-ft-tbw md:w-logo-ft-mdw lg:w-logo-ft-lgw xl:w-logo-ft-xlw
             `}
             src="../../../images/svg/dezudio-white.svg"
           />

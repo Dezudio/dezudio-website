@@ -6,6 +6,7 @@ import Section, {
   ProfileContent,
   SectionP,
   ProfileMainSection,
+  ProfileMainSectionP,
   ProfileSideSection,
   UlItem,
   UnorderedList,
@@ -43,18 +44,18 @@ const AboutPage = () => {
       </ProfileTitle>
       <ProfileContent>
         <ProfileMainSection>
-        <SectionP>
+        <ProfileMainSectionP>
           Raelynn co-founded Dezudio in 2011 with the belief that smart, independent designers and developers could find creative new ways to collaborate with greater autonomy and flexibility than in traditional design consulting models. From the start, the aim was to remain small at the core and agile—building a strong network of creative and technical contractors that she could draw from to bring the strongest, most motivated talent to every project.
-        </SectionP>
-        <SectionP>
+        </ProfileMainSectionP>
+        <ProfileMainSectionP>
           Her early interest in information design and data visualization brought her to the School of Design at Carnegie Mellon, where she developed a deep respect for design research, and a passion for making meaning visible and accessible. Whether she’s working on research, design, or implementation across products, services, or systems, Raelynn draws from a robust toolkit of design methods and principles to make sense of complexity, to illustrate abstractions, and to foster greater understanding within and across audiences.
-        </SectionP>
-        <SectionP>
+        </ProfileMainSectionP>
+        <ProfileMainSectionP>
           Raelynn is equally enthusiastic about projects with small nonprofit organizations, university-based research groups, start-ups, and Fortune 500 companies. She has long advocated for the idea that there’s no one-size-fits-all design process, and that designing the process itself is a critical first step in any engagement.
-        </SectionP>
-        <SectionP>
+        </ProfileMainSectionP>
+        <ProfileMainSectionP>
           Raelynn earned her Master’s degree in Communication Planning and Information Design from the School of Design at Carnegie Mellon University, where she has been an adjunct faculty member since 2015. She brings a practitioner’s experience to teaching interaction design theory and principles, and uses teaching to continually examine and refine her design practice.
-        </SectionP>
+        </ProfileMainSectionP>
         </ProfileMainSection>
         <ProfileSideSection>
           <OnYourProject>Here’s why you want Raelynn on your project:</OnYourProject>

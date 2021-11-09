@@ -6,6 +6,7 @@ import Section, {
   ProfileContent,
   SectionP,
   ProfileMainSection,
+  ProfileMainSectionP,
   ProfileSideSection,
   UlItem,
   UnorderedList,
@@ -43,18 +44,18 @@ const AboutPage = () => {
       
       <ProfileContent>
         <ProfileMainSection>
-        <SectionP>
+        <ProfileMainSectionP>
           Hannah joined Dezudio in 2020 as a designer, researcher, and strategist with a deep curiosity about how people, organizations, and systems work—and how design methods can help create positive change. At Dezudio, Hannah gets her hands into everything: from working across the design process on research, information, and interaction design projects, to investigating tools and strategies for facilitation and collaboration, to refining organizational infrastructure and processes to firm up our foundation for sustainable growth.
-        </SectionP>
-        <SectionP>
+        </ProfileMainSectionP>
+        <ProfileMainSectionP>
           Hannah came to design with aspirations of a career in banknote design, leading to her first professional encounter with the federal government at the Bureau of Engraving and Printing. While paper currency endures as an object of fascination, she was most taken by the complexity of processes, systems, and stakeholders involved in its creation. Since that formative experience, she has pursued every opportunity to understand and improve organizations and their outcomes through design.
-        </SectionP>
-        <SectionP>
+        </ProfileMainSectionP>
+        <ProfileMainSectionP>
           Previously, Hannah worked as a designer and federal contractor at the U.S. Department of State. Her focus was on the integration of evidence-based practices into Public Diplomacy. She collaborated with researchers and program evaluators to translate and communicate research methodology and data into actionable insights for diplomats. She also led the discovery research phase of a multimillion-dollar software development project to improve digital tools for program planning, strategy, budgeting, and reporting at U.S. embassies and consulates around the world.
-        </SectionP>
-        <SectionP>
+        </ProfileMainSectionP>
+        <ProfileMainSectionP>
           Hannah holds a Master of Professional Studies degree in Design for Interactions from Carnegie Mellon University. She is an alumna of the Brown|RISD Dual Degree Program, with degrees in International Relations from Brown University and Printmaking from the Rhode Island School of Design.
-        </SectionP>
+        </ProfileMainSectionP>
         </ProfileMainSection>
         <ProfileSideSection>
           <OnYourProject>Here’s why you want Hannah on your project:</OnYourProject>

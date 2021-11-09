@@ -55,9 +55,13 @@ ml-0 md:ml-0
 `;
 
 export const ProfileMainSection = tw.div`
-font-sans-reg
+font-serif-reg
 lg:w-60p
 `;
+
+export const ProfileMainSectionP = styled(SectionP)([tw`
+tb:mb-4.5 md:mb-10
+`]);
 
 export const ProfileSideSection = tw.div`
 bg-grey-light
