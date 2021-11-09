@@ -69,6 +69,7 @@ module.exports = {
         '11.5': '50px',
         '13': '55px',
         '15': '60px',
+        '17': '70px',
         '18': '72px',
         '21': '86px',
         '21.5': '90px',
@@ -114,11 +115,13 @@ module.exports = {
         
         /* footer logo */
         //height
+        'logo-ft-tbh': '32px',
         'logo-ft-mdh': '38px',
         'logo-ft-lgh': '63px',
         'logo-ft-xlh': '74px',
 
         //width
+        'logo-ft-tbw': '153px',
         'logo-ft-mdw': '182px',
         'logo-ft-lgw': '301px',
         'logo-ft-xlw': '348px',

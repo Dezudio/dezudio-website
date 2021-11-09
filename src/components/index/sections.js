@@ -38,8 +38,8 @@ sm:py-12 tb:py-15 md:py-20 lg:py-32 xl:py-40
 
 export const ApproachSectionBody = styled(SectionBody)([tw`
 tb:row-start-2
-tb:col-start-6 md:col-start-8 lg:col-start-8
-tb:col-end-12
+tb:col-start-7 md:col-start-8 lg:col-start-8
+tb:col-end-13 md:col-end-12
 `]);
 
 export const ApproachSectionP = styled(SectionP)([tw`
@@ -50,8 +50,8 @@ pr-0
 
 export const BelieveSection = styled(Section)([tw`
 block md:grid
-sm:pb-21.5 tb:pb-16
-sm:pt-21.5 tb:pt-22
+sm:pt-21.5 tb:pt-17 md:pt-22
+sm:pb-21.5 tb:pb-17 md:pb-16
 `]);
 
 export const ClientsSectionBody = styled(SectionBody)([tw`
@@ -111,13 +111,13 @@ bg-gradient-to-b from-blue-light to-blue
 `]);
 
 export const UnderstandingSection = styled(Section)([tw`
-block md:grid
+grid
 py-21.5 md:py-37 lg:py-40 xl:py-49
 `]);
 
 export const UnderstandingSectionBody = styled(SectionBody)([tw`
 col-start-1 lg:col-start-1
-md:col-end-12 lg:col-end-8 xl:col-end-10
+tb:col-end-8 md:col-end-9 lg:col-end-8 xl:col-end-10
 flex
 font-condensed-lt
 row-start-2

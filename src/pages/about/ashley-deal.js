@@ -6,6 +6,7 @@ import Section, {
   ProfileContent,
   SectionP,
   ProfileMainSection,
+  ProfileMainSectionP,
   ProfileSideSection,
   UlItem,
   UnorderedList,
@@ -43,18 +44,18 @@ const AboutPage = () => {
 
       <ProfileContent>
         <ProfileMainSection>
-        <SectionP>
+        <ProfileMainSectionP>
           After a decade of professional practice and two years of independent contracting, Ashley joined Dezudio in 2013—eager for the new opportunities and challenges that would emerge from the partnership. She brought a focus on building strong client relationships, and a dedication to completing projects where the results speak for themselves.
-        </SectionP>
-        <SectionP>
+        </ProfileMainSectionP>
+        <ProfileMainSectionP>
           Through her work, Ashley aims to create compelling stories from complex information and abstract data, and transform confusing or frustrating processes into smooth, seamless interactions. She has extensive background designing communications and interactive experiences that communicate information effectively, inspire action, and drive positive behaviors.
-        </SectionP>
-        <SectionP>
+        </ProfileMainSectionP>
+        <ProfileMainSectionP>
           Ashley’s career as an information and interaction designer includes considerable experience in education, healthcare, and design research for new product development. The underlying thread through her body of work is helping people understand each other, and helping them access and internalize important information they need to make critical decisions.
-        </SectionP>
-        <SectionP>
+        </ProfileMainSectionP>
+        <ProfileMainSectionP>
           Ashley holds a Bachelor of Arts from Vanderbilt University, and a Masters in Design from Carnegie Mellon University, where she has been an adjunct faculty member in the School of Design since 2015. As an educator, Ashley focuses on the fundamentals of working intentionally, establishing a strong narrative, and clean, precise execution of concepts. She is energized and heartened by her connections and interactions with the next generation of designers and design leaders.
-        </SectionP>
+        </ProfileMainSectionP>
         </ProfileMainSection>
         <ProfileSideSection>
           <OnYourProject>Here’s why you want Ashley on your project:</OnYourProject>

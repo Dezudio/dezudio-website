@@ -35,7 +35,7 @@ text-tagline-2xs md:text-tagline-lg lg:text-tagline-2xl xl:text-tagline-3xl
 `]);
 
 export const LatestTaglineBeforeLink = styled(TaglineBeforeLink)([tw`
-tb:col-start-2 md:col-start-1
+tb:col-start-1
 tb:col-end-7 md:col-end-7 
 tb:text-right
 tb:mb-0
@@ -53,8 +53,8 @@ text-white
 `]);
 
 export const UnderstandingTagline = styled(Tagline)([tw`
-col-start-1 lg:col-start-1
-md:col-end-12
+col-start-1
+tb:col-end-12
 mb-5 md:mb-16 lg:mb-21
 row-start-1
 text-black

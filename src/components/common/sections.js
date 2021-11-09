@@ -2,7 +2,7 @@ import tw, { styled } from 'twin.macro';
 
 const Section = tw.section`
 auto-rows-min
-gap-x-16
+md:gap-x-16
 grid
 grid-cols-1 tb:grid-cols-12
 grid-rows-none
@@ -21,8 +21,8 @@ text-blue-dark
 `;
 
 export const SectionImage = tw.div`
-tb:col-end-12
-tb:col-start-5 xl:col-start-6
+tb:col-end-13 md:col-end-12
+tb:col-start-6 md:col-start-5 xl:col-start-6
 my-0 sm:my-12 md:my-0
 md:pt-2
 tb:row-end-7
