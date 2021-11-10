@@ -37,9 +37,22 @@
   -webkit-mask-image: -webkit-radial-gradient(white, black);
 }
 
+.svg-arrow {
+  display: inline-block;
+  height: 9px;
+  width: 16px;
+}
+
 @media screen and (min-width: 640px) {
   h3.force-break .break::before {
     content: "\A";
     white-space: pre;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .svg-arrow {
+    height: 28px;
+    width: 44px;
   }
 }
