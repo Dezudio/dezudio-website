@@ -97,9 +97,9 @@ bg-right-top
 `]);
 
 export const StrategySectionImage = styled(SectionImage)([tw`
-xl:col-end-13
+md:col-end-13
 xl:col-start-5
-xl:py-72
+md:py-40.5 lg:py-72
 `]);
 
 export const StrategySectionWrapper = styled(SectionWrapper)([tw`

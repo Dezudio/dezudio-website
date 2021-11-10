@@ -53,7 +53,7 @@ text-white
 `]);
 
 export const UnderstandingTagline = styled(Tagline)([tw`
-col-start-1
+col-start-1 lg:col-start-1 
 tb:col-end-12
 mb-5 md:mb-16 lg:mb-21
 row-start-1

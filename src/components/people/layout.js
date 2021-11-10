@@ -32,7 +32,7 @@ const Layout = ({ pageTitle, fromPerson, toPerson, children }) => {
 
   const NextBlockLink=styled(BlockLink)([tw`
     row-start-2 md:row-start-1
-    tb:col-end-12
+    tb:col-end-13
     tb:col-span-3 md:col-auto
     mt-18 md:mt-0
     pt-0 md:pt-48
@@ -49,7 +49,7 @@ const Layout = ({ pageTitle, fromPerson, toPerson, children }) => {
     `]);
 
   const ShowWhenSmall = tw.span`
-    visible md:invisible
+    visible md:hidden
     `
   const PeopleSection = styled(Section)([tw`
     grid-cols-2
@@ -67,11 +67,16 @@ const Layout = ({ pageTitle, fromPerson, toPerson, children }) => {
       </CloseLink>
       <Container>
         <PeopleSection>
-          <PrevBlockLink to={fromPerson}>&larr;<ShowWhenSmall> Previous</ShowWhenSmall></PrevBlockLink>
+          <PrevBlockLink to={fromPerson}>
+            <svg className={`svg-arrow`} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 35.13 19.26"><g data-name="Layer 2"><path fill="#f15e49" stroke="#f15e49" stroke-miterlimit="10" stroke-width=".75" d="M9.76.87v7.26h25v3h-25v7.26L.54 9.63 9.76.87z" data-name="Layer 1"/></g></svg>
+            <ShowWhenSmall> Previous</ShowWhenSmall>
+          </PrevBlockLink>
           <SectionBody>
             {children}
           </SectionBody>
-          <NextBlockLink to={toPerson}><ShowWhenSmall>Next </ShowWhenSmall>&rarr;</NextBlockLink>
+          <NextBlockLink to={toPerson}><ShowWhenSmall>Next </ShowWhenSmall>
+            <svg className={`svg-arrow`} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 35.13 19.26"><g data-name="Layer 2"><path fill="#f15e49" stroke="#f15e49" stroke-miterlimit="10" stroke-width=".75" d="M25.38 18.39v-7.26h-25v-3h25V.87l9.21 8.76-9.21 8.76z" data-name="Layer 1"/></g></svg>
+          </NextBlockLink>
         </PeopleSection>
       </Container>
     </main>
