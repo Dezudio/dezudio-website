@@ -61,4 +61,5 @@ text-black
 text-tagline-base tb:text-tagline-tb md:text-tagline-4xl lg:text-tagline-5xl
 `]);
 
+
 export default Tagline;
