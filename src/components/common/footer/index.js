@@ -38,8 +38,8 @@ const Footer = ({ children }) => {
               </a>
             </p>
             <p>
-              <a href="tel:+14123423820">
-                (412) 342-3820
+              <a href="tel:+14123853142">
+                (412) 385-3142
               </a>
             </p>
           </address>
