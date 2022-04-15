@@ -191,7 +191,7 @@ const IndexPage = () => {
 							Dezudio + ACCESS
 						</CalloutHeading>
 						<CalloutP>
-							Communication system for ADA and elderly transit service riders
+							Communication system for paratransit program serving people with disabilities and older adults
 						</CalloutP>
 					</CalloutDark>
 				</Section>
