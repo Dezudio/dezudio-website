@@ -107,6 +107,7 @@ const AboutPage = () => {
                 Bio &rarr;
               </BioBlockLink>
             </Profile>
+          <!
             <Profile>
               <StaticImage
                 className="profileImage"
@@ -129,6 +130,7 @@ const AboutPage = () => {
                 Bio &rarr;
               </BioBlockLink>
             </Profile>
+            --> 
           </ProfilesWrapper>
         </TeamsSection>
       </SectionWrapper>
