@@ -24,7 +24,7 @@ const AboutPage = () => {
   return (
     <Layout pageTitle="Ashley Deal"
             fromPerson="../raelynn-oleary"
-            toPerson="../hannah-koenig">
+toPerson="../raelynn-oleary">
       <StaticImage
 				alt="Ashley Deal Headshot"
 				css={tw`
