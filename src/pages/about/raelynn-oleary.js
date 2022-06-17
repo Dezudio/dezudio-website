@@ -23,7 +23,7 @@ import ProfileTitle, {
 const AboutPage = () => {
   return (
     <Layout pageTitle="Raelynn O'Leary"
-            fromPerson="../hannah-koenig"
+            fromPerson="../ashley-deal"
             toPerson="../ashley-deal">
       <StaticImage
 				alt="Raelynn O'Leary Headshot"
