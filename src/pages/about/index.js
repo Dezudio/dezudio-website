@@ -106,31 +106,7 @@ const AboutPage = () => {
                 }}>
                 Bio &rarr;
               </BioBlockLink>
-            </Profile>
-      {/*
-            <Profile>
-              <StaticImage
-                className="profileImage"
-						    alt="Hannah Koenig Headshot"
-						    css={tw`
-                h-headshot-sm md:h-headshot-md lg:h-headshot-lg xl:h-headshot-xl
-                rounded-full
-                w-headshot-sm md:w-headshot-md lg:w-headshot-lg xl:w-headshot-xl
-                `}
-						    objectPosition="center top"
-		            src="../../images/headshots/hannah-koenig.jpg"
-			        />
-              <ProfileName>Hannah Koenig</ProfileName>
-              <ProfileTitle>Senior Designer</ProfileTitle>
-              <BioBlockLink
-                to="hannah-koenig"
-                state={{
-                  modal: false
-                }}>
-                Bio &rarr;
-              </BioBlockLink>
-            </Profile>
-    */} 
+            </Profile> 
           </ProfilesWrapper>
         </TeamsSection>
       </SectionWrapper>
