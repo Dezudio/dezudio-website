@@ -1,4 +1,4 @@
-name: Deploy Site to BlueHost
+name: Deploy Site to GreenGeeks
 
 on:
   release:
