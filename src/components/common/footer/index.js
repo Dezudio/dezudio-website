@@ -37,11 +37,6 @@ const Footer = ({ children }) => {
                 info@dezudio.com
               </a>
             </p>
-            <p>
-              <a href="tel:+14123853142">
-                (412) 385-3142
-              </a>
-            </p>
           </address>
         </HelloSection>
         <AddressSection>
