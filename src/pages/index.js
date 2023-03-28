@@ -390,7 +390,7 @@ const IndexPage = () => {
           <LatestTaglineBeforeLink>
             Let us introduce ourselves.
           </LatestTaglineBeforeLink>
-          <LatestExternalTaglineLink to="/about">
+          <LatestExternalTaglineLink href="http://dezudio.com/about">
             About us &rarr;
           </LatestExternalTaglineLink>
         </LatestTaglineLinkSection>
