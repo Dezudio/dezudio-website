@@ -14,7 +14,7 @@ lg:text-tagline-2xl
 
 export const LatestTaglineBeforeLink = styled(TaglineBeforeLink)([tw`
 col-start-1
-tb:col-end-5 md:col-end-6 lg:col-end-6 
+tb:col-end-5 md:col-end-7 lg:col-end-7 
 tb:text-right
 tb:mb-0
 `]);
