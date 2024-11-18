@@ -143,6 +143,24 @@ const AboutPage = () => {
             <Profile>
               <StaticImage
                 className="profileImage"
+						    alt="Ulu Mills Headshot"
+						    css={tw`
+                h-headshot-sm md:h-headshot-md lg:h-headshot-lg xl:h-headshot-xl
+                rounded-full
+                w-headshot-sm md:w-headshot-md lg:w-headshot-lg xl:w-headshot-xl
+                `}
+						    objectPosition="center top"
+		            src="../../images/headshots/ulu-mills.jpg"
+			        />
+              <ProfileName>Ulu Mills</ProfileName>
+              <ProfileTitle>Designer</ProfileTitle>
+              <BioBlockLink href="https://www.linkedin.com/in/ulumills/">
+                LinkedIn &rarr;
+              </BioBlockLink>
+            </Profile>
+            <Profile>
+              <StaticImage
+                className="profileImage"
 						    alt="Norman Huelsman Headshot"
 						    css={tw`
                 h-headshot-sm md:h-headshot-md lg:h-headshot-lg xl:h-headshot-xl
