@@ -40,7 +40,7 @@ const AboutPage = () => {
         <AboutSection>
           <SubHeading>About Us</SubHeading>
           <AboutUsTagline>
-            Dezudio is an information design, interaction design, and design research consultancy with offices in Pittsburgh and Washington, D.C.
+            Dezudio is an information design, interaction design, and design research consultancy based in Pittsburgh.
           </AboutUsTagline>
           <AboutUsSectionBody>
             <AboutSectionP>
