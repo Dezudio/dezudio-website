@@ -95,7 +95,7 @@ items-center
 
 export const PlatformsSectionWrapper = withClasses('div', `
 clear-both
-bg-gradient-to-b from-blue-light to-blue
+bg-linear-to-b/srgb from-blue-light to-blue
 `);
 
 // The *-bg classes add each section's photo; see src/styles/global.css.
@@ -135,7 +135,7 @@ bg-seafoam
 
 export const SystemsSectionWrapper = withClasses('div', `
 clear-both
-bg-gradient-to-b from-blue-light to-blue
+bg-linear-to-b/srgb from-blue-light to-blue
 `);
 
 export const UnderstandingSection = withClasses('section', `
@@ -163,7 +163,7 @@ export const WhatWeDoSectionP = withClasses('p', `
 mb-7.5 md:mb-10
 pb-10 sm:pb-0
 md:pr-1 xl:pr-0
-min-h-0 sm:min-h-0 tb:min-h-tb md:min-h-md lg:min-h-lg xl:min-h-xl
+min-h-0 sm:min-h-0 tb:min-h-[450px] md:min-h-[500px] lg:min-h-[650px] xl:min-h-[700px]
 `);
 
 export const WhatWeDoSectionPInverse = withClasses('p', `
@@ -171,7 +171,7 @@ mb-7.5 md:mb-10
 pb-10 sm:pb-0
 md:pr-1 xl:pr-0
 text-white
-min-h-0 sm:min-h-0 tb:min-h-tb md:min-h-md lg:min-h-lg xl:min-h-xl
+min-h-0 sm:min-h-0 tb:min-h-[450px] md:min-h-[500px] lg:min-h-[650px] xl:min-h-[700px]
 `);
 
 export const WorkshopsSectionWrapper = withClasses('div', `

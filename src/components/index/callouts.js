@@ -1,7 +1,7 @@
 import withClasses from '../withClasses';
 
 const Callout = withClasses('div', `
-bg-white bg-opacity-50
+bg-white/50
 tb:col-start-1 lg:col-start-2
 tb:col-end-5
 font-condensed
@@ -29,7 +29,7 @@ font-condensed
 p-2 md:p-2.5 lg:p-4 xl:p-6
 md:row-start-4
 w-sm tb:w-auto
-bg-black-dark bg-opacity-30
+bg-black-dark/30
 text-white
 `);
 

@@ -9,7 +9,7 @@ float-left
 
 export const HomeImageWrapper = withClasses('div', `
 float-left
-hover:filter hover:brightness-0 hover:invert
+hover:brightness-0 hover:invert
 py-1
 text-nav-sm
 `);
