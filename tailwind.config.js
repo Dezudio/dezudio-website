@@ -1,6 +1,5 @@
 module.exports = {
-  purge: ['./src/**/*.{js,jsx,ts,tsx}'],
-  darkMode: false, // or 'media' or 'class'
+  content: ['./src/**/*.{js,jsx,ts,tsx}'],
   theme: {
     extend: {
       backgroundImage: (theme) => ({
@@ -410,9 +409,6 @@ module.exports = {
       'lg': '1920px',
       'xl': '2280px',
     },
-  },
-  variants: {
-    extend: {},
   },
   plugins: [],
 }
