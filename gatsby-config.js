@@ -4,6 +4,7 @@ module.exports = {
   },
   plugins: [
     "gatsby-plugin-emotion",
+    "gatsby-plugin-postcss",
     "gatsby-plugin-image",
     {
       resolve: "gatsby-plugin-manifest",
