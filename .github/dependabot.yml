@@ -5,6 +5,12 @@ updates:
     schedule:
       interval: monthly
     groups:
+      # react and react-dom must stay on the same version, including
+      # across major releases.
+      react:
+        patterns:
+          - react
+          - react-dom
       # One PR for all non-breaking bumps instead of one per package.
       minor-and-patch:
         update-types:
