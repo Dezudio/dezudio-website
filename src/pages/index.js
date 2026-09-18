@@ -1,5 +1,4 @@
 import React from 'react';
-import tw from 'twin.macro';
 import { StaticImage } from 'gatsby-plugin-image';
 import DezudiDot from '../components/common/dezudidots';
 import Layout from '../components/common/layout';
@@ -106,7 +105,7 @@ const IndexPage = () => {
 					<SectionImage>
 						<StaticImage
 							alt="A sample of MyDecision app screenshots"
-							css={tw`-m-5`}
+							className="-m-5"
               loading="eager"
 							src="../images/my-decision.png"
 						/>
@@ -145,7 +144,7 @@ const IndexPage = () => {
 				  <SectionImageBG>
 					  <StaticImage
 						  alt="A woman reading"
-						  css={tw`h-bg-xs -mx-5 my-11.5 tb:my-0`}
+						  className="h-bg-xs -mx-5 my-11.5 tb:my-0"
 						  objectPosition="right center"
 		          src="../images/reading.jpg"
 					  />
@@ -219,7 +218,7 @@ const IndexPage = () => {
 				  <SectionImageBG>
 					  <StaticImage
 						  alt="Edifice of Brooklyn LAB Charter School"
-						  css={tw`h-bg-2xs -mx-5 my-11.5 tb:my-0`}
+						  className="h-bg-2xs -mx-5 my-11.5 tb:my-0"
 						  src="../images/brooklyn.jpg"
 					  />
 				  </SectionImageBG>
@@ -256,7 +255,7 @@ const IndexPage = () => {
           <StrategySectionImage>
             <StaticImage
               alt="A sampling of the Genetics Society of America branding"
-              css={tw`-mx-5`}
+              className="-mx-5"
               objectFit="stretch"
               src="../images/gsa.png"
             />
@@ -294,7 +293,7 @@ const IndexPage = () => {
           <SectionImageBG>
             <StaticImage
               alt="Ashley from Dezudio presenting at a workshop"
-              css={tw`h-bg-sm -mx-5 my-11.5 tb:my-0`}
+              className="h-bg-sm -mx-5 my-11.5 tb:my-0"
               objectFit="cover"
               objectPosition="right center"
               src="../images/ashley.jpg"
@@ -357,28 +356,28 @@ const IndexPage = () => {
           </ClientsTagline>
           <ClientsSectionBody>
             <StaticImage alt=""
-                         css={tw`w-logo-sm md:w-logo-md lg:w-logo-lg`}
+                         className="w-logo-sm md:w-logo-md lg:w-logo-lg"
                          src="../images/companies/GSA-logo.png"/>
             <StaticImage alt="Gates Foundation"
-                         css={tw`w-logo-sm md:w-logo-md lg:w-logo-lg`}
+                         className="w-logo-sm md:w-logo-md lg:w-logo-lg"
                          src="../images/companies/GatesFoundation-logo.png"/>
             <StaticImage alt="Age Friendly Greater Pittsburgh"
-                         css={tw`w-logo-sm md:w-logo-md lg:w-logo-lg`}
+                         className="w-logo-sm md:w-logo-md lg:w-logo-lg"
                          src="../images/companies/AFGP-logo.png"/>
             <StaticImage alt="CollegeBoard"
-                         css={tw`w-logo-sm md:w-logo-md lg:w-logo-lg`}
+                         className="w-logo-sm md:w-logo-md lg:w-logo-lg"
                          src="../images/companies/CollegeBoard-logo.png"/>
             <StaticImage alt="Carnegie Mellon School of Design"
-                         css={tw`w-logo-sm md:w-logo-md lg:w-logo-lg`}
+                         className="w-logo-sm md:w-logo-md lg:w-logo-lg"
                          src="../images/companies/CarnegieMellonSOD-logo.png"/>
             <StaticImage alt="Intel"
-                         css={tw`w-logo-sm md:w-logo-md lg:w-logo-lg`}
+                         className="w-logo-sm md:w-logo-md lg:w-logo-lg"
                          src="../images/companies/Intel-logo.png"/>
             <StaticImage alt="Philips"
-                         css={tw`w-logo-sm md:w-logo-md lg:w-logo-lg`}
+                         className="w-logo-sm md:w-logo-md lg:w-logo-lg"
                          src="../images/companies/Philips-logo.png"/>
             <StaticImage alt="Wilkinsburg Community Development Cooperation"
-                         css={tw`w-logo-sm md:w-logo-md lg:w-logo-lg`}
+                         className="w-logo-sm md:w-logo-md lg:w-logo-lg"
                          src="../images/companies/WCDC-logo.png" />
           </ClientsSectionBody>
         </Section>

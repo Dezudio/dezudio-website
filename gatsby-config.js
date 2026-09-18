@@ -3,7 +3,6 @@ module.exports = {
     title: "Dezudio",
   },
   plugins: [
-    "gatsby-plugin-emotion",
     "gatsby-plugin-postcss",
     "gatsby-plugin-image",
     {

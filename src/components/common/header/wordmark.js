@@ -1,21 +1,21 @@
-import tw, { styled } from 'twin.macro';
+import withClasses from '../../withClasses';
 import Link from '../links';
 
-export const HomeLink = styled(Link)([tw`
+export const HomeLink = withClasses(Link, `
 bg-white
 hover:bg-dezudiorange
 float-left
-`]);
+`);
 
-export const HomeImageWrapper = tw.div`
+export const HomeImageWrapper = withClasses('div', `
 float-left
 hover:filter hover:brightness-0 hover:invert
 py-1
 text-nav-sm
-`;
+`);
 
-const Wordmark = tw.div`
+const Wordmark = withClasses('div', `
 flex-1
-`;
+`);
 
 export default Wordmark;

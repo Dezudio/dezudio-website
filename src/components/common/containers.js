@@ -1,10 +1,9 @@
-import tw from 'twin.macro';
+import withClasses from '../withClasses';
 
-const Container = tw.div`
+const Container = withClasses('div', `
 font-body
 text-base
-text-black-light
 text-blue-dark
-`;
+`);
 
 export default Container;

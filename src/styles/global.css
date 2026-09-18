@@ -56,3 +56,76 @@
     width: 25px;
   }
 }
+
+/* Mobile menu button (header). The .open state turns the bars into an X. */
+.nav-burger {
+  cursor: pointer;
+  visibility: visible;
+  background: transparent;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 2rem;
+  z-index: 11;
+}
+
+.nav-burger div {
+  width: 2rem;
+  height: 0.25rem;
+  background: black;
+  border-radius: 10px;
+  transform-origin: 1px;
+  transition: opacity 300ms, transform 300ms;
+}
+
+.nav-burger div:first-of-type {
+  transform: rotate(0);
+}
+
+.nav-burger div:nth-of-type(2) {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.nav-burger div:nth-of-type(3) {
+  transform: rotate(0);
+}
+
+.nav-burger.open div {
+  background: #f45d48;
+}
+
+.nav-burger.open div:first-of-type {
+  transform: rotate(45deg);
+}
+
+.nav-burger.open div:nth-of-type(2) {
+  opacity: 0;
+  transform: translateX(-20px);
+}
+
+.nav-burger.open div:nth-of-type(3) {
+  transform: rotate(-45deg);
+}
+
+/* Home page section backgrounds, shown from the tb breakpoint up. */
+@media only screen and (min-width: 640px) {
+  .process-bg {
+    background-image:
+      linear-gradient(to right, #ffffffed 20%, #fff0 60%),
+      url("../images/brooklyn.jpg");
+  }
+
+  .research-bg {
+    background-image:
+      linear-gradient(to right, #ffffffff, #ffffff00 75%),
+      url("../images/reading.jpg");
+  }
+
+  .workshops-bg {
+    background-image:
+      linear-gradient(to right, #fffffff7 30%, #fff0 60%),
+      url("../images/ashley.jpg");
+  }
+}
