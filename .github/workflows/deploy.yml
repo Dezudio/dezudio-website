@@ -21,7 +21,7 @@ jobs:
         with:
           ref: gh-pages
 
-      # gh-pages holds whatever Build Test Site last published. Refuse to
+      # gh-pages holds whatever Build Site last published. Refuse to
       # deploy if that is not this release's commit, rather than shipping
       # an older build.
       - name: Check the test site was built from this commit
@@ -30,7 +30,7 @@ jobs:
           if [ "$built" != "$GITHUB_SHA" ]; then
             echo "gh-pages was built from $built" >&2
             echo "this release is    $GITHUB_SHA" >&2
-            echo "Wait for Build Test Site to finish on main, then re-run this." >&2
+            echo "Wait for Build Site to finish on main, then re-run this." >&2
             exit 1
           fi
 

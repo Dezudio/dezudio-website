@@ -1,4 +1,4 @@
-name: Build Test Site
+name: Build Site
 
 on:
   push:
@@ -16,7 +16,8 @@ jobs:
     concurrency:
       group: ${{ github.workflow }}-${{ github.ref }}
       # Superseded pull request builds can be dropped; a push to main is
-      # publishing the test site, so let it finish.
+      # publishing the build that production will later ship, so let it
+      # finish.
       cancel-in-progress: ${{ github.event_name == 'pull_request' }}
     steps:
       - name: Check out repository
