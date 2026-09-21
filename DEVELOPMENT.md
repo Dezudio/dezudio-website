@@ -173,19 +173,24 @@ corner. Read what it prints rather than trusting the count.
 
 Three things build from this repo:
 
-1. **Test site** — `.github/workflows/build.yml` runs on every push to `main`,
-   builds, and publishes to the `gh-pages` branch, which serves
+1. **Test site** — `.github/workflows/build.yml` (Build Test Site) runs on
+   every push to `main`, builds, and publishes to the `gh-pages` branch,
+   which serves
    [test.dezudio.com](https://test.dezudio.com). A second run called
    `pages-build-deployment` appears in Actions right after it. That one is
    GitHub's own, not a file in this repo: GitHub Pages runs it whenever
    `gh-pages` changes, to publish the branch.
-2. **Production** — `.github/workflows/deploy.yml` runs when a GitHub release
-   is published and uploads `gh-pages` to GreenGeeks over FTP, serving
+2. **Production** — `.github/workflows/deploy.yml` (Deploy Production Site)
+   runs when a GitHub release is published and uploads `gh-pages` to
+   GreenGeeks over FTP, serving
    [www.dezudio.com](https://www.dezudio.com). It clean-slates the target, so
    the whole site is replaced on every deploy.
 3. **Netlify** — builds `main` and every pull request, giving
    [dezudio.netlify.app](https://dezudio.netlify.app) and a preview per PR.
    Build settings live in the Netlify UI; `netlify.toml` only pins Node.
+
+The same build workflow also runs on every pull request, without the
+publishing step, so a PR that doesn't compile fails before it's merged.
 
 Production deploys only from a release, so merging to `main` is safe to do
 freely — it updates the test site alone.
@@ -194,8 +199,8 @@ freely — it updates the test site alone.
 
 Dependabot is configured in
 [`.github/dependabot.yml`](.github/dependabot.yml): monthly npm and GitHub
-Actions updates, with minor and patch bumps grouped into one PR, and `react`
-and `react-dom` grouped so they never upgrade separately. Security updates
+Actions updates, each grouped into a single PR, with `react` and `react-dom`
+grouped so they never upgrade separately. Security updates
 arrive as they're published, independent of that schedule.
 
 `npm audit` reports findings against Gatsby's build tooling that have no

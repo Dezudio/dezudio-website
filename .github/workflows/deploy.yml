@@ -1,22 +1,33 @@
-name: Deploy Site to GreenGeeks
+name: Deploy Production Site
 
 on:
   release:
     types: [published]
 
+# Only reads the built site out of gh-pages; the upload uses FTP_PASSWORD.
+permissions:
+  contents: read
+
+concurrency:
+  # Never let two deploys upload to the same server at once.
+  group: deploy-production
+
 jobs:
-  web-deploy:
+  deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v7
+      - name: Check out built site
+        uses: actions/checkout@v7
         with:
           ref: gh-pages
-    
-      - uses: SamKirkland/FTP-Deploy-Action@v4.4.0
+
+      - name: Upload to GreenGeeks
+        uses: SamKirkland/FTP-Deploy-Action@v4.4.0
         with:
           server: ftp.raelynnmiles.com
           username: dezudio@raelynnmiles.com
           password: ${{ secrets.FTP_PASSWORD }}
           log-level: verbose
+          # Wipes the server before uploading, on purpose: files deleted
+          # from the site must not linger in production. Keep it on.
           dangerous-clean-slate: true
-          dry-run: false
