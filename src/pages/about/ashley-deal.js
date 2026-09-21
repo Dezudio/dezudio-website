@@ -1,19 +1,14 @@
 import React from 'react';
 import { StaticImage } from 'gatsby-plugin-image';
 import Layout from '../../components/people/layout';
-import Section, {
+import {
   ProfileContent,
-  SectionP,
   ProfileMainSection,
   ProfileMainSectionP,
   ProfileSideSection,
   UlItem,
   UnorderedList,
 } from '../../components/about/sections';
-import {
-  BioBlockLink,
-  ContactUsBlockLink,
-} from '../../components/about/links';
 import ProfileTitle, {
   ProfileTitleSpan,
   OnYourProject,

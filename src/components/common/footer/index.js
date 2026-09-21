@@ -4,7 +4,7 @@ import FooterContainer, {
   FooterContainerWrapper,
 } from './containers';
 import FooterHeading from './headings';
-import Section, {
+import {
   AddressSection,
   CopyrightSection,
   HelloSection,

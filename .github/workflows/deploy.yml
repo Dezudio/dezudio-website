@@ -1,22 +1,46 @@
-name: Deploy Site to GreenGeeks
+name: Deploy Production Site
 
 on:
   release:
     types: [published]
 
+# Only reads the built site out of gh-pages; the upload uses FTP_PASSWORD.
+permissions:
+  contents: read
+
+concurrency:
+  # Never let two deploys upload to the same server at once.
+  group: deploy-production
+
 jobs:
-  web-deploy:
+  deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v7
+      - name: Check out built site
+        uses: actions/checkout@v7
         with:
           ref: gh-pages
-    
-      - uses: SamKirkland/FTP-Deploy-Action@v4.4.0
+
+      # gh-pages holds whatever Build Site last published. Refuse to
+      # deploy if that is not this release's commit, rather than shipping
+      # an older build.
+      - name: Check the test site was built from this commit
+        run: |
+          built=$(git log -1 --pretty=%s | sed 's/^deploy: //')
+          if [ "$built" != "$GITHUB_SHA" ]; then
+            echo "gh-pages was built from $built" >&2
+            echo "this release is    $GITHUB_SHA" >&2
+            echo "Wait for Build Site to finish on main, then re-run this." >&2
+            exit 1
+          fi
+
+      - name: Upload to GreenGeeks
+        uses: SamKirkland/FTP-Deploy-Action@v4.4.0
         with:
           server: ftp.raelynnmiles.com
           username: dezudio@raelynnmiles.com
           password: ${{ secrets.FTP_PASSWORD }}
           log-level: verbose
+          # Wipes the server before uploading, on purpose: files deleted
+          # from the site must not linger in production. Keep it on.
           dangerous-clean-slate: true
-          dry-run: false

@@ -28,5 +28,8 @@
     "react": "^19.3.0",
     "react-dom": "^19.3.0",
     "tailwindcss": "^4.3.3"
+  },
+  "devDependencies": {
+    "puppeteer-core": "^25.11.0"
   }
 }
