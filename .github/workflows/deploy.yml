@@ -21,6 +21,19 @@ jobs:
         with:
           ref: gh-pages
 
+      # gh-pages holds whatever Build Test Site last published. Refuse to
+      # deploy if that is not this release's commit, rather than shipping
+      # an older build.
+      - name: Check the test site was built from this commit
+        run: |
+          built=$(git log -1 --pretty=%s | sed 's/^deploy: //')
+          if [ "$built" != "$GITHUB_SHA" ]; then
+            echo "gh-pages was built from $built" >&2
+            echo "this release is    $GITHUB_SHA" >&2
+            echo "Wait for Build Test Site to finish on main, then re-run this." >&2
+            exit 1
+          fi
+
       - name: Upload to GreenGeeks
         uses: SamKirkland/FTP-Deploy-Action@v4.4.0
         with:
