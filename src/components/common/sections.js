@@ -1,6 +1,6 @@
-import tw, { styled } from 'twin.macro';
+import withClasses from '../withClasses';
 
-const Section = tw.section`
+const Section = withClasses('section', `
 auto-rows-min
 md:gap-x-16
 grid
@@ -10,68 +10,84 @@ mx-auto
 pt-12 tb:pt-15 md:pt-20 lg:pt-28
 pb-9 md:pb-16 xl:pb-24
 w-sm tb:w-tb md:w-md lg:w-lg xl:w-xl
-`;
+`);
 
-export const SectionBody = tw.div`
+export const SectionBody = withClasses('div', `
 tb:col-end-5
 tb:col-start-1 lg:col-start-2
 tb:row-start-3
 text-3xs lg:text-xs xl:text-base-tight
 text-blue-dark
-`;
+`);
 
-export const SectionImage = tw.div`
+export const SectionImage = withClasses('div', `
 tb:col-end-13 md:col-end-12
 tb:col-start-6 md:col-start-5 xl:col-start-6
 my-0 sm:my-12 md:my-0
 md:pt-2
 tb:row-end-7
 tb:row-start-1
-`;
+`);
 
-export const SectionImageBG = tw.div`
+export const SectionImageBG = withClasses('div', `
 tb:hidden
-`;
+`);
 
-export const SectionP = tw.p`
+export const SectionP = withClasses('p', `
 mb-7.5 md:mb-10
 pb-10 sm:pb-0
 md:pr-1 xl:pr-0
-`;
+`);
 
-export const SectionPInverse = styled(SectionP)([tw`
+export const SectionPInverse = withClasses('p', `
+mb-7.5 md:mb-10
+pb-10 sm:pb-0
+md:pr-1 xl:pr-0
 text-white
-`]);
+`);
 
-export const SectionWrapper = tw.div`
+export const SectionWrapper = withClasses('div', `
 clear-both
-`;
+`);
 
-export const SectionWrapperBlueDark = styled(SectionWrapper)([tw`
+export const SectionWrapperBlueDark = withClasses('div', `
+clear-both
 bg-blue-dark
-`]);
+`);
 
-export const SectionWrapperGrey = styled(SectionWrapper)([tw`
+export const SectionWrapperGrey = withClasses('div', `
+clear-both
 bg-grey
-`]);
+`);
 
-export const SectionWrapperGreyDark = styled(SectionWrapper)([tw`
+export const SectionWrapperGreyDark = withClasses('div', `
+clear-both
 bg-grey-dark
-`]);
+`);
 
-export const SectionWrapperSeafoam = styled(SectionWrapper)([tw`
+export const SectionWrapperSeafoam = withClasses('div', `
+clear-both
 bg-seafoam
-`]);
+`);
 
-export const TaglineLinkSection = styled(Section)([tw`
+export const TaglineLinkSection = withClasses('section', `
+auto-rows-min
+md:gap-x-16
+grid
+grid-cols-1 tb:grid-cols-12
+grid-rows-none
+mx-auto
+pt-12
+pb-9
+w-sm tb:w-tb md:w-md lg:w-lg xl:w-xl
 items-center
 sm:pb-21.5 md:pb-44
 sm:pt-21.5 md:pt-48
-`]);
+`);
 
-export const UnderstandingSectionP = tw.p`
+export const UnderstandingSectionP = withClasses('p', `
 pb-10 sm:pb-0
 md:pr-1 xl:pr-0
-`;
+`);
 
 export default Section;

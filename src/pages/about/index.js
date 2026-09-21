@@ -1,5 +1,4 @@
 import * as React from 'react';
-import tw from 'twin.macro';
 import { StaticImage } from 'gatsby-plugin-image';
 import Layout from '../../components/common/layout';
 import {
@@ -65,13 +64,8 @@ const AboutPage = () => {
           <ProfilesWrapper>
             <Profile>
               <StaticImage
-                className="profileImage"
+                className="profileImage h-headshot-sm md:h-headshot-md lg:h-headshot-lg xl:h-headshot-xl rounded-full w-headshot-sm md:w-headshot-md lg:w-headshot-lg xl:w-headshot-xl"
 						    alt="Raelynn O'Leary Headshot"
-                css={tw`
-                h-headshot-sm md:h-headshot-md lg:h-headshot-lg xl:h-headshot-xl
-                rounded-full
-                w-headshot-sm md:w-headshot-md lg:w-headshot-lg xl:w-headshot-xl
-                `}
 						    objectPosition="center top"
 		            src="../../images/headshots/raelynn-oleary.jpg"
 			        />
@@ -87,13 +81,8 @@ const AboutPage = () => {
             </Profile>
             <Profile>
               <StaticImage
-                className="profileImage"
+                className="profileImage h-headshot-sm md:h-headshot-md lg:h-headshot-lg xl:h-headshot-xl rounded-full w-headshot-sm md:w-headshot-md lg:w-headshot-lg xl:w-headshot-xl"
 						    alt="Ashley Deal Headshot"
-						    css={tw`
-                h-headshot-sm md:h-headshot-md lg:h-headshot-lg xl:h-headshot-xl
-                rounded-full
-                w-headshot-sm md:w-headshot-md lg:w-headshot-lg xl:w-headshot-xl
-                `}
 						    objectPosition="center top"
 		            src="../../images/headshots/ashley-deal.jpg"
 			        />
@@ -124,13 +113,8 @@ const AboutPage = () => {
           <ProfilesWrapper>
             <Profile>
               <StaticImage
-                className="profileImage"
+                className="profileImage h-headshot-sm md:h-headshot-md lg:h-headshot-lg xl:h-headshot-xl rounded-full w-headshot-sm md:w-headshot-md lg:w-headshot-lg xl:w-headshot-xl"
 						    alt="Anna Abovyan Headshot"
-                css={tw`
-                h-headshot-sm md:h-headshot-md lg:h-headshot-lg xl:h-headshot-xl
-                rounded-full
-                w-headshot-sm md:w-headshot-md lg:w-headshot-lg xl:w-headshot-xl
-                `}
 						    objectPosition="center top"
 		            src="../../images/headshots/anna-abovyan.jpg"
 			        />
@@ -142,13 +126,8 @@ const AboutPage = () => {
             </Profile>
             <Profile>
               <StaticImage
-                className="profileImage"
+                className="profileImage h-headshot-sm md:h-headshot-md lg:h-headshot-lg xl:h-headshot-xl rounded-full w-headshot-sm md:w-headshot-md lg:w-headshot-lg xl:w-headshot-xl"
 						    alt="Ulu Mills Headshot"
-						    css={tw`
-                h-headshot-sm md:h-headshot-md lg:h-headshot-lg xl:h-headshot-xl
-                rounded-full
-                w-headshot-sm md:w-headshot-md lg:w-headshot-lg xl:w-headshot-xl
-                `}
 						    objectPosition="center top"
 		            src="../../images/headshots/ulu-mills.jpg"
 			        />
@@ -160,13 +139,8 @@ const AboutPage = () => {
             </Profile>
             <Profile>
               <StaticImage
-                className="profileImage"
+                className="profileImage h-headshot-sm md:h-headshot-md lg:h-headshot-lg xl:h-headshot-xl rounded-full w-headshot-sm md:w-headshot-md lg:w-headshot-lg xl:w-headshot-xl"
 						    alt="Norman Huelsman Headshot"
-						    css={tw`
-                h-headshot-sm md:h-headshot-md lg:h-headshot-lg xl:h-headshot-xl
-                rounded-full
-                w-headshot-sm md:w-headshot-md lg:w-headshot-lg xl:w-headshot-xl
-                `}
 						    objectPosition="center top"
 		            src="../../images/headshots/norm-huelsman.jpg"
 			        />
@@ -178,13 +152,8 @@ const AboutPage = () => {
             </Profile>
             <Profile>
               <StaticImage
-                className="profileImage"
+                className="profileImage h-headshot-sm md:h-headshot-md lg:h-headshot-lg xl:h-headshot-xl rounded-full w-headshot-sm md:w-headshot-md lg:w-headshot-lg xl:w-headshot-xl"
 						    alt="Meg Richards Headshot"
-						    css={tw`
-                h-headshot-sm md:h-headshot-md lg:h-headshot-lg xl:h-headshot-xl
-                rounded-full
-                w-headshot-sm md:w-headshot-md lg:w-headshot-lg xl:w-headshot-xl
-                `}
 						    objectPosition="center top"
 		            src="../../images/headshots/meg-richards.jpg"
 			        />

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import tw, {styled} from 'twin.macro';
+import withClasses from '../../withClasses';
 import { StaticImage } from 'gatsby-plugin-image';
 import HeaderContainer from './containers';
 import {
@@ -31,7 +31,7 @@ const Header = ({ pageTitle, children }) => {
           <HomeImageWrapper>
             <StaticImage
               alt="Dezudio Wordmark"
-              css={tw`w-24 md:w-20 lg:w-32`}
+              className="w-24 md:w-20 lg:w-32"
               loading="eager"
               placeholder="none"
               src="../../../images/svg/dezudio.svg"
@@ -40,13 +40,13 @@ const Header = ({ pageTitle, children }) => {
         </HomeLink>
       </Wordmark>
       <Nav>
-        <NavWrapper menuOpen={menuOpen}>
+        <NavWrapper className={menuOpen ? 'visible' : 'invisible'}>
             <NavBun>
-              <NavBurger href="#" menuOpen={menuOpen} onClick={() => toggleMenuOpen(!menuOpen)}>
+              <button className={menuOpen ? 'nav-burger open' : 'nav-burger'} href="#" onClick={() => toggleMenuOpen(!menuOpen)}>
                 <div/>
                 <div/>
                 <div/>
-              </NavBurger>
+              </button>
             </NavBun>
             <NavLinkGenerator to={"/about"} label={"About"} active={pageTitle}/>
             <NavLinkGenerator to={"/latest"} label={"Latest"} active={pageTitle}/>
@@ -62,69 +62,38 @@ const Header = ({ pageTitle, children }) => {
 
 export default Header;
 
-const FullNav = tw.nav`
+const FullNav = withClasses('nav', `
 md:col-end-13
 md:col-start-6
 float-right
 invisible md:visible
 hidden md:block
-text-right`;
+text-right
+`);
 
-const Nav = tw.div`
+const Nav = withClasses('div', `
 visible md:invisible
 block md:hidden
 text-right
 relative
-`
+`);
 
-const NavWrapper = styled.nav`
-position: absolute;
-top: 2.5rem;
-right: 0;
-visibility: ${({ menuOpen }) =>
-    menuOpen ? "visible" : "hidden"};
-`;
+const NavWrapper = withClasses('nav', `
+absolute
+top-10
+right-0
+`);
 
-const NavBun = tw.div`
+const NavBun = withClasses('div', `
 visible md:invisible
 absolute
 top-ex
 right-0
-`
+`);
 
-const NavBurger = styled.button`
-  cursor: pointer;
-  visibility: visible;
-  background: transparent;
-  border: none;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  height: 2rem;
-  z-index: 11;
-  div {
-    width: 2rem;
-    height: 0.25rem;
-    background: ${({ menuOpen }) => (menuOpen ? "#f45d48" : "black")};
-        border-radius: 10px;
-    transform-origin: 1px;
-    transition: opacity 300ms, transform 300ms;
-    :first-of-type {
-      transform: ${({ menuOpen }) =>
-        menuOpen ? "rotate(45deg)" : "rotate(0)"};
-    }
-    :nth-of-type(2) {
-      opacity: ${({ menuOpen }) => (menuOpen ? "0" : "1")};
-      transform: ${({ menuOpen }) =>
-        menuOpen ? "translateX(-20px)" : "translateX(0)"};
-    }
-    :nth-of-type(3) {
-      transform: ${({ menuOpen }) =>
-        menuOpen ? "rotate(-45deg)" : "rotate(0)"};
-    }
-`
+// The burger's look and open state live in src/styles/global.css (.nav-burger).
 
-const NavLink = styled(Link)([tw`
+const NavLink = withClasses(Link, `
 hover:font-sans-bold
 ml-6
 mt-6 md:mt-0
@@ -133,4 +102,4 @@ text-dezudiorange
 text-right
 block md:inline
 text-nav-sm lg:text-nav-lg xl:text-nav-xl
-`]);
+`);

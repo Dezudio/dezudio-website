@@ -1,4 +1,4 @@
 [build.environment]
   # Gatsby 5 requires Node >=18. Without this Netlify falls back to the
   # version pinned in the site's build settings.
-  NODE_VERSION = "22"
+  NODE_VERSION = "24"

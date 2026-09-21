@@ -1,7 +1,7 @@
-import tw from 'twin.macro';
+import withClasses from '../withClasses';
 
-const DezudiDot = tw.span`
+const DezudiDot = withClasses('span', `
 text-dezudiorange
-`;
+`);
 
 export default DezudiDot;

@@ -1,14 +1,21 @@
-import tw, { styled } from 'twin.macro';
-import Link, {
-  ExternalTaglineLink,
-} from '../common/links';
+import withClasses from '../withClasses';
+import Link from '../common/links';
 
-export const LatestExternalTaglineLink = styled(ExternalTaglineLink)([tw`
+export const LatestExternalTaglineLink = withClasses('a', `
+block
+font-sans-reg
+text-dezudiorange
+text-link-sm
+md:col-end-13
+my-0
+row-start-2
+text-center
+md:text-link-sm-loose lg:text-link-base
 tb:col-start-5 md:col-start-6
 tb:row-start-1
-tb:ml-8 
+tb:ml-8
 tb:text-left
-w-37
-`]);
+w-37 md:w-auto
+`);
 
 export default Link;
