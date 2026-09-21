@@ -1,8 +1,7 @@
 import * as React from 'react';
-import { StaticImage } from 'gatsby-plugin-image';
 import Layout from '../components/common/layout';
 import SubHeading from '../components/latest/headings';
-import Section, {
+import {
   LatestSection,
   LatestSectionBody,
   LatestSectionP,
@@ -13,7 +12,7 @@ import {
   LatestTagline,
   LatestTaglineBeforeLink,
 } from '../components/latest/taglines';
-import Link, {
+import {
   LatestExternalTaglineLink,
 } from '../components/latest/links';
 

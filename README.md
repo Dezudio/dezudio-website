@@ -10,7 +10,7 @@
 1. [Review Changes](https://www.dezudio.com) on the production site
 
 ## Working on the code
-See [DEVELOPMENT.md](DEVELOPMENT.md) for local setup, how the styling is put together, and how the site deploys.
+See [DEVELOPMENT.md](DEVELOPMENT.md) to run the site on your own computer and preview changes before publishing them.
 
 ## Troubleshooting
 ### Site not building or deploying
