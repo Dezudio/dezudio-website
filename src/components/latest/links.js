@@ -11,7 +11,7 @@ my-0
 row-start-2
 text-center
 md:text-link-sm-loose lg:text-link-base
-tb:col-start-5 md:col-start-6
+tb:col-start-7 lg:col-start-7
 tb:row-start-1
 tb:ml-8
 tb:text-left
