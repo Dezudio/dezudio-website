@@ -19,12 +19,16 @@ const Footer = ({ children }) => {
     <FooterContainerWrapper>
       <FooterContainer>
         <WordmarkSection>
+          {/* The set heights are slightly taller than the wordmark's own
+              proportions, so contain keeps its sides from being cropped. */}
           <StaticImage
             alt="Dezudio Wordmark"
             className="
             tb:h-logo-ft-tbh md:h-logo-ft-mdh lg:h-logo-ft-lgh xl:h-logo-ft-xlh
             w-24 tb:w-logo-ft-tbw md:w-logo-ft-mdw lg:w-logo-ft-lgw xl:w-logo-ft-xlw
             "
+            objectFit="contain"
+            objectPosition="left center"
             src="../../../images/svg/dezudio-white.svg"
           />
         </WordmarkSection>

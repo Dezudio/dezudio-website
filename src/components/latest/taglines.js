@@ -20,15 +20,16 @@ lg:text-tagline-2xl
 export const LatestTaglineBeforeLink = withClasses('h3', `
 font-serif-bold
 mb-7
+col-start-1
 row-start-1
 text-black
 text-center
 text-tagline-sm md:text-tagline-lg lg:text-tagline-2xl xl:text-tagline-3xl
 xl:tracking-loose
-tb:mb-0
-col-start-1 md:col-start-3
-tb:col-end-5 md:col-end-7 lg:col-end-7
+tb:col-start-1
+tb:col-end-7 md:col-end-7
 tb:text-right
+tb:mb-0
 `);
 
 export default Tagline;
