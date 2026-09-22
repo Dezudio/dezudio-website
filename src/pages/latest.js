@@ -12,34 +12,28 @@ import {
   LatestTagline,
   LatestTaglineBeforeLink,
 } from '../components/latest/taglines';
-import {
-  LatestExternalTaglineLink,
-} from '../components/latest/links';
+import { LatestExternalTaglineLink } from '../components/latest/links';
 
 const LatestPage = () => {
   return (
     <Layout pageTitle="Latest">
-
       {/* Latest Section */}
       <SectionWrapper>
         <LatestSection>
           <SubHeading>Latest</SubHeading>
-          <LatestTagline>
-            Dezudio is always up to something.
-          </LatestTagline>
+          <LatestTagline>Dezudio is always up to something.</LatestTagline>
           <LatestSectionBody>
             <LatestSectionP>
               As a proud, woman-owned small business, we love independent
-              working, and helping others take on entrepreneurial design
-              roles as freelancers, independent consultants, and business
-              owners.
+              working, and helping others take on entrepreneurial design roles
+              as freelancers, independent consultants, and business owners.
             </LatestSectionP>
             <LatestSectionP>
               In addition to our design practice, we teach graduate courses in
               design. We are involved with the design communities in our
-              respective cities through design organizations and volunteer roles,
-              and sometimes speak at conferences. We write occasionally on
-              Medium.
+              respective cities through design organizations and volunteer
+              roles, and sometimes speak at conferences. We write occasionally
+              on Medium.
             </LatestSectionP>
           </LatestSectionBody>
         </LatestSection>
@@ -48,9 +42,7 @@ const LatestPage = () => {
       {/* Follow Us Section */}
       <SectionWrapper>
         <LatestTaglineLinkSection>
-          <LatestTaglineBeforeLink>
-            Follow us.
-          </LatestTaglineBeforeLink>
+          <LatestTaglineBeforeLink>Follow us.</LatestTaglineBeforeLink>
           <LatestExternalTaglineLink href="https://www.instagram.com/dezudio">
             Go to Instagram &rarr;
           </LatestExternalTaglineLink>

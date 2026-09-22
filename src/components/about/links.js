@@ -1,11 +1,11 @@
 import withClasses from '../withClasses';
 import Link from '../common/links';
 
-export {
-  BlockLink,
-} from '../common/links';
+export { BlockLink } from '../common/links';
 
-export const BioBlockLink = withClasses(Link, `
+export const BioBlockLink = withClasses(
+  Link,
+  `
 block
 font-sans-reg
 my-0
@@ -15,9 +15,12 @@ w-auto md:w-auto
 sm:text-biolink-sm md:text-biolink-md lg:text-biolink-lg xl:text-biolink-xl
 tb:pt-2.5
 sm:pb-6 tb:pb-0
-`);
+`
+);
 
-export const LatestExternalTaglineLink = withClasses('a', `
+export const LatestExternalTaglineLink = withClasses(
+  'a',
+  `
 block
 font-sans-reg
 text-dezudiorange
@@ -32,6 +35,7 @@ tb:row-start-1
 tb:ml-8
 tb:text-left
 w-37 md:w-auto
-`);
+`
+);
 
 export default Link;

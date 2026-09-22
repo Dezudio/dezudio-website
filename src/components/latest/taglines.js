@@ -3,7 +3,9 @@ import Tagline from '../common/taglines';
 
 // xl:tracking-loose keeps the letter-spacing that Tagline's
 // xl:text-tagline-xl used to leave behind under the larger font size.
-export const LatestTagline = withClasses('h3', `
+export const LatestTagline = withClasses(
+  'h3',
+  `
 col-start-1 lg:col-start-2
 font-serif-bold
 row-start-2
@@ -15,9 +17,12 @@ lg:pr-10
 md:row-start-2
 text-black
 lg:text-tagline-2xl
-`);
+`
+);
 
-export const LatestTaglineBeforeLink = withClasses('h3', `
+export const LatestTaglineBeforeLink = withClasses(
+  'h3',
+  `
 font-serif-bold
 mb-7
 col-start-1
@@ -30,6 +35,7 @@ tb:col-start-1
 tb:col-end-7 md:col-end-7
 tb:text-right
 tb:mb-0
-`);
+`
+);
 
 export default Tagline;

@@ -1,6 +1,7 @@
 # Dezudio Frontdoor
 
 ## Update Procedure
+
 1. [Edit Files](https://github.com/Dezudio/dezudio-website/tree/main/src) on GitHub and commit the changes with a message
 1. [Wait](https://github.com/Dezudio/dezudio-website/actions/workflows/build.yml) for the build process to finish
 1. [Review Changes](https://test.dezudio.com) on the [test site](https://test.dezudio.com) or on the [backup test site](https://dezudio.netlify.app)
@@ -10,8 +11,11 @@
 1. [Review Changes](https://www.dezudio.com) on the production site
 
 ## Working on the code
+
 See [DEVELOPMENT.md](DEVELOPMENT.md) to run the site on your own computer and preview changes before publishing them.
 
 ## Troubleshooting
+
 ### Site not building or deploying
+
 Check the [GitHub Status Dashboard](https://www.githubstatus.com/) and make sure GitHub Actions is ok

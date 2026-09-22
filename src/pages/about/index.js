@@ -14,7 +14,7 @@ import Profile, {
   ProfileName,
   ProfileTitle,
 } from '../../components/about/profiles';
-import Section, {
+import {
   AboutSection,
   AboutUsSectionBody,
   AboutSectionP,
@@ -33,23 +33,31 @@ import {
 const AboutPage = () => {
   return (
     <Layout pageTitle="About">
-
       {/* About Us Section */}
       <SectionWrapper>
         <AboutSection>
           <SubHeading>About Us</SubHeading>
           <AboutUsTagline>
-            Dezudio is an information design, interaction design, and design research consultancy based in Pittsburgh.
+            Dezudio is an information design, interaction design, and design
+            research consultancy based in Pittsburgh.
           </AboutUsTagline>
           <AboutUsSectionBody>
             <AboutSectionP>
-              Design is powerful. It can inform decision-making, inspire action, and drive positive behaviors. At Dezudio, we value research, communication, and education as critical tools in bridging the gap between where we are and where we need to be.
+              Design is powerful. It can inform decision-making, inspire action,
+              and drive positive behaviors. At Dezudio, we value research,
+              communication, and education as critical tools in bridging the gap
+              between where we are and where we need to be.
             </AboutSectionP>
             <AboutSectionP>
-              Founded in 2011, we are seasoned designers and entrepreneurs with expertise in design research, user experience, interaction design, data-driven reporting, and visual and information design.
+              Founded in 2011, we are seasoned designers and entrepreneurs with
+              expertise in design research, user experience, interaction design,
+              data-driven reporting, and visual and information design.
             </AboutSectionP>
             <AboutSectionP>
-              We are fully committed to a collaborative design process. As an intentionally small team, we work in close partnership with our clients to involve stakeholders and gather input throughout the design process, always with a focus on quality project outcomes.
+              We are fully committed to a collaborative design process. As an
+              intentionally small team, we work in close partnership with our
+              clients to involve stakeholders and gather input throughout the
+              design process, always with a focus on quality project outcomes.
             </AboutSectionP>
           </AboutUsSectionBody>
         </AboutSection>
@@ -65,37 +73,39 @@ const AboutPage = () => {
             <Profile>
               <StaticImage
                 className="profileImage h-headshot-sm md:h-headshot-md lg:h-headshot-lg xl:h-headshot-xl rounded-full w-headshot-sm md:w-headshot-md lg:w-headshot-lg xl:w-headshot-xl"
-						    alt="Raelynn O'Leary Headshot"
-						    objectPosition="center top"
-		            src="../../images/headshots/raelynn-oleary.jpg"
-			        />
-              <ProfileName>Raelynn O'Leary</ProfileName>
+                alt="Raelynn O'Leary Headshot"
+                objectPosition="center top"
+                src="../../images/headshots/raelynn-oleary.jpg"
+              />
+              <ProfileName>Raelynn O&apos;Leary</ProfileName>
               <ProfileTitle>Partner</ProfileTitle>
               <BioBlockLink
                 to="raelynn-oleary"
                 state={{
-                  modal: false
-                }}>
+                  modal: false,
+                }}
+              >
                 Bio &rarr;
               </BioBlockLink>
             </Profile>
             <Profile>
               <StaticImage
                 className="profileImage h-headshot-sm md:h-headshot-md lg:h-headshot-lg xl:h-headshot-xl rounded-full w-headshot-sm md:w-headshot-md lg:w-headshot-lg xl:w-headshot-xl"
-						    alt="Ashley Deal Headshot"
-						    objectPosition="center top"
-		            src="../../images/headshots/ashley-deal.jpg"
-			        />
+                alt="Ashley Deal Headshot"
+                objectPosition="center top"
+                src="../../images/headshots/ashley-deal.jpg"
+              />
               <ProfileName>Ashley Deal </ProfileName>
               <ProfileTitle>Partner</ProfileTitle>
               <BioBlockLink
                 to="ashley-deal"
                 state={{
-                  modal: false
-                }}>
+                  modal: false,
+                }}
+              >
                 Bio &rarr;
               </BioBlockLink>
-            </Profile> 
+            </Profile>
           </ProfilesWrapper>
         </TeamsSection>
       </SectionWrapper>
@@ -114,10 +124,10 @@ const AboutPage = () => {
             <Profile>
               <StaticImage
                 className="profileImage h-headshot-sm md:h-headshot-md lg:h-headshot-lg xl:h-headshot-xl rounded-full w-headshot-sm md:w-headshot-md lg:w-headshot-lg xl:w-headshot-xl"
-						    alt="Anna Abovyan Headshot"
-						    objectPosition="center top"
-		            src="../../images/headshots/anna-abovyan.jpg"
-			        />
+                alt="Anna Abovyan Headshot"
+                objectPosition="center top"
+                src="../../images/headshots/anna-abovyan.jpg"
+              />
               <ProfileName>Anna Abovyan</ProfileName>
               <ProfileTitle>Designer and Strategist</ProfileTitle>
               <BioBlockLink href="https://www.linkedin.com/in/annaabovyan/">
@@ -127,10 +137,10 @@ const AboutPage = () => {
             <Profile>
               <StaticImage
                 className="profileImage h-headshot-sm md:h-headshot-md lg:h-headshot-lg xl:h-headshot-xl rounded-full w-headshot-sm md:w-headshot-md lg:w-headshot-lg xl:w-headshot-xl"
-						    alt="Ulu Mills Headshot"
-						    objectPosition="center top"
-		            src="../../images/headshots/ulu-mills.jpg"
-			        />
+                alt="Ulu Mills Headshot"
+                objectPosition="center top"
+                src="../../images/headshots/ulu-mills.jpg"
+              />
               <ProfileName>Ulu Mills</ProfileName>
               <ProfileTitle>Designer</ProfileTitle>
               <BioBlockLink href="https://www.linkedin.com/in/ulumills/">
@@ -140,10 +150,10 @@ const AboutPage = () => {
             <Profile>
               <StaticImage
                 className="profileImage h-headshot-sm md:h-headshot-md lg:h-headshot-lg xl:h-headshot-xl rounded-full w-headshot-sm md:w-headshot-md lg:w-headshot-lg xl:w-headshot-xl"
-						    alt="Norman Huelsman Headshot"
-						    objectPosition="center top"
-		            src="../../images/headshots/norm-huelsman.jpg"
-			        />
+                alt="Norman Huelsman Headshot"
+                objectPosition="center top"
+                src="../../images/headshots/norm-huelsman.jpg"
+              />
               <ProfileName>Norman Huelsman</ProfileName>
               <ProfileTitle>Developer</ProfileTitle>
               <BioBlockLink href="https://www.linkedin.com/in/normhuelsman/">
@@ -153,10 +163,10 @@ const AboutPage = () => {
             <Profile>
               <StaticImage
                 className="profileImage h-headshot-sm md:h-headshot-md lg:h-headshot-lg xl:h-headshot-xl rounded-full w-headshot-sm md:w-headshot-md lg:w-headshot-lg xl:w-headshot-xl"
-						    alt="Meg Richards Headshot"
-						    objectPosition="center top"
-		            src="../../images/headshots/meg-richards.jpg"
-			        />
+                alt="Meg Richards Headshot"
+                objectPosition="center top"
+                src="../../images/headshots/meg-richards.jpg"
+              />
               <ProfileName>Meg Richards</ProfileName>
               <ProfileTitle>Technology Advisor</ProfileTitle>
               <BioBlockLink href="https://www.linkedin.com/in/merichar/">

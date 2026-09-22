@@ -4,26 +4,24 @@ import Header from './header';
 import Footer from './footer';
 
 const h1Style = {
-  height: "1px",
-  margin: "-1px",
-  overflow: "hidden",
-  padding: "0",
-  position: "absolute",
-  left: "-9999px",
-  width: "1px"
-}
+  height: '1px',
+  margin: '-1px',
+  overflow: 'hidden',
+  padding: '0',
+  position: 'absolute',
+  left: '-9999px',
+  width: '1px',
+};
 
 const Layout = ({ pageTitle, children }) => {
-  const fullTitle = pageTitle + " - Dezudio";
+  const fullTitle = pageTitle + ' - Dezudio';
 
   return (
     <main>
       <h1 style={h1Style}>{fullTitle}</h1>
-      <Header pageTitle={pageTitle}/>
-      <Container>
-        {children}
-      </Container>
-      <Footer/>
+      <Header pageTitle={pageTitle} />
+      <Container>{children}</Container>
+      <Footer />
     </main>
   );
 };

@@ -1,12 +1,10 @@
 import withClasses from '../withClasses';
 import Link from '../common/links';
-export {
-  BlockLink,
-  InlineLink,
-  TaglineLink,
-} from '../common/links';
+export { BlockLink, InlineLink, TaglineLink } from '../common/links';
 
-export const AboutUsBlockLink = withClasses(Link, `
+export const AboutUsBlockLink = withClasses(
+  Link,
+  `
 block
 font-sans-reg
 text-dezudiorange
@@ -19,9 +17,12 @@ my-0
 row-start-2 md:row-start-1
 text-center md:text-left
 md:text-link-sm-loose lg:text-link-base
-`);
+`
+);
 
-export const LatestExternalTaglineLink = withClasses('a', `
+export const LatestExternalTaglineLink = withClasses(
+  'a',
+  `
 block
 font-sans-reg
 text-dezudiorange
@@ -36,6 +37,7 @@ tb:row-start-1
 tb:ml-8
 tb:text-left
 w-37 md:w-auto
-`);
+`
+);
 
 export default Link;

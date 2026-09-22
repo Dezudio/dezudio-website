@@ -40,6 +40,17 @@ save. `Control` + `C` stops it.
 Before starting work, **Fetch origin** and **Pull origin** in GitHub Desktop.
 If `package.json` or `package-lock.json` changed, run `npm ci` again.
 
+Before committing a code change, run these checks from the project folder:
+
+```
+npm run lint
+npm run format:check
+```
+
+`npm run lint:fix` applies safe lint fixes. To reformat files, run
+`npm run format`, then review the changes before committing. GitHub runs both
+checks automatically on every pull request and push to `main`.
+
 To publish, commit and push in GitHub Desktop. Your changes reach
 [test.dezudio.com](https://test.dezudio.com) a few minutes later. The live
 site only updates when someone publishes a release, so pushing is safe. The
@@ -61,13 +72,13 @@ separate stylesheet. Those names come from the `@theme` block at the top of
 
 The screen size names are custom to this site:
 
-| Name | Applies from |
-|---|---|
-| `sm` | 320px |
+| Name | Applies from  |
+| ---- | ------------- |
+| `sm` | 320px         |
 | `tb` | 640px, tablet |
-| `md` | 1024px |
-| `lg` | 1920px |
-| `xl` | 2280px |
+| `md` | 1024px        |
+| `lg` | 1920px        |
+| `xl` | 2280px        |
 
 So `pb-10 md:pb-20` means 10 normally, and 20 once the screen is 1024px or
 wider.
