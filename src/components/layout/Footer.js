@@ -13,6 +13,20 @@ const footerClassName = `
   text-white
 `;
 
+const footerLogoSectionClassName = `
+  col-start-1 lg:col-start-2
+  row-start-1
+  tb:col-span-4 md:col-span-3
+  mb-15 md:mb-0
+  md:pt-10
+  xl:w-md
+`;
+
+const footerLogoClassName = `
+  tb:h-logo-ft-tbh md:h-logo-ft-mdh lg:h-logo-ft-lgh xl:h-logo-ft-xlh
+  w-24 tb:w-logo-ft-tbw md:w-logo-ft-mdw lg:w-logo-ft-lgw xl:w-logo-ft-xlw
+`;
+
 const footerSectionClassName = `
   col-start-1
   tb:row-start-2 md:row-start-1
@@ -26,20 +40,6 @@ const footerHeadingClassName = `
   tracking-looser uppercase
   mb-4
   text-footer-sm lg:text-footer-base
-`;
-
-const footerLogoClassName = `
-  tb:h-logo-ft-tbh md:h-logo-ft-mdh lg:h-logo-ft-lgh xl:h-logo-ft-xlh
-  w-24 tb:w-logo-ft-tbw md:w-logo-ft-mdw lg:w-logo-ft-lgw xl:w-logo-ft-xlw
-`;
-
-const footerLogoSectionClassName = `
-  col-start-1 lg:col-start-2
-  row-start-1
-  tb:col-span-4 md:col-span-3
-  mb-15 md:mb-0
-  md:pt-10
-  xl:w-md
 `;
 
 const footerCopyrightClassName = `

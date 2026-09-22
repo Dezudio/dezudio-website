@@ -7,6 +7,7 @@ const contentWidthClassName = `
 `;
 
 const sectionWrapperClass = 'clear-both';
+
 const latestSectionClass = `
   auto-rows-min md:gap-x-16
   grid grid-cols-1 grid-rows-none tb:grid-cols-10 md:grid-cols-12
@@ -14,6 +15,7 @@ const latestSectionClass = `
   pt-12 pb-9
   sm:py-0 sm:my-15 tb:my-20 md:mb-28 lg:mb-37
 `;
+
 const headingClass = `
   tb:col-end-5 col-start-1 lg:col-start-2
   font-sans-black row-start-1
@@ -22,6 +24,7 @@ const headingClass = `
   uppercase lg:tracking-loose xl:tracking-normal
   pb-6 tb:pb-8 md:pb-11.5 lg:pb-15 xl:pb-20
 `;
+
 const taglineClass = `
   col-start-1 lg:col-start-2 tb:col-end-6 lg:col-end-7
   font-serif-bold row-start-2 md:row-start-2
@@ -30,15 +33,18 @@ const taglineClass = `
   text-tagline-2xs-tight md:text-tagline-xs lg:text-tagline-2xl
   xl:tracking-loose
 `;
+
 const bodyClass = `
   text-3xs lg:text-xs xl:text-base-tight text-blue-dark
   tb:col-start-6 md:col-start-7 tb:col-end-11 md:col-end-12
   tb:row-start-2
 `;
+
 const paragraphClass = `
   mb-7.5 sm:mb-5 lg:mb-6 xl:mb-10
   pb-10 sm:pb-0 md:pr-1 xl:pr-0
 `;
+
 const callToActionClass = `
   auto-rows-min
   grid grid-cols-1 grid-rows-none tb:grid-cols-9 tb:grid-rows-1
@@ -47,6 +53,7 @@ const callToActionClass = `
   gap-0 md:gap-x-16
   items-center
 `;
+
 const callToActionHeadingClass = `
   font-serif-bold
   col-start-1 tb:col-start-1 md:col-start-3 tb:col-end-7 md:col-end-7
@@ -56,6 +63,7 @@ const callToActionHeadingClass = `
   text-tagline-sm md:text-tagline-lg lg:text-tagline-2xl xl:text-tagline-3xl
   xl:tracking-loose
 `;
+
 const callToActionLinkClass = `
   block font-sans-reg text-dezudiorange
   text-link-sm md:text-link-sm-loose lg:text-link-base
@@ -106,6 +114,7 @@ const LatestPage = () => {
     </Layout>
   );
 };
+
 export default LatestPage;
 
 export const Head = () => <title>Latest - Dezudio</title>;
