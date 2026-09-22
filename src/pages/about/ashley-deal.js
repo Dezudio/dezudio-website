@@ -16,9 +16,8 @@ import ProfileTitle, {
 
 const AboutPage = () => {
   return (
-    <Layout pageTitle="Ashley Deal"
-            fromPerson="../raelynn-oleary"
-toPerson="../raelynn-oleary">
+    <Layout fromPerson="../raelynn-oleary"
+            toPerson="../raelynn-oleary">
       <StaticImage
 				alt="Ashley Deal Headshot"
 				className="tb:col-span-2 tb:justify-self-end md:justify-self-start row-span-2 tb:mr-5 md:mr-0 h-bio-headshot-sm tb:h-bio-headshot-tb md:h-bio-headshot-md lg:h-bio-headshot-lg xl:h-bio-headshot-xl rounded-full w-bio-headshot-sm tb:w-bio-headshot-tb md:w-bio-headshot-md lg:w-bio-headshot-lg xl:w-bio-headshot-xl"
@@ -62,3 +61,5 @@ toPerson="../raelynn-oleary">
   );
 };
 export default AboutPage;
+
+export const Head = () => <title>Ashley Deal - Dezudio</title>;

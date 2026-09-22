@@ -16,8 +16,7 @@ import ProfileTitle, {
 
 const AboutPage = () => {
   return (
-    <Layout pageTitle="Raelynn O'Leary"
-            fromPerson="../ashley-deal"
+    <Layout fromPerson="../ashley-deal"
             toPerson="../ashley-deal">
       <StaticImage
 				alt="Raelynn O'Leary Headshot"
@@ -62,3 +61,5 @@ const AboutPage = () => {
   );
 };
 export default AboutPage;
+
+export const Head = () => <title>Raelynn O'Leary - Dezudio</title>;
