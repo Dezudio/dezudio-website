@@ -609,12 +609,9 @@ const IndexPage = () => {
           <h3 className={latestTaglineBeforeLinkClassName}>
             Let us introduce ourselves.
           </h3>
-          <a
-            className={latestExternalTaglineLinkClassName}
-            href="http://dezudio.com/about"
-          >
+          <Link className={latestExternalTaglineLinkClassName} to="/about">
             About us &rarr;
-          </a>
+          </Link>
         </section>
       </div>
     </Layout>
@@ -623,4 +620,4 @@ const IndexPage = () => {
 
 export default IndexPage;
 
-export const Head = () => <title>Home - Dezudio</title>;
+export const Head = () => <title>Dezudio</title>;
