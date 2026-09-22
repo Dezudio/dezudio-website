@@ -13,6 +13,7 @@ import Profile, {
   ProfilesWrapper,
   ProfileName,
   ProfileTitle,
+  teamProfileImageClassName,
 } from '../../components/about/profiles';
 import {
   AboutSection,
@@ -70,7 +71,7 @@ const AboutPage = () => {
           <ProfilesWrapper>
             <Profile>
               <StaticImage
-                className="profileImage h-headshot-sm md:h-headshot-md lg:h-headshot-lg xl:h-headshot-xl rounded-full w-headshot-sm md:w-headshot-md lg:w-headshot-lg xl:w-headshot-xl"
+                className={teamProfileImageClassName}
                 alt="Raelynn O'Leary Headshot"
                 objectPosition="center top"
                 src="../../images/headshots/raelynn-oleary.jpg"
@@ -88,7 +89,7 @@ const AboutPage = () => {
             </Profile>
             <Profile>
               <StaticImage
-                className="profileImage h-headshot-sm md:h-headshot-md lg:h-headshot-lg xl:h-headshot-xl rounded-full w-headshot-sm md:w-headshot-md lg:w-headshot-lg xl:w-headshot-xl"
+                className={teamProfileImageClassName}
                 alt="Ashley Deal Headshot"
                 objectPosition="center top"
                 src="../../images/headshots/ashley-deal.jpg"
@@ -121,7 +122,7 @@ const AboutPage = () => {
           <ProfilesWrapper>
             <Profile>
               <StaticImage
-                className="profileImage h-headshot-sm md:h-headshot-md lg:h-headshot-lg xl:h-headshot-xl rounded-full w-headshot-sm md:w-headshot-md lg:w-headshot-lg xl:w-headshot-xl"
+                className={teamProfileImageClassName}
                 alt="Anna Abovyan Headshot"
                 objectPosition="center top"
                 src="../../images/headshots/anna-abovyan.jpg"
@@ -134,7 +135,7 @@ const AboutPage = () => {
             </Profile>
             <Profile>
               <StaticImage
-                className="profileImage h-headshot-sm md:h-headshot-md lg:h-headshot-lg xl:h-headshot-xl rounded-full w-headshot-sm md:w-headshot-md lg:w-headshot-lg xl:w-headshot-xl"
+                className={teamProfileImageClassName}
                 alt="Ulu Mills Headshot"
                 objectPosition="center top"
                 src="../../images/headshots/ulu-mills.jpg"
@@ -147,7 +148,7 @@ const AboutPage = () => {
             </Profile>
             <Profile>
               <StaticImage
-                className="profileImage h-headshot-sm md:h-headshot-md lg:h-headshot-lg xl:h-headshot-xl rounded-full w-headshot-sm md:w-headshot-md lg:w-headshot-lg xl:w-headshot-xl"
+                className={teamProfileImageClassName}
                 alt="Norman Huelsman Headshot"
                 objectPosition="center top"
                 src="../../images/headshots/norm-huelsman.jpg"
@@ -160,7 +161,7 @@ const AboutPage = () => {
             </Profile>
             <Profile>
               <StaticImage
-                className="profileImage h-headshot-sm md:h-headshot-md lg:h-headshot-lg xl:h-headshot-xl rounded-full w-headshot-sm md:w-headshot-md lg:w-headshot-lg xl:w-headshot-xl"
+                className={teamProfileImageClassName}
                 alt="Meg Richards Headshot"
                 objectPosition="center top"
                 src="../../images/headshots/meg-richards.jpg"

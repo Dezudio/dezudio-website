@@ -2,8 +2,23 @@ import React, { useState } from 'react';
 import { Link } from 'gatsby';
 import { StaticImage } from 'gatsby-plugin-image';
 
-const navLinkClass =
-  'hover:font-sans-bold ml-6 mt-6 md:mt-0 self-end text-dezudiorange text-right block md:inline text-nav-sm lg:text-nav-lg xl:text-nav-xl';
+const navLinkClass = `
+  block md:inline
+  self-end
+  ml-6 mt-6 md:mt-0
+  text-dezudiorange text-right
+  text-nav-sm lg:text-nav-lg xl:text-nav-xl
+  hover:font-sans-bold
+`;
+
+const headerClassName = `
+  font-sans-reg text-base
+  gap-2 md:gap-16
+  grid grid-cols-2 md:grid-cols-12
+  mx-auto
+  pt-5 md:pt-14 lg:pt-6
+  w-sm tb:w-tb md:w-md lg:w-lg xl:w-xl
+`;
 
 const Header = ({ pageTitle }) => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -18,7 +33,7 @@ const Header = ({ pageTitle }) => {
   );
 
   return (
-    <header className="font-sans-reg text-base gap-2 md:gap-16 grid grid-cols-2 md:grid-cols-12 mx-auto pt-5 md:pt-14 lg:pt-6 w-sm tb:w-tb md:w-md lg:w-lg xl:w-xl">
+    <header className={headerClassName}>
       <div className="flex-1">
         <Link className="bg-white hover:bg-dezudiorange float-left" to="/">
           <div className="float-left hover:brightness-0 hover:invert py-1 text-nav-sm">

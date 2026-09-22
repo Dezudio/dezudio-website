@@ -1,6 +1,7 @@
 import React from 'react';
 import { StaticImage } from 'gatsby-plugin-image';
 import BioLayout from '../../components/layout/BioLayout';
+import { bioProfileImageClassName } from '../../components/about/profiles';
 import {
   ProfileContent,
   ProfileMainSection,
@@ -19,7 +20,7 @@ const AboutPage = () => {
     <BioLayout fromPerson="../raelynn-oleary" toPerson="../raelynn-oleary">
       <StaticImage
         alt="Ashley Deal Headshot"
-        className="tb:col-span-2 tb:justify-self-end md:justify-self-start row-span-2 tb:mr-5 md:mr-0 h-bio-headshot-sm tb:h-bio-headshot-tb md:h-bio-headshot-md lg:h-bio-headshot-lg xl:h-bio-headshot-xl rounded-full w-bio-headshot-sm tb:w-bio-headshot-tb md:w-bio-headshot-md lg:w-bio-headshot-lg xl:w-bio-headshot-xl"
+        className={bioProfileImageClassName}
         objectPosition="center top"
         src="../../images/headshots/ashley-deal.jpg"
       />

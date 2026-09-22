@@ -1,16 +1,55 @@
 import * as React from 'react';
 import { Link } from 'gatsby';
 
-const sectionBodyClass =
-  'block tb:grid grid-cols-10 md:grid-cols-10 gap-0 row-start-1 col-start-1 md:col-start-2 col-end-3 tb:col-end-12 text-profile-body-tb lg:text-xs xl:text-base-tight text-blue-dark font-serif-reg';
-const previousLinkClass =
-  'block font-sans-reg mb-0 text-dezudiorange text-link-sm md:text-link-md lg:text-heading-lg xl:text-link-xl row-start-2 md:row-start-1 col-start-1 tb:col-span-3 md:col-auto mt-18 md:mt-0 pt-0 md:pt-48 xl:justify-self-center w-auto md:w-auto';
-const nextLinkClass =
-  'block font-sans-reg mb-0 text-dezudiorange text-link-sm md:text-link-md lg:text-heading-lg xl:text-link-xl row-start-2 md:row-start-1 tb:col-end-13 tb:col-span-3 md:col-auto mt-18 md:mt-0 pt-0 md:pt-48 text-right xl:justify-self-center w-auto md:w-auto';
-const closeLinkClass =
-  'block font-sans-reg mb-0 text-dezudiorange text-link-sm md:text-link-md lg:text-heading-lg xl:text-link-xl absolute right-10 mt-8.4 md:mt-15 w-0 md:w-auto';
-const bioSectionClass =
-  'auto-rows-min grid grid-rows-none mx-auto pt-12 pb-9 w-sm tb:w-tb md:w-md lg:w-lg grid-cols-2 tb:grid-cols-12 gap-x-0 md:gap-x-16 sm:pt-13 tb:pt-30 md:pt-37 lg:pt-49 tb:pb-18 md:pb-49 lg:pb-60.6 xl:pb-bg-sm xl:w-96p';
+const bioLinkClass = `
+  block
+  font-sans-reg
+  mb-0
+  text-dezudiorange
+  text-link-sm md:text-link-md lg:text-heading-lg xl:text-link-xl
+`;
+
+const sectionBodyClass = `
+  block tb:grid grid-cols-10 md:grid-cols-10
+  gap-0
+  row-start-1 col-start-1 md:col-start-2 col-end-3 tb:col-end-12
+  text-profile-body-tb lg:text-xs xl:text-base-tight
+  text-blue-dark
+  font-serif-reg
+`;
+
+const previousLinkClass = `
+  ${bioLinkClass}
+  row-start-2 md:row-start-1 col-start-1 tb:col-span-3 md:col-auto
+  mt-18 md:mt-0 pt-0 md:pt-48
+  xl:justify-self-center
+  w-auto md:w-auto
+`;
+
+const nextLinkClass = `
+  ${bioLinkClass}
+  row-start-2 md:row-start-1 tb:col-end-13 tb:col-span-3 md:col-auto
+  mt-18 md:mt-0 pt-0 md:pt-48
+  text-right xl:justify-self-center
+  w-auto md:w-auto
+`;
+
+const closeLinkClass = `
+  ${bioLinkClass}
+  absolute right-10
+  mt-8.4 md:mt-15
+  w-0 md:w-auto
+`;
+
+const bioSectionClass = `
+  auto-rows-min
+  grid grid-cols-2 tb:grid-cols-12 grid-rows-none
+  gap-x-0 md:gap-x-16
+  mx-auto
+  pt-12 sm:pt-13 tb:pt-30 md:pt-37 lg:pt-49
+  pb-9 tb:pb-18 md:pb-49 lg:pb-60.6 xl:pb-bg-sm
+  w-sm tb:w-tb md:w-md lg:w-lg xl:w-96p
+`;
 
 const BioLayout = ({ fromPerson, toPerson, children }) => (
   <main>
