@@ -1,56 +1,43 @@
 import * as React from 'react';
 import { Link } from 'gatsby';
+import Layout from '../components/layout/Layout';
 
-// styles
-const pageStyles = {
-  color: '#232129',
-  padding: '96px',
-  fontFamily: '-apple-system, Roboto, sans-serif, serif',
-};
+const sectionClassName = `
+  relative mx-auto flex min-h-[60vh] w-sm flex-col justify-center overflow-hidden
+  py-24 tb:w-tb md:min-h-[70vh] md:w-md lg:w-lg xl:w-xl
+`;
 
-const headingStyles = {
-  marginTop: 0,
-  marginBottom: 64,
-  maxWidth: 320,
-};
+const numberClassName = `
+  relative z-10 font-sans-black text-dezudiorange
+  text-heading-4xl md:text-heading-6xl lg:text-tagline-5xl
+`;
 
-const paragraphStyles = {
-  marginBottom: 48,
-};
+const paragraphClassName = `
+  relative z-10 max-w-lg font-serif-reg text-white
+  text-base md:text-lg lg:text-xl
+`;
 
-const codeStyles = {
-  color: '#8A6534',
-  padding: 4,
-  backgroundColor: '#FFF4DB',
-  fontSize: '1.25rem',
-  borderRadius: 4,
-};
+const linkClassName = `
+  relative z-10 mt-8 block w-fit font-sans-reg text-dezudiorange
+  text-link-sm md:text-link-md lg:text-link-lg
+`;
 
-// markup
-const NotFoundPage = () => {
-  return (
-    <main style={pageStyles}>
-      <h1 style={headingStyles}>Page not found</h1>
-      <p style={paragraphStyles}>
-        Sorry{' '}
-        <span role="img" aria-label="Pensive emoji">
-          😔
-        </span>{' '}
-        we couldn’t find what you were looking for.
-        <br />
-        {process.env.NODE_ENV === 'development' ? (
-          <>
-            <br />
-            Try creating a page in <code style={codeStyles}>src/pages/</code>.
-            <br />
-          </>
-        ) : null}
-        <br />
-        <Link to="/">Go home</Link>.
-      </p>
-    </main>
-  );
-};
+const NotFoundPage = () => (
+  <Layout pageTitle="Not found">
+    <div className="clear-both bg-blue-dark">
+      <section className={sectionClassName}>
+        <div className={numberClassName}>404</div>
+        <p className={paragraphClassName}>
+          We couldn’t find what you were looking for
+          <span className="text-dezudiorange">.</span>
+        </p>
+        <Link className={linkClassName} to="/">
+          Go home &rarr;
+        </Link>
+      </section>
+    </div>
+  </Layout>
+);
 
 export default NotFoundPage;
 
