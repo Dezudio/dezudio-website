@@ -400,3 +400,5 @@ const IndexPage = () => {
 };
 
 export default IndexPage;
+
+export const Head = () => <title>Home - Dezudio</title>;

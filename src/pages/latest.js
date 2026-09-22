@@ -60,3 +60,5 @@ const LatestPage = () => {
   );
 };
 export default LatestPage;
+
+export const Head = () => <title>Latest - Dezudio</title>;
