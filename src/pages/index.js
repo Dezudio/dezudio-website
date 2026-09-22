@@ -243,7 +243,7 @@ const latestTaglineLinkSectionClassName = `
 
 const latestTaglineBeforeLinkClassName = `
   font-serif-bold
-  col-start-1 tb:col-start-1 md:col-start-3 row-start-1
+  col-start-1 tb:col-start-1 row-start-1
   tb:col-end-7 md:col-end-7 mb-7 tb:mb-0
   text-black text-center tb:text-right
   text-tagline-sm md:text-tagline-lg lg:text-tagline-2xl xl:text-tagline-3xl

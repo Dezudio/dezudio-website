@@ -56,7 +56,7 @@ const callToActionClass = `
 
 const callToActionHeadingClass = `
   font-serif-bold
-  col-start-1 tb:col-start-1 md:col-start-3 tb:col-end-7 md:col-end-7
+  col-start-1 tb:col-start-1 tb:col-end-7 md:col-end-7
   row-start-1
   mb-7 tb:mb-0
   text-black text-center tb:text-right
