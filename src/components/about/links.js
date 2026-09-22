@@ -1,7 +1,5 @@
 import withClasses from '../withClasses';
-import Link from '../common/links';
-
-export { BlockLink } from '../common/links';
+import { Link } from 'gatsby';
 
 export const BioBlockLink = withClasses(
   Link,
@@ -37,5 +35,3 @@ tb:text-left
 w-37 md:w-auto
 `
 );
-
-export default Link;

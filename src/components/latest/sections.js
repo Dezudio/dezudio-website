@@ -1,7 +1,6 @@
 import withClasses from '../withClasses';
-import Section from '../common/sections';
 
-export { SectionBody, SectionP, SectionWrapper } from '../common/sections';
+export const SectionWrapper = withClasses('div', `clear-both`);
 
 export const LatestSection = withClasses(
   'section',
@@ -62,5 +61,3 @@ tb:grid-rows-1
 items-center
 `
 );
-
-export default Section;

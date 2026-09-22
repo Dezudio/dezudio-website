@@ -1,5 +1,4 @@
 import withClasses from '../withClasses';
-import Tagline from '../common/taglines';
 
 // xl:tracking-loose keeps the letter-spacing that Tagline's
 // xl:text-tagline-xl used to leave behind under the larger font size.
@@ -36,5 +35,3 @@ tb:col-end-7
 tb:text-right
 `
 );
-
-export default Tagline;

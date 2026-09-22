@@ -1,5 +1,4 @@
 import withClasses from '../withClasses';
-import Link from '../common/links';
 
 export const LatestExternalTaglineLink = withClasses(
   'a',
@@ -20,5 +19,3 @@ tb:text-left
 w-37 md:w-auto
 `
 );
-
-export default Link;

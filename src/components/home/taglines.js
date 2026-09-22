@@ -1,5 +1,17 @@
 import withClasses from '../withClasses';
-import Tagline from '../common/taglines';
+
+const Tagline = withClasses(
+  'h3',
+  `
+tb:col-end-5
+col-start-1 lg:col-start-2
+font-serif-bold
+mb-7 tb:mb-6.5
+row-start-2
+text-blue-dark
+text-tagline-2xs-tight md:text-tagline-xs lg:text-tagline-lg xl:text-tagline-xl
+`
+);
 
 // Several taglines below add xl:tracking-loose. It keeps the letter-spacing
 // that Tagline's xl:text-tagline-xl used to leave behind when these

@@ -1,5 +1,5 @@
 import * as React from 'react';
-import Layout from '../components/common/layout';
+import Layout from '../components/layout/Layout';
 import SubHeading from '../components/latest/headings';
 import {
   LatestSection,

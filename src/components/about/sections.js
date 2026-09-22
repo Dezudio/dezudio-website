@@ -1,12 +1,8 @@
 import withClasses from '../withClasses';
-import Section from '../common/sections';
 
-export {
-  SectionBody,
-  SectionP,
-  SectionWrapper,
-  SectionWrapperGrey,
-} from '../common/sections';
+export const SectionWrapper = withClasses('div', `clear-both`);
+
+export const SectionWrapperGrey = withClasses('div', `clear-both bg-grey`);
 
 export const AboutSection = withClasses(
   'section',
@@ -164,5 +160,3 @@ pb-5
 last:pb-2.5
 `
 );
-
-export default Section;

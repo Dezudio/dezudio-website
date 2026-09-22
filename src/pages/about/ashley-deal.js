@@ -1,6 +1,6 @@
 import React from 'react';
 import { StaticImage } from 'gatsby-plugin-image';
-import Layout from '../../components/people/layout';
+import BioLayout from '../../components/layout/BioLayout';
 import {
   ProfileContent,
   ProfileMainSection,
@@ -16,7 +16,7 @@ import ProfileTitle, {
 
 const AboutPage = () => {
   return (
-    <Layout fromPerson="../raelynn-oleary" toPerson="../raelynn-oleary">
+    <BioLayout fromPerson="../raelynn-oleary" toPerson="../raelynn-oleary">
       <StaticImage
         alt="Ashley Deal Headshot"
         className="tb:col-span-2 tb:justify-self-end md:justify-self-start row-span-2 tb:mr-5 md:mr-0 h-bio-headshot-sm tb:h-bio-headshot-tb md:h-bio-headshot-md lg:h-bio-headshot-lg xl:h-bio-headshot-xl rounded-full w-bio-headshot-sm tb:w-bio-headshot-tb md:w-bio-headshot-md lg:w-bio-headshot-lg xl:w-bio-headshot-xl"
@@ -95,7 +95,7 @@ const AboutPage = () => {
           </UnorderedList>
         </ProfileSideSection>
       </ProfileContent>
-    </Layout>
+    </BioLayout>
   );
 };
 export default AboutPage;

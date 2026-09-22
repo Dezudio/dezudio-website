@@ -1,22 +1,23 @@
 import withClasses from '../withClasses';
-import Link from '../common/links';
-export { BlockLink, InlineLink, TaglineLink } from '../common/links';
+import { Link } from 'gatsby';
 
-export const AboutUsBlockLink = withClasses(
+export const BlockLink = withClasses(
   Link,
   `
 block
 font-sans-reg
-text-dezudiorange
-text-link-sm
-w-sm md:w-auto
-md:col-end-13
-md:col-start-10
-md:-ml-36 lg:-ml-72
 my-0
-row-start-2 md:row-start-1
-text-center md:text-left
-md:text-link-sm-loose lg:text-link-base
+text-dezudiorange
+text-link-sm md:text-link-md lg:text-heading-lg xl:text-link-xl
+w-sm md:w-auto
+`
+);
+
+export const InlineLink = withClasses(
+  Link,
+  `
+border-b lg:border-b-2
+border-dezudiorange
 `
 );
 
@@ -39,5 +40,3 @@ tb:text-left
 w-37 md:w-auto
 `
 );
-
-export default Link;

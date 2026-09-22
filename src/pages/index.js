@@ -1,21 +1,20 @@
 import React from 'react';
 import { StaticImage } from 'gatsby-plugin-image';
-import DezudiDot from '../components/common/dezudidots';
-import Layout from '../components/common/layout';
+import Layout from '../components/layout/Layout';
 import Callout, {
   CalloutDark,
   CalloutHeading,
   CalloutP,
-} from '../components/index/callouts';
+} from '../components/home/callouts';
 import Heading, {
   HeadingSub,
   ApproachHeading,
-} from '../components/index/headings';
+} from '../components/home/headings';
 import {
   LatestExternalTaglineLink,
   BlockLink,
   InlineLink,
-} from '../components/index/links';
+} from '../components/home/links';
 import Section, {
   ApproachSection,
   ApproachSectionBody,
@@ -41,7 +40,7 @@ import Section, {
   WhatWeDoSectionP,
   WhatWeDoSectionPInverse,
   WorkshopsSectionWrapper,
-} from '../components/index/sections';
+} from '../components/home/sections';
 import Tagline, {
   ApproachTagline,
   BelieveTagline,
@@ -50,7 +49,7 @@ import Tagline, {
   SystemsTagline,
   LatestTaglineBeforeLink,
   UnderstandingTagline,
-} from '../components/index/taglines';
+} from '../components/home/taglines';
 
 const IndexPage = () => {
   return (
@@ -61,7 +60,8 @@ const IndexPage = () => {
           <UnderstandingTagline className={`force-break`}>
             Understanding people,{' '}
             <span className={`break`}>
-              helping people understand<DezudiDot>.</DezudiDot>
+              helping people understand
+              <span className="text-dezudiorange">.</span>
             </span>
           </UnderstandingTagline>
           <UnderstandingSectionBody>
@@ -79,7 +79,7 @@ const IndexPage = () => {
         <BelieveSection>
           <BelieveTagline>
             We believe that design can play an integral role in creating
-            positive change<DezudiDot>.</DezudiDot>
+            positive change<span className="text-dezudiorange">.</span>
           </BelieveTagline>
         </BelieveSection>
       </SectionWrapperBlueDark>

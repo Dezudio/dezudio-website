@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { StaticImage } from 'gatsby-plugin-image';
-import Layout from '../../components/common/layout';
+import Layout from '../../components/layout/Layout';
 import {
   SubHeading,
   CollaboratorsHeading,
@@ -67,8 +67,6 @@ const AboutPage = () => {
       <SectionWrapper>
         <TeamsSection>
           <SubHeading>Meet Our Team</SubHeading>
-          {/* <MeetOurTeamSectionBody>
-          </MeetOurTeamSectionBody> */}
           <ProfilesWrapper>
             <Profile>
               <StaticImage
