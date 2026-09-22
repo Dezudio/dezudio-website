@@ -94,7 +94,7 @@ const projectCalloutClassName = `
 
 const researchTaglineClassName = `
   font-serif-bold
-  tb:col-end-5 col-start-1
+  tb:col-end-5 col-start-1 lg:col-start-2
   mb-7 tb:mb-6.5
   row-start-2
   text-black
