@@ -52,9 +52,9 @@
   --font-condensed-lt:
     'Benton Sans Cond Lt', 'Benton Sans Cond Lt Fallback', Helvetica, Arial,
     sans-serif;
-  --font-condensed-bk:
-    'Benton Sans Cond Bk', 'Benton Sans Cond Bk Fallback', Helvetica, Arial,
-    sans-serif;
+  /* Cond Bk does not load, so this text is Helvetica. No fallback face:
+     it would resize text that never gets replaced. */
+  --font-condensed-bk: 'Benton Sans Cond Bk', Helvetica, Arial, sans-serif;
   --font-condensed:
     'Benton Sans Cond Reg', 'Benton Sans Cond Reg Fallback', Helvetica, Arial,
     sans-serif;
@@ -294,11 +294,8 @@
   --spacing-logo-ft-xlw: 348px;
 }
 
-/* Fallbacks shaped like the Benton faces they stand in for, measured
-   against Helvetica. If a Benton face has not arrived yet, the text is
-   the right size and takes the same space, so nothing moves when it
-   does. Benton Sans Cond Bk has no fallback here: Type Network serves
-   403 for its file, so it could not be measured. */
+/* Fallback faces shaped to match each Benton face, so text keeps its
+   size and spacing until the real one loads. */
 
 @font-face {
   font-family: 'Benton Sans Bk Fallback';
@@ -377,9 +374,7 @@
   line-gap-override: 0%;
 }
 
-/* The serif fallbacks are shaped against Times New Roman rather than
-   Georgia, which sits later in the stack: Times is on practically every
-   machine and has metric compatible clones to measure against. */
+/* Shaped against Times New Roman, which is measurable and near universal. */
 
 @font-face {
   font-family: 'Benton Mod Text Rom Fallback';
@@ -400,17 +395,6 @@
   size-adjust: 99.49%;
   ascent-override: 89.46%;
   descent-override: 21.11%;
-  line-gap-override: 0%;
-}
-
-@font-face {
-  font-family: 'Benton Sans Cond Bk Fallback';
-  src:
-    local('Helvetica'), local('Arial'), local('Liberation Sans'),
-    local('Nimbus Sans'), local('Arimo');
-  size-adjust: 86.64%;
-  ascent-override: 108.5%;
-  descent-override: 30.01%;
   line-gap-override: 0%;
 }
 

@@ -1,11 +1,8 @@
 const React = require('react');
 
-// The Benton faces come from Type Network. Loading their stylesheet from the
-// head, rather than through JavaScript, lets the browser start fetching the
-// fonts while it parses the HTML, so text is drawn in Benton the first time
-// rather than swapping out of Helvetica a moment later. The preconnects open
-// the connections to both hosts before the requests are made: the stylesheet
-// comes from cloud, the woff2 files from fastly-cloud.
+// Loading the font stylesheet from the head, rather than through
+// JavaScript, lets the browser fetch the fonts while it parses the HTML.
+// The preconnects cover the stylesheet host and the font host.
 exports.onRenderBody = ({ setHeadComponents }) => {
   setHeadComponents([
     <link
