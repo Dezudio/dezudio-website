@@ -1,8 +1,6 @@
 import * as React from 'react';
 import { StaticImage } from 'gatsby-plugin-image';
-import FooterContainer, {
-  FooterContainerWrapper,
-} from './containers';
+import FooterContainer, { FooterContainerWrapper } from './containers';
 import FooterHeading from './headings';
 import {
   AddressSection,
@@ -13,8 +11,7 @@ import {
   WordmarkSection,
 } from './sections';
 
-const Footer = ({ children }) => {
-
+const Footer = () => {
   return (
     <FooterContainerWrapper>
       <FooterContainer>
@@ -36,16 +33,15 @@ const Footer = ({ children }) => {
           <FooterHeading>Say Hello</FooterHeading>
           <address>
             <p>
-              <a href="mailto:info@dezudio.com">
-                info@dezudio.com
-              </a>
+              <a href="mailto:info@dezudio.com">info@dezudio.com</a>
             </p>
           </address>
         </HelloSection>
         <AddressSection>
           <FooterHeading>Our Address</FooterHeading>
           <address>
-            805 Rebecca Avenue<br/>
+            805 Rebecca Avenue
+            <br />
             Pittsburgh, PA 15221
           </address>
         </AddressSection>
@@ -75,9 +71,7 @@ const Footer = ({ children }) => {
             </a>
           </SocialImagesWrapper>
         </SocialSection>
-        <CopyrightSection>
-          &copy;Dezudio. All rights reserved.
-        </CopyrightSection>
+        <CopyrightSection>&copy;Dezudio. All rights reserved.</CopyrightSection>
       </FooterContainer>
     </FooterContainerWrapper>
   );

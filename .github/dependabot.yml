@@ -25,4 +25,4 @@ updates:
       # One PR for all action updates, like the npm ones.
       actions:
         patterns:
-          - "*"
+          - '*'

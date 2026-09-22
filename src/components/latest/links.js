@@ -1,7 +1,9 @@
 import withClasses from '../withClasses';
 import Link from '../common/links';
 
-export const LatestExternalTaglineLink = withClasses('a', `
+export const LatestExternalTaglineLink = withClasses(
+  'a',
+  `
 block
 font-sans-reg
 text-dezudiorange
@@ -16,6 +18,7 @@ tb:row-start-1
 tb:ml-8
 tb:text-left
 w-37 md:w-auto
-`);
+`
+);
 
 export default Link;

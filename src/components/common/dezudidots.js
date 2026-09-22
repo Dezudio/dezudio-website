@@ -1,7 +1,10 @@
 import withClasses from '../withClasses';
 
-const DezudiDot = withClasses('span', `
+const DezudiDot = withClasses(
+  'span',
+  `
 text-dezudiorange
-`);
+`
+);
 
 export default DezudiDot;

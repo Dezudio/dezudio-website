@@ -9,9 +9,12 @@ import * as React from 'react';
 // instead of wrapping the base component.
 const withClasses = (Tag, classes) => {
   const base = classes.trim().split(/\s+/).join(' ');
-  return ({ className, ...props }) => (
+  const Component = ({ className, ...props }) => (
     <Tag className={className ? `${base} ${className}` : base} {...props} />
   );
+
+  Component.displayName = `WithClasses(${Tag.displayName || Tag.name || Tag})`;
+  return Component;
 };
 
 export default withClasses;
