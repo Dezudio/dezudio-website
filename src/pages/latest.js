@@ -92,8 +92,7 @@ const LatestPage = () => {
               In addition to our design practice, we teach graduate courses in
               design. We are involved with the design communities in our
               respective cities through design organizations and volunteer
-              roles, and sometimes speak at conferences. We write occasionally
-              on Medium.
+              roles, and sometimes speak at conferences.
             </p>
           </div>
         </section>
